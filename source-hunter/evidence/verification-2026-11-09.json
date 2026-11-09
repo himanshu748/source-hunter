@@ -1,6 +1,6 @@
 {
-  "recorded_at": "2026-11-09T14:39:43.484335+00:00",
-  "status": "LOCAL_REVIEW_CANDIDATE_NOT_READY",
+  "recorded_at": "2026-11-09T15:21:51.092311+00:00",
+  "status": "PUBLIC_REPOSITORY_VERIFIED_PROMOTION_AND_SUBMISSION_PENDING",
   "verification_mode": "Current-source automated gate and final saved Chrome/workbench regression; actual unseen-input native recovery/export, later explicitly approved tenth PDF check, separate local semantic reviews and isolated local package quickstart.",
   "source_manifest": "checks/verified-source-manifest.json",
   "source_manifest_sha256": "3ad523f4ce5bf6a3699e3243c0aeeae424f8af0517e15d6e3ca43ef80bfa9438",
@@ -103,18 +103,18 @@
   "live_disabled_after_test": true,
   "pause_verified_by": "Local HTTP mode=recorded_only plus final native popup and workbench disabled controls; valid recovery ID remains disabled.",
   "remaining_gates": [
-    "Current mobile sizing and OS reduced-motion preference remain unverified",
-    "CSV extraction has mock coverage only; the PDF extraction branch passed the separately approved live check",
-    "Authorized public repository, anonymous clean-install readback and required promotion",
+    "Required promotion remains unposted and needs separate review/authority",
     "Current eligibility/claim/final fields and owner final prize-entry click"
   ],
   "external_state": {
-    "published": false,
+    "published": true,
     "hosted": false,
     "source_license_selected": false,
     "bounty_ready": false,
     "bounty_submitted": false,
-    "organizer_approval_claimed": false
+    "organizer_approval_claimed": false,
+    "repository": "https://github.com/himanshu748/source-hunter",
+    "source_public_clone_verified": true
   },
   "before_research_fetch_price_preflight": true,
   "in_app_browser_current": {
@@ -141,5 +141,18 @@
     "portal_to_pdf_outgoing_link_observed": false,
     "original_nine_check_export_unchanged": true
   },
-  "local_clean_package_quickstart": "checks/clean-package-quickstart.json"
+  "local_clean_package_quickstart": "checks/clean-package-quickstart.json",
+  "public_clone_gate": "checks/public-clone-verification.json",
+  "known_limits": [
+    "Current mobile sizing and OS reduced-motion preference remain unverified",
+    "CSV extraction has mock coverage only; the PDF extraction branch passed the separately approved live check",
+    "Earliest authorship, underlying dataset validation, exact NOAA publication day and portal-to-PDF edge remain unproved"
+  ],
+  "publication_verification": "checks/publication-verification.json",
+  "publication_format": {
+    "command": "npm run format:check",
+    "exit_code": 0,
+    "log": "checks/publication-final-format.txt",
+    "log_sha256": "fe301cab2333b561bb0763e3a765109d5d24d790c59984d9b3dd4a951ecaef17"
+  }
 }

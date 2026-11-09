@@ -1,0 +1,509 @@
+
+> source-hunter@0.1.0 test
+> node scripts/run-tests.mjs
+
+TAP version 13
+# Subtest: Fetch meter binding preserves the generic default and maps only explicit lowercase tiers
+ok 1 - Fetch meter binding preserves the generic default and maps only explicit lowercase tiers
+  ---
+  duration_ms: 0.865375
+  ...
+# Subtest: explicit Hobby uses its exact zero-price meter among both tiers and freshly preflights every request
+ok 2 - explicit Hobby uses its exact zero-price meter among both tiers and freshly preflights every request
+  ---
+  duration_ms: 197.459167
+  ...
+# Subtest: explicit Builder cannot fall back to free Hobby under a zero-price grant
+ok 3 - explicit Builder cannot fall back to free Hobby under a zero-price grant
+  ---
+  duration_ms: 24.177375
+  ...
+# Subtest: missing, duplicate, positive or malformed Hobby quotes stop before reservation and source dispatch
+ok 4 - missing, duplicate, positive or malformed Hobby quotes stop before reservation and source dispatch
+  ---
+  duration_ms: 32.349667
+  ...
+# Subtest: generic callers retain their old contract and never silently select a tier
+ok 5 - generic callers retain their old contract and never silently select a tier
+  ---
+  duration_ms: 55.777375
+  ...
+# Subtest: invalid runtime tier fails before any provider request or reservation
+ok 6 - invalid runtime tier fails before any provider request or reservation
+  ---
+  duration_ms: 26.953291
+  ...
+# Subtest: omitted and explicit undefined selectors omit the field while retaining every fixed request bound
+ok 7 - omitted and explicit undefined selectors omit the field while retaining every fixed request bound
+  ---
+  duration_ms: 105.730834
+  ...
+# Subtest: supplied selector arrays still require one to twenty bounded nonempty strings before any provider request
+ok 8 - supplied selector arrays still require one to twenty bounded nonempty strings before any provider request
+  ---
+  duration_ms: 28.114208
+  ...
+# Subtest: a reviewed PDF-shaped URL accepts the bounded extracted-text contract from an offline provider without selectors
+ok 9 - a reviewed PDF-shaped URL accepts the bounded extracted-text contract from an offline provider without selectors
+  ---
+  duration_ms: 130.751916
+  ...
+# Subtest: USD decimal conversion never rounds cost down
+ok 10 - USD decimal conversion never rounds cost down
+  ---
+  duration_ms: 1.235083
+  ...
+# Subtest: fresh price observation requires the exact wallet meter and sufficient existing funds
+ok 11 - fresh price observation requires the exact wallet meter and sufficient existing funds
+  ---
+  duration_ms: 26.810125
+  ...
+# Subtest: missing, duplicate, mismatched and increased pricing fail closed
+ok 12 - missing, duplicate, mismatched and increased pricing fail closed
+  ---
+  duration_ms: 1.78525
+  ...
+# Subtest: provider request blocks credential-bearing and external origins before sending the key
+ok 13 - provider request blocks credential-bearing and external origins before sending the key
+  ---
+  duration_ms: 0.440083
+  ...
+# Subtest: HTTP and transport errors withhold raw bodies and do not retry
+ok 14 - HTTP and transport errors withhold raw bodies and do not retry
+  ---
+  duration_ms: 0.541292
+  ...
+# Subtest: pre-dispatch cancellation and byte limits are enforced
+ok 15 - pre-dispatch cancellation and byte limits are enforced
+  ---
+  duration_ms: 0.437
+  ...
+# Subtest: decoded Unicode credential echoes are withheld and bounds must be finite integers
+ok 16 - decoded Unicode credential echoes are withheld and bounds must be finite integers
+  ---
+  duration_ms: 1.337291
+  ...
+# Subtest: one completed research run retains full reservation and partial synthesis warning
+ok 17 - one completed research run retains full reservation and partial synthesis warning
+  ---
+  duration_ms: 225.867875
+  ...
+# Subtest: lost accepted run ID halts shared pool and never repeats POST
+ok 18 - lost accepted run ID halts shared pool and never repeats POST
+  ---
+  duration_ms: 53.797583
+  ...
+# Subtest: explicit pre-run rejection retains reservation without claiming an uncertain live job
+ok 19 - explicit pre-run rejection retains reservation without claiming an uncertain live job
+  ---
+  duration_ms: 45.087875
+  ...
+# Subtest: deadline cancels known run and verifies terminal state
+ok 20 - deadline cancels known run and verifies terminal state
+  ---
+  duration_ms: 102.726583
+  ...
+# Subtest: unconfirmed cancellation blocks subsequent work
+ok 21 - unconfirmed cancellation blocks subsequent work
+  ---
+  duration_ms: 72.331625
+  ...
+# Subtest: explicit2→4 Set migration retains IDs, ceiling, key identity, all entries and prior recovery audit
+ok 22 - explicit2→4 Set migration retains IDs, ceiling, key identity, all entries and prior recovery audit
+  ---
+  duration_ms: 629.651334
+  ...
+# Subtest: interruption after each of the three target writes stays fenced and explicitly resumes
+ok 23 - interruption after each of the three target writes stays fenced and explicitly resumes
+  ---
+  duration_ms: 1620.430917
+  ...
+# Subtest: unrelated grant changes, wrong acknowledgements and active operations cannot authorize migration
+ok 24 - unrelated grant changes, wrong acknowledgements and active operations cannot authorize migration
+  ---
+  duration_ms: 338.632416
+  ...
+# Subtest: a prepared transaction refuses unexpected target edits without overwriting them
+ok 25 - a prepared transaction refuses unexpected target edits without overwriting them
+  ---
+  duration_ms: 313.591917
+  ...
+# Subtest: commit never steals a stale process lock or accepts another transaction ID
+ok 26 - commit never steals a stale process lock or accepts another transaction ID
+  ---
+  duration_ms: 267.528375
+  ...
+# Subtest: normal reads and reservations never initialize missing state; explicit initialization cannot overwrite
+ok 27 - normal reads and reservations never initialize missing state; explicit initialization cannot overwrite
+  ---
+  duration_ms: 63.427042
+  ...
+# Subtest: transports read immutable bounds from the bound grant rather than caller-supplied caps
+ok 28 - transports read immutable bounds from the bound grant rather than caller-supplied caps
+  ---
+  duration_ms: 3.943125
+  ...
+# Subtest: a persistent grant binding prevents reinitialization after ledger loss
+ok 29 - a persistent grant binding prevents reinitialization after ledger loss
+  ---
+  duration_ms: 71.435709
+  ...
+# Subtest: separate instances share one aggregate allowance across bounties without refunds
+ok 30 - separate instances share one aggregate allowance across bounties without refunds
+  ---
+  duration_ms: 178.584959
+  ...
+# Subtest: independent Node processes reserve against the same filesystem lock and ledger
+ok 31 - independent Node processes reserve against the same filesystem lock and ledger
+  ---
+  duration_ms: 349.857708
+  ...
+# Subtest: zero-priced operations still consume a bounded endpoint count
+ok 32 - zero-priced operations still consume a bounded endpoint count
+  ---
+  duration_ms: 180.579042
+  ...
+# Subtest: a stricter endpoint concurrency limit applies inside a larger aggregate pool
+ok 33 - a stricter endpoint concurrency limit applies inside a larger aggregate pool
+  ---
+  duration_ms: 129.137917
+  ...
+# Subtest: concurrent reservations are serialized and cannot overrun the shared concurrency bound
+ok 34 - concurrent reservations are serialized and cannot overrun the shared concurrency bound
+  ---
+  duration_ms: 188.966833
+  ...
+# Subtest: duplicate request identities cannot launch a second paid attempt, even after terminal failure
+ok 35 - duplicate request identities cannot launch a second paid attempt, even after terminal failure
+  ---
+  duration_ms: 173.823542
+  ...
+# Subtest: known terminal cancellation retains its full reservation; uncertain termination halts the entire pool
+ok 36 - known terminal cancellation retains its full reservation; uncertain termination halts the entire pool
+  ---
+  duration_ms: 257.411625
+  ...
+# Subtest: cancelled signals reject before spending a reservation
+ok 37 - cancelled signals reject before spending a reservation
+  ---
+  duration_ms: 60.355417
+  ...
+# Subtest: missing or excessive terminal accounting blocks later work without releasing ceilings
+ok 38 - missing or excessive terminal accounting blocks later work without releasing ceilings
+  ---
+  duration_ms: 331.385125
+  ...
+# Subtest: stale, future, mismatched and increased pricing rejects before a ledger write; a discount does not shrink reservations
+ok 39 - stale, future, mismatched and increased pricing rejects before a ledger write; a discount does not shrink reservations
+  ---
+  duration_ms: 116.966459
+  ...
+# Subtest: grant identity, budget, key identity and endpoint rules cannot be silently substituted
+ok 40 - grant identity, budget, key identity and endpoint rules cannot be silently substituted
+  ---
+  duration_ms: 100.225166
+  ...
+# Subtest: corrupt totals and stale locks fail closed and are not automatically repaired
+ok 41 - corrupt totals and stale locks fail closed and are not automatically repaired
+  ---
+  duration_ms: 79.089959
+  ...
+# Subtest: credentials and connection URLs cannot be stored as provider identifiers
+ok 42 - credentials and connection URLs cannot be stored as provider identifiers
+  ---
+  duration_ms: 95.250209
+  ...
+# Subtest: runtime controls default off and require a private grant, matching ledger and matching owner-only key file
+ok 43 - runtime controls default off and require a private grant, matching ledger and matching owner-only key file
+  ---
+  duration_ms: 92.323083
+  ...
+# Subtest: malformed, overflowing and expired grants never authorize live work
+ok 44 - malformed, overflowing and expired grants never authorize live work
+  ---
+  duration_ms: 5.542083
+  ...
+# Subtest: operator CLI reports safe missing-grant failure rather than initializing state or reading a key
+ok 45 - operator CLI reports safe missing-grant failure rather than initializing state or reading a key
+  ---
+  duration_ms: 121.847375
+  ...
+# Subtest: explicit reviewed fixed Fetch recovery retains every allowance/counter and appends a bound audit
+ok 46 - explicit reviewed fixed Fetch recovery retains every allowance/counter and appends a bound audit
+  ---
+  duration_ms: 159.611458
+  ...
+# Subtest: recovery rejects mismatched identities, unsupported response proofs and uncertain non-Fetch jobs
+ok 47 - recovery rejects mismatched identities, unsupported response proofs and uncertain non-Fetch jobs
+  ---
+  duration_ms: 131.820334
+  ...
+# Subtest: one recovered Fetch cannot unhalt another uncertain operation
+ok 48 - one recovered Fetch cannot unhalt another uncertain operation
+  ---
+  duration_ms: 92.330417
+  ...
+# Subtest: one recovered Fetch cannot clear a separate missing-accounting halt
+ok 49 - one recovered Fetch cannot clear a separate missing-accounting halt
+  ---
+  duration_ms: 110.720125
+  ...
+# Subtest: one bounded batch contains five real selections and preserves historical examination context
+ok 50 - one bounded batch contains five real selections and preserves historical examination context
+  ---
+  duration_ms: 4.418458
+  ...
+# Subtest: missing, duplicate and malformed results stay unresolved without guessed chains
+ok 51 - missing, duplicate and malformed results stay unresolved without guessed chains
+  ---
+  duration_ms: 1.204792
+  ...
+# Subtest: one exact page corroborates a chain, matching claim and English publication date without duplicate reads
+ok 52 - one exact page corroborates a chain, matching claim and English publication date without duplicate reads
+  ---
+  duration_ms: 7.625875
+  ...
+# Subtest: uncited and cross-case evidence cannot borrow another source's authority
+ok 53 - uncited and cross-case evidence cannot borrow another source's authority
+  ---
+  duration_ms: 1.824458
+  ...
+# Subtest: a failed exact URL is never retried, and the finite page allowance leaves explicit gaps
+ok 54 - a failed exact URL is never retried, and the finite page allowance leaves explicit gaps
+  ---
+  duration_ms: 0.546041
+  ...
+# Subtest: historical refutation remains proposed without a checked contextual basis and labels its quoted target
+ok 55 - historical refutation remains proposed without a checked contextual basis and labels its quoted target
+  ---
+  duration_ms: 2.252042
+  ...
+# Subtest: empty excerpts, impossible dates and unsupported numeric differences cannot become proof
+ok 56 - empty excerpts, impossible dates and unsupported numeric differences cannot become proof
+  ---
+  duration_ms: 1.396125
+  ...
+# Subtest: all public excerpts stay short and within the per-page verbatim budget
+ok 57 - all public excerpts stay short and within the per-page verbatim budget
+  ---
+  duration_ms: 0.604417
+  ...
+# Subtest: a checked selected-source match never promotes a failed upstream provenance chain
+ok 58 - a checked selected-source match never promotes a failed upstream provenance chain
+  ---
+  duration_ms: 0.890458
+  ...
+# Subtest: bounded ancillary fields remain usable and a clipped date excerpt never proves a whole date
+ok 59 - bounded ancillary fields remain usable and a clipped date excerpt never proves a whole date
+  ---
+  duration_ms: 1.05425
+  ...
+# Subtest: cited ordered chain remains a research candidate until corroborated
+ok 60 - cited ordered chain remains a research candidate until corroborated
+  ---
+  duration_ms: 4.710875
+  ...
+# Subtest: provider string limitations are preserved without another paid run and display excerpts stay short
+ok 61 - provider string limitations are preserved without another paid run and display excerpts stay short
+  ---
+  duration_ms: 0.377167
+  ...
+# Subtest: a selection already on the primary source needs one cited hop, never an invented intermediary
+ok 62 - a selection already on the primary source needs one cited hop, never an invented intermediary
+  ---
+  duration_ms: 0.204583
+  ...
+# Subtest: uncited, circular, wrong-page and malformed chains stay unresolved
+ok 63 - uncited, circular, wrong-page and malformed chains stay unresolved
+  ---
+  duration_ms: 0.364375
+  ...
+# Subtest: public evidence URL boundary rejects local and credential-bearing inputs
+ok 64 - public evidence URL boundary rejects local and credential-bearing inputs
+  ---
+  duration_ms: 0.213958
+  ...
+# Subtest: query serializes untrusted content and bounds the highlighted text
+ok 65 - query serializes untrusted content and bounds the highlighted text
+  ---
+  duration_ms: 0.351917
+  ...
+# Subtest: fresh query uses the single rich contract for an arbitrary sixth selection
+ok 66 - fresh query uses the single rich contract for an arbitrary sixth selection
+  ---
+  duration_ms: 4.545792
+  ...
+# Subtest: fresh projection preserves identities, full assessment and dates in a schema-valid packet
+ok 67 - fresh projection preserves identities, full assessment and dates in a schema-valid packet
+  ---
+  duration_ms: 21.458916
+  ...
+# Subtest: date evidence rejects embedded digits, partial ISO tokens and invalid proposed year or month values
+ok 68 - date evidence rejects embedded digits, partial ISO tokens and invalid proposed year or month values
+  ---
+  duration_ms: 19.415584
+  ...
+# Subtest: date evidence preserves complete ISO tokens and legitimate English publication dates
+ok 69 - date evidence preserves complete ISO tokens and legitimate English publication dates
+  ---
+  duration_ms: 3.617791
+  ...
+# Subtest: incomplete or malformed captured receipts cannot start source-page checks
+ok 70 - incomplete or malformed captured receipts cannot start source-page checks
+  ---
+  duration_ms: 0.66
+  ...
+# Subtest: stale ids, duplicate results, malformed reports and missing or uncited evidence stay unresolved
+ok 71 - stale ids, duplicate results, malformed reports and missing or uncited evidence stay unresolved
+  ---
+  duration_ms: 2.5325
+  ...
+# Subtest: fresh comparisons and date sources are dynamic cited side evidence, not invented attribution hops
+ok 72 - fresh comparisons and date sources are dynamic cited side evidence, not invented attribution hops
+  ---
+  duration_ms: 1.081291
+  ...
+# Subtest: exact unique URLs are checked once and at most ten checks are dispatched
+ok 73 - exact unique URLs are checked once and at most ten checks are dispatched
+  ---
+  duration_ms: 2.964333
+  ...
+# Subtest: source failure is recorded once without retry and failed documents cannot assert missing links
+ok 74 - source failure is recorded once without retry and failed documents cannot assert missing links
+  ---
+  duration_ms: 0.69825
+  ...
+# Subtest: application errors, challenges, empty pages and unrendered shells preserve unknown quotation and edge checks
+ok 75 - application errors, challenges, empty pages and unrendered shells preserve unknown quotation and edge checks
+  ---
+  duration_ms: 3.920125
+  ...
+# Subtest: only a usable checked document can establish that a quotation or outgoing link was not found
+ok 76 - only a usable checked document can establish that a quotation or outgoing link was not found
+  ---
+  duration_ms: 0.750791
+  ...
+# Subtest: a clipped or exhausted excerpt cannot prove the full quote or promote chain corroboration
+ok 77 - a clipped or exhausted excerpt cannot prove the full quote or promote chain corroboration
+  ---
+  duration_ms: 0.416041
+  ...
+# Subtest: short form-only selectors cannot establish quotation or link absence while short static prose remains usable
+ok 78 - short form-only selectors cannot establish quotation or link absence while short static prose remains usable
+  ---
+  duration_ms: 4.732125
+  ...
+# Subtest: a complete shorter support quote has its own checked reference without adding words from a clipped or longer hop
+ok 79 - a complete shorter support quote has its own checked reference without adding words from a clipped or longer hop
+  ---
+  duration_ms: 1.075208
+  ...
+# Subtest: a retained prefix cannot stand in for the full support quotation when no words remain
+ok 80 - a retained prefix cannot stand in for the full support quotation when no words remain
+  ---
+  duration_ms: 0.524709
+  ...
+# Subtest: relationship descriptions separate observed exact links from proposed attribution roles
+ok 81 - relationship descriptions separate observed exact links from proposed attribution roles
+  ---
+  duration_ms: 1.968125
+  ...
+# Subtest: terminal control failures and cancellation stop all subsequent reader dispatch
+ok 82 - terminal control failures and cancellation stop all subsequent reader dispatch
+  ---
+  duration_ms: 4.488292
+  ...
+# Subtest: unsafe and overlong proposed sources never reach the reader or invalidate safe packet references
+ok 83 - unsafe and overlong proposed sources never reach the reader or invalidate safe packet references
+  ---
+  duration_ms: 0.806333
+  ...
+# Subtest: same numbers or arbitrary negation do not prove a proposed drift verdict
+ok 84 - same numbers or arbitrary negation do not prove a proposed drift verdict
+  ---
+  duration_ms: 2.45475
+  ...
+# Subtest: a zero page bound preserves uncaptured evidence as not checked
+ok 85 - a zero page bound preserves uncaptured evidence as not checked
+  ---
+  duration_ms: 0.26625
+  ...
+# Subtest: configured extension can preflight and retrieve only the matching saved investigation without usable live controls
+ok 86 - configured extension can preflight and retrieve only the matching saved investigation without usable live controls
+  ---
+  duration_ms: 293.408708
+  ...
+# Subtest: saved lookup requires the exact claim and source, allowing only harmless text normalization and fragments
+ok 87 - saved lookup requires the exact claim and source, allowing only harmless text normalization and fragments
+  ---
+  duration_ms: 9.411417
+  ...
+# Subtest: source aliases must be explicit and cannot make two saved claims ambiguous
+ok 88 - source aliases must be explicit and cannot make two saved claims ambiguous
+  ---
+  duration_ms: 1.556
+  ...
+# Subtest: recorded artifacts preserve run identity, cannot borrow another claim's evidence, and strip undeclared raw fields
+ok 89 - recorded artifacts preserve run identity, cannot borrow another claim's evidence, and strip undeclared raw fields
+  ---
+  duration_ms: 1.278167
+  ...
+# Subtest: a malformed reviewed artifact fails closed rather than serving an older investigation
+ok 90 - a malformed reviewed artifact fails closed rather than serving an older investigation
+  ---
+  duration_ms: 7.148
+  ...
+# Subtest: recovery reuses the captured completed receipt with exact selection and consumes one manual continuation
+ok 91 - recovery reuses the captured completed receipt with exact selection and consumes one manual continuation
+  ---
+  duration_ms: 67.315167
+  ...
+# Subtest: a Fetch reservation, active operation, halted pool or changed grant forbids recovery
+ok 92 - a Fetch reservation, active operation, halted pool or changed grant forbids recovery
+  ---
+  duration_ms: 57.325084
+  ...
+# Subtest: resume requires exact public URL and normalized text without creating a marker on mismatch
+ok 93 - resume requires exact public URL and normalized text without creating a marker on mismatch
+  ---
+  duration_ms: 37.707583
+  ...
+# Subtest: missing metadata, mutated input/accepted/receipt and mismatched accepted identity fail closed
+ok 94 - missing metadata, mutated input/accepted/receipt and mismatched accepted identity fail closed
+  ---
+  duration_ms: 145.473709
+  ...
+# Subtest: unsafe shared files, symlinks, oversized files and non-completed research cannot be resumed
+ok 95 - unsafe shared files, symlinks, oversized files and non-completed research cannot be resumed
+  ---
+  duration_ms: 219.945416
+  ...
+# Subtest: concurrent continuation requests can consume the exclusive marker only once
+ok 96 - concurrent continuation requests can consume the exclusive marker only once
+  ---
+  duration_ms: 51.809666
+  ...
+# Subtest: Fetch pricing tier is explicit and invalid configuration is rejected
+ok 97 - Fetch pricing tier is explicit and invalid configuration is rejected
+  ---
+  duration_ms: 0.270875
+  ...
+# Subtest: resume HTTP route preserves origin protection, rejects traversal and respects disabled providers
+ok 98 - resume HTTP route preserves origin protection, rejects traversal and respects disabled providers
+  ---
+  duration_ms: 222.042125
+  ...
+# Subtest: local HTTP entry point rejects hostile origins and shows live-disabled failure without a key
+ok 99 - local HTTP entry point rejects hostile origins and shows live-disabled failure without a key
+  ---
+  duration_ms: 244.693209
+  ...
+1..99
+# tests 99
+# suites 0
+# pass 99
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6070.994417

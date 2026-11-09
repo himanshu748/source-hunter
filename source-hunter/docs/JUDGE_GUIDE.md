@@ -2,13 +2,17 @@
 
 Source Hunter helps a reader inspect a statistic before repeating it. The local workbench and Chrome popup distinguish a wording match from a proven citation edge, a producer-authored report from an explanatory page, and either of those from the earliest original source.
 
-This guide follows the authenticated Source Hunter brief checked on 9 November 2026. The [TinyBounties board](https://www.tinybounties.com/crm?view=board) may require account access. The build is not yet ready, claimed, published or submitted.
+This guide follows the authenticated Source Hunter brief checked on 9 November 2026. The [TinyBounties board](https://www.tinybounties.com/crm?view=board) may require account access. Source and recorded evidence are in the [public GitHub repository](https://github.com/himanshu748/source-hunter). Anonymous clean-clone setup passed. The build has not been claimed or submitted and remains not ready for bounty submission.
+
+Source and recorded evidence are public in the [public GitHub repository](https://github.com/himanshu748/source-hunter). The [anonymous-clone verification](../evidence/checks/public-clone-verification.json) passed at commit `c294c2a1d2461be188feb9c4ee25073a992bb0b3` on Node.js 22.14 without provider credentials or grants: clean install, 99 tests, typecheck, build, review reproduction, formatting and recorded-only HTTP checks passed. No provider requests were started. The application runs locally; this is not a hosted deployment.
 
 ## Five-minute saved-evidence review
 
-From the standalone package root, use Node.js 22 or newer:
+Use Node.js 22 or newer. Clone the public repository and start recorded mode:
 
 ```sh
+git clone https://github.com/himanshu748/source-hunter.git
+cd source-hunter
 npm ci
 BOUNTY_POOL_LIVE=0 npm start
 ```
@@ -65,4 +69,4 @@ The old $10 ledger remains unchanged and halted. A separate $2 supplement is ful
 
 The [124-second silent walkthrough](../evidence/media/source-hunter-demo.mp4) combines edited saved-case captures and the actual NOAA recovery. H.264, 1080p/60 fps metadata, full decoding and sampled-frame visual checks passed. Separate current-browser receipts establish the regression pass. The video does not prove primary authorship or publication. [Media receipt](../evidence/media/video-verification.json).
 
-Technical package and current-browser checks passed. Before readiness, establish verified public judge access and required promotion, then recheck current eligibility, claim state, form fields and links. No Source Hunter publication authority, post, claim or submission is established. The owner retains the final prize-entry click. The checked cutoff is 17 November 2026 at 23:59 Pacific time, equivalent to 18 November at 13:29 India time.
+Technical package and current-browser checks passed. Before readiness, complete required promotion, then recheck current eligibility, claim state, form fields and links. GitHub publication alone authorizes no social post, bounty claim or submission; none is established. The owner retains the final prize-entry click. The checked cutoff is 17 November 2026 at 23:59 Pacific time, equivalent to 18 November at 13:29 India time.

@@ -4,17 +4,21 @@ Check a claim before passing it on. Source Hunter pairs a Chrome extension with 
 
 The saved preview contains five investigations from one genuine TinyResearch batch and nine TinyFish Fetch checks, followed by a separate source review. A later unseen NOAA test used one Deep run and ten Fetch checks in total. The original Chrome packet recorded nine checks after manual recovery; a separately authorized tenth check captured the proposed PDF and local review reached a producer briefing. Earliest origin remains unresolved.
 
-**Local candidate, not ready for submission.** Saved lookup needs no credentials or provider credits. The current five-case Chrome and workbench regressions, exports and pause controls passed. Public judge access, required promotion, current eligibility/form checks and the owner's final submission click remain open. Fresh research is paused.
+**Public code, not ready for bounty submission.** Saved lookup needs no credentials or provider credits. The current five-case Chrome and workbench regressions, exports and pause controls passed. Required promotion, current eligibility/form checks and the owner's final submission click remain open. Fresh research is paused.
 
 ![Source Hunter workbench showing the WHO investigation](source-hunter/evidence/media/source-hunter-workbench.png)
 
 This landing capture shows the current paused preview. The [124-second walkthrough](source-hunter/evidence/media/source-hunter-demo.mp4) combines real saved-case captures with the actual NOAA recovery. It is edited and silent, not a continuous live session. [Video evidence notes](docs/DEMO.md).
 
+Source and recorded evidence are public in the [public GitHub repository](https://github.com/himanshu748/source-hunter). The [anonymous-clone verification](source-hunter/evidence/checks/public-clone-verification.json) passed at commit `c294c2a1d2461be188feb9c4ee25073a992bb0b3` on Node.js 22.14 without provider credentials or grants: clean install, 99 tests, typecheck, build, review reproduction, formatting and recorded-only HTTP checks passed. No provider requests were started. The application runs locally; this is not a hosted deployment.
+
 ## Try the saved investigations
 
-Use Node.js 22 or newer. From this directory:
+Use Node.js 22 or newer. Clone the public repository and start the recorded preview:
 
 ```sh
+git clone https://github.com/himanshu748/source-hunter.git
+cd source-hunter
 npm ci
 BOUNTY_POOL_LIVE=0 npm start
 ```
@@ -49,4 +53,4 @@ Current dialog keyboard controls and manual reduced motion passed. The mobile vi
 
 The old $10 shared ledger remains unchanged and halted. A separate $2 supplement is fully reserved for the NOAA test, bringing the aggregate authorized ceiling across the bounty work to $12. These reservations are not a verified invoice. No further provider job, retry, purchase or billing change is authorized. HTTP and the native popup both confirmed that fresh research is paused. Recovery stayed disabled even with a valid investigation ID.
 
-The package uses TypeScript, Node.js, Chrome Manifest V3, Zod, Cheerio, TinyResearch and TinyFetch. Fonts and scripts are local; font notices are under `ui/assets/`. No source license has been selected. No Source Hunter public repository, hosted service, post, bounty claim or submission is established. See the [release gates](docs/RELEASE_GATES.md) and [submission draft](docs/SUBMISSION_DRAFT.md).
+The package uses TypeScript, Node.js, Chrome Manifest V3, Zod, Cheerio, TinyResearch and TinyFetch. Fonts and scripts are local; font notices are under `ui/assets/`. No source license has been selected. Source and recorded evidence are in the [public GitHub repository](https://github.com/himanshu748/source-hunter). The application runs locally. No hosted service, social post, bounty claim or submission is established. See the [release gates](docs/RELEASE_GATES.md) and [submission draft](docs/SUBMISSION_DRAFT.md).

@@ -4,13 +4,17 @@ Before quoting a number, inspect its trail. Source Hunter pairs a Chrome extensi
 
 Five saved investigations came from one genuine TinyResearch Deep batch and nine TinyFish Fetch checks, followed by a separate 9 November source review. An additional unseen NOAA test used one Deep run and ten Fetch checks in total: nine from the Chrome recovery and one later, explicitly authorized PDF repeat. These are distinct evidence histories.
 
-The package remains local, unpublished, unclaimed, unsubmitted and **not ready for bounty submission**. Technical package checks and current five-case Chrome/workbench regression passed. Public judge access, required promotion, current eligibility/form checks and the owner's final prize-entry click remain open. [Evidence boundaries](docs/EVIDENCE.md).
+The package remains available in the public repository, unclaimed, unsubmitted and **not ready for bounty submission**. Technical package checks and current five-case Chrome/workbench regression passed. Required promotion, current eligibility/form checks and the owner's final prize-entry click remain open. [Evidence boundaries](docs/EVIDENCE.md).
+
+Source and recorded evidence are public in the [public GitHub repository](https://github.com/himanshu748/source-hunter). The [anonymous-clone verification](evidence/checks/public-clone-verification.json) passed at commit `c294c2a1d2461be188feb9c4ee25073a992bb0b3` on Node.js 22.14 without provider credentials or grants: clean install, 99 tests, typecheck, build, review reproduction, formatting and recorded-only HTTP checks passed. No provider requests were started. The application runs locally; this is not a hosted deployment.
 
 ## Run the saved preview
 
-Use Node.js 22 or newer. Run these commands from the standalone package root, the directory containing `package.json`:
+Use Node.js 22 or newer. Clone the public repository, then run from its new `source-hunter` directory:
 
 ```sh
+git clone https://github.com/himanshu748/source-hunter.git
+cd source-hunter
 npm ci
 BOUNTY_POOL_LIVE=0 npm start
 ```
@@ -85,4 +89,4 @@ After unlock, all five current Chrome saved highlights/lookups/date-assessment d
 
 The edited, silent [124-second walkthrough](evidence/media/source-hunter-demo.mp4) presents saved cases and the actual NOAA recovery. H.264, 1080p/60 fps metadata, full decoding and sampled-frame visual inspection passed. [Media receipt](evidence/media/video-verification.json), [software receipt](evidence/verification-2026-11-09.json).
 
-No Source Hunter publication, hosted service, post, bounty claim, submission or approval is established. No source license has been selected. Public judge access, required promotion, current eligibility/form checks and the owner's final prize-entry click remain open. Technical package and current-browser checks passed.
+Source and recorded evidence are in the [public GitHub repository](https://github.com/himanshu748/source-hunter). No hosted service, social post, bounty claim, submission or approval is established. No source license has been selected. Required promotion, current eligibility/form checks and the owner's final prize-entry click remain open. Technical package and current-browser checks passed.

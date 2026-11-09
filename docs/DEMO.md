@@ -22,6 +22,10 @@ The original NOAA Chrome packet records one Deep run and nine Fetch checks. Rese
 
 The separate cached re-evaluation used zero new network requests and preserved the original nine-check export. Later, one explicitly authorized manual repeat captured the PDF with selectors omitted, using the tenth Fetch check under the same $2 allowance and no new Research. A separate local review reached the NOAA/NASA producer briefing; earliest authorship and the observed portal-to-PDF citation edge remain unresolved. The video keeps the original nine-check Chrome image separate from the later PDF result and ten-check total. CSV extraction remains mock-tested only.
 
+Source and recorded evidence are public in the [public GitHub repository](https://github.com/himanshu748/source-hunter). The [anonymous-clone verification](../source-hunter/evidence/checks/public-clone-verification.json) passed at commit `c294c2a1d2461be188feb9c4ee25073a992bb0b3` on Node.js 22.14 without provider credentials or grants: clean install, 99 tests, typecheck, build, review reproduction, formatting and recorded-only HTTP checks passed. No provider requests were started. The application runs locally; this is not a hosted deployment.
+
+The walkthrough is available in the public repository. Its delivered H.264 copy is compression-only optimized; the scenes, 124-second duration and 1080p/60 fps format are unchanged. Media validation and source/setup validation remain separate results.
+
 ## Media validation
 
 The updated H.264 file passed 1920 by 1080, 60/1 fps and 124.000-second checks with 7,440 frames. Full decoding exited successfully with no reported errors. Sampled frames, including the fresh section and ending, were visually checked for readability. The [media receipt](../source-hunter/evidence/media/video-verification.json) records its hash and scope.

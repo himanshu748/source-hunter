@@ -2,6 +2,8 @@
 
 The reviewed package contains real provider evidence and a later local source review. Neither is a complete proof of earliest authorship. All five `earliest_source_status` values remain `unresolved`.
 
+Source and recorded evidence are public in the [public GitHub repository](https://github.com/himanshu748/source-hunter). The [anonymous-clone verification](../evidence/checks/public-clone-verification.json) passed at commit `c294c2a1d2461be188feb9c4ee25073a992bb0b3` on Node.js 22.14 without provider credentials or grants: clean install, 99 tests, typecheck, build, review reproduction, formatting and recorded-only HTTP checks passed. No provider requests were started. The application runs locally; this is not a hosted deployment.
+
 ## Recorded batch and local review
 
 | Artifact                                                                                                                        | What it establishes                                                                                                                                                   | What it does not establish                                                                                       |
@@ -84,4 +86,4 @@ The requested mobile viewport override remained 1,280 px rather than 390 px, so 
 
 The edited [124-second silent walkthrough](../evidence/media/source-hunter-demo.mp4) combines real saved-case and NOAA-recovery captures. H.264, 1920 by 1080, 60 fps metadata, full decoding and sampled-frame visual inspection passed. It is an edited walkthrough; separate current-browser receipts establish the saved-case regression. [Media receipt](../evidence/media/video-verification.json).
 
-The prior $10 ledger remains unchanged and halted. The separate $2 supplement remains fully reserved for one Research run and ten Fetch checks, all terminal; the aggregate authorized ceiling across the bounty work stays $12. Reservations are not a verified invoice. No additional provider job, repeat or billing change is authorized. Technical package and current-browser checks passed. Public judge access, required promotion, current eligibility/form checks and the owner's final prize-entry click remain open. Source Hunter remains not ready, unpublished, unclaimed and unsubmitted.
+The prior $10 ledger remains unchanged and halted. The separate $2 supplement remains fully reserved for one Research run and ten Fetch checks, all terminal; the aggregate authorized ceiling across the bounty work stays $12. Reservations are not a verified invoice. No additional provider job, repeat or billing change is authorized. Technical package and current-browser checks passed. Required promotion, current eligibility/form checks and the owner's final prize-entry click remain open. Source Hunter remains not ready for submission, unclaimed and unsubmitted.

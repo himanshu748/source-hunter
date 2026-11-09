@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-11-09T15:17:36.032782+00:00",
+  "repository": "https://github.com/himanshu748/source-hunter",
+  "visibility": "public",
+  "verified_complete_package_commit": "8b04d40c2b05a7e544909977d8cb875397de0abc",
+  "public_video": {
+    "url": "https://raw.githubusercontent.com/himanshu748/source-hunter/8b04d40c2b05a7e544909977d8cb875397de0abc/source-hunter/evidence/media/source-hunter-demo.mp4",
+    "sha256": "fbe492b0665aaa52e6730a9ae7a49913d409ed65d376dc676fbf04459a32b761",
+    "bytes": 2694273,
+    "matches_locally_decoded_and_visually_checked_video": true
+  },
+  "source_manifest_sha256": "3ad523f4ce5bf6a3699e3243c0aeeae424f8af0517e15d6e3ca43ef80bfa9438",
+  "public_clone_gate": "public-clone-verification.json",
+  "social_posts_made": 0,
+  "bounty_submitted": false,
+  "hosted_service_deployed": false,
+  "additional_provider_operations": 0,
+  "anonymous_readback_authentication_headers_sent": false
+}

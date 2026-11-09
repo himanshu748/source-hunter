@@ -1,0 +1,106 @@
+{
+  "recorded_at": "2026-11-09T15:14:10.358761+00:00",
+  "started_at": "2026-11-09T15:13:55.600219+00:00",
+  "mode": "anonymous_public_git_clone_then_clean_local_install_and_automated_gate",
+  "repository": "https://github.com/himanshu748/source-hunter",
+  "verified_source_commit": "c294c2a1d2461be188feb9c4ee25073a992bb0b3",
+  "node": "v22.14.0",
+  "git_credential_helpers_disabled": true,
+  "global_and_system_git_config_disabled": true,
+  "credentials_and_provider_grants_loaded": false,
+  "source_manifest_sha256": "3ad523f4ce5bf6a3699e3243c0aeeae424f8af0517e15d6e3ca43ef80bfa9438",
+  "source_files": 48,
+  "source_and_runtime_hashes_match": true,
+  "install": {
+    "command": "npm ci --offline --no-audit --no-fund",
+    "exit_code": 0,
+    "log": "public-clone-install.txt"
+  },
+  "checks": [
+    {
+      "name": "tests",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "started_at": "2026-11-09T15:14:03.588301+00:00",
+      "finished_at": "2026-11-09T15:14:09.887556+00:00",
+      "exit_code": 0,
+      "log": "public-clone-tests.txt",
+      "log_sha256": "2f28e48dce97f885a51ed7e924f515e5a70a34a2fe80b34737b9ea4f78fedbd3"
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "started_at": "2026-11-09T15:14:03.588462+00:00",
+      "finished_at": "2026-11-09T15:14:05.851328+00:00",
+      "exit_code": 0,
+      "log": "public-clone-typecheck.txt",
+      "log_sha256": "5d85f7670a98cda4dc511b93eb345089a4818e685d37a68855246e44d8ff687d"
+    },
+    {
+      "name": "build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "started_at": "2026-11-09T15:14:03.588559+00:00",
+      "finished_at": "2026-11-09T15:14:06.505771+00:00",
+      "exit_code": 0,
+      "log": "public-clone-build.txt",
+      "log_sha256": "16e79c8e55c30de86c3b1447c14fc8bc0aabc753d42283d054f7f1e91bf3cf4a"
+    },
+    {
+      "name": "review",
+      "command": [
+        "npm",
+        "run",
+        "review:check"
+      ],
+      "started_at": "2026-11-09T15:14:03.588672+00:00",
+      "finished_at": "2026-11-09T15:14:04.568813+00:00",
+      "exit_code": 0,
+      "log": "public-clone-review.txt",
+      "log_sha256": "61ce9d83cb4291826b5fb934b98f351160a2010ebec5c7b6be57755e7e4de636"
+    },
+    {
+      "name": "format",
+      "command": [
+        "npm",
+        "run",
+        "format:check"
+      ],
+      "started_at": "2026-11-09T15:14:03.593189+00:00",
+      "finished_at": "2026-11-09T15:14:05.632586+00:00",
+      "exit_code": 0,
+      "log": "public-clone-format.txt",
+      "log_sha256": "fe301cab2333b561bb0763e3a765109d5d24d790c59984d9b3dd4a951ecaef17"
+    }
+  ],
+  "test_summary": {
+    "tests": 99,
+    "passed": 99,
+    "failed": 0
+  },
+  "documented_local_entry_point": {
+    "landing_http_status": 200,
+    "health": {
+      "service": "source-hunter",
+      "mode": "recorded_only",
+      "extension_configured": false,
+      "recorded_trace_count": 5,
+      "recorded_available": true,
+      "provider_health_checked": false,
+      "provider_requests_started": 0
+    },
+    "credentials_loaded": false
+  },
+  "provider_operations_started": 0,
+  "limitations": "This is a public-clone software/setup check. Existing browser and live-provider receipts retain their original separate scope; no new browser/provider execution is implied.",
+  "scope_at_clone": "132-file source/evidence commit; video was added afterward without application source or runtime-asset changes. Final public-media verification is a separate receipt."
+}

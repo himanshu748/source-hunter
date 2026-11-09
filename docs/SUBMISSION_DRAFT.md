@@ -1,6 +1,10 @@
 # Source Hunter submission draft
 
-Prepared copy only. Source Hunter is local, unpublished, unclaimed, unsubmitted and not ready for bounty submission. Technical package and current-browser checks passed. Public judge access, required promotion, current eligibility/form review and the owner's final prize-entry click remain open.
+Prepared copy only. Source Hunter is available in the public repository, unclaimed, unsubmitted and not ready for bounty submission. Technical package and current-browser checks passed. Required promotion, current eligibility/form review and the owner's final prize-entry click remain open.
+
+Source and recorded evidence are public in the [public GitHub repository](https://github.com/himanshu748/source-hunter). The [anonymous-clone verification](../source-hunter/evidence/checks/public-clone-verification.json) passed at commit `c294c2a1d2461be188feb9c4ee25073a992bb0b3` on Node.js 22.14 without provider credentials or grants: clean install, 99 tests, typecheck, build, review reproduction, formatting and recorded-only HTTP checks passed. No provider requests were started. The application runs locally; this is not a hosted deployment.
+
+All social copy below remains an unposted draft. GitHub publication grants no social, claim or submission authority.
 
 ## Product description
 
@@ -34,7 +38,7 @@ The Chrome extension and local workbench keep wording, dates, observed citation 
 
 I also tested an unseen NOAA selection through the installed extension. The original full export followed one TinyResearch run and nine Fetch checks after manual same-receipt recovery. A separately authorized tenth check then captured the proposed PDF. Local review reached NOAA and NASA's producer briefing; exact publication day, dataset validation and earliest authorship remain open.
 
-The video separates the saved investigations, original recovery and later PDF capture. Current browser checks passed. Publication, promotion and final entry review are still pending.
+The video separates the saved investigations, original recovery and later PDF capture. Current browser checks passed. The repository is public. Promotion and final entry review remain pending.
 
 Before posting, select the verified TinyFish company mention, attach the reviewed video and add a verified published link. Show the owner the complete post first. No post has been made.
 
@@ -44,7 +48,7 @@ Source Hunter is my local Chrome extension and workbench for checking the source
 
 The demo includes five saved TinyResearch investigations and an unseen NOAA test. That fresh test used one Deep run and ten Fetch checks in total: nine during manual same-receipt recovery and one later, explicitly authorized PDF repeat. Local review reached the official producer briefing, while dataset validation, exact publication day and earliest origin remain unproved.
 
-The video preserves those gaps. Current package and browser checks passed; publication, promotion and final entry review remain open.
+The video preserves those gaps. Current package and browser checks passed; promotion and final entry review remain open.
 
 Add a verified repository/demo link and the reviewed video only after publication is authorized and checked. Show the owner the message before sending. The required showcase share remains unposted.
 

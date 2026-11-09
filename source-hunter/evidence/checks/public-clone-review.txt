@@ -1,0 +1,5 @@
+
+> source-hunter@0.1.0 review:check
+> tsx source-hunter/scripts/review-recorded.ts --check
+
+{"operation":"checked","schema":"RecordedBatch.parse","traces":5,"provider_requests_started":0,"original_batch_sha256":"39d35b11026dd93c4420681f5ecf263d8d0a43b211e60a0b175723cc6f8d00fc","maximum_distinct_excerpt_words_per_source":21,"complete_earliest_origin_traces_claimed":0}

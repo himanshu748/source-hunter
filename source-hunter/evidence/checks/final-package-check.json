@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-09T14:39:43.736662+00:00",
-  "relative_file_links_checked": 67,
+  "checked_at": "2026-11-09T15:21:52.513847+00:00",
+  "relative_file_links_checked": 75,
   "missing": [],
-  "text_files_known_pattern_scan": 108,
+  "text_files_known_pattern_scan": 117,
   "secret_pattern_findings": [],
   "exact_private_credential_match_findings": [],
   "private_paths": [],
