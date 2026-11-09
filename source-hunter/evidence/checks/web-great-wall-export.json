@@ -1,0 +1,197 @@
+{
+  "mode": "recorded_research",
+  "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+  "recorded_at": "2026-11-08T08:46:46.094Z",
+  "provider_requests_started": 0,
+  "trace": {
+    "id": "great-wall-historical",
+    "selection": {
+      "text": "visible to the human eye from the moon",
+      "page_url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+      "page_title": "On seeing the Great Wall of China from the Moon"
+    },
+    "context": "Higgins’s 2014 article quotes Snopes attributing the Moon wording to Halliburton’s 1938 book; it does not endorse the claim. Mars/telescope variants discussed for 1937 and 1919 are not the same exact unaided Moon assertion.",
+    "selection_quote_check": "matched_official_search_content",
+    "chain": {
+      "selection": {
+        "text": "visible to the human eye from the moon",
+        "page_url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+        "page_title": "On seeing the Great Wall of China from the Moon"
+      },
+      "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+      "recorded_at": "2026-11-08T08:46:46.094Z",
+      "verification": "research_candidate",
+      "status": "unresolved",
+      "summary": "The quoted historical Moon claim is refuted, while Higgins’s article examines it skeptically. Nested attribution and earliest historical authorship remain incomplete.",
+      "hops": [
+        {
+          "url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+          "title": "On Seeing the Great Wall of China from the Moon",
+          "role": "selected_page",
+          "quote": "visible to the human eye from the moon",
+          "relationship_to_next": null,
+          "excerpt_shortened": false,
+          "quote_check": "matched_official_search_content",
+          "link_to_next": "not_applicable",
+          "checked_at": "2026-11-09",
+          "html_sha256": null,
+          "fetch_reservation_id": null,
+          "check_method": "ordinary_official_search_content_review",
+          "publication_date": "2014-11-22"
+        }
+      ],
+      "limitations": [
+        "Original TinyFish selected-page retrieval failed. Its wording/stance were reviewed only in ordinary official search-returned content; no replacement TinyFish receipt is invented.",
+        "The exact outgoing Snopes href and original Halliburton page remain unchecked, so no consecutive historical-source nodes are fabricated.",
+        "NASA refutations are independently located assessment comparisons, not ancestors linked from the selected article.",
+        "The historical NASA lower bound of at least 1938 does not establish the earliest source; unsupported 1895/1754 claims and unchecked 1932 attribution are not promoted.",
+        "Unaided Moon visibility and low-Earth-orbit photography are distinct claims."
+      ]
+    },
+    "assessment": {
+      "label": "contradicted",
+      "target": "historical_quoted_claim",
+      "reason": "The historical unaided Moon-visibility assertion conflicts with NASA’s refuting statement. Higgins’s selected article treats the belief as a myth and quotes it through a Snopes passage; the finding does not accuse that article of endorsing it.",
+      "scope": "historical_quoted_assertion_with_publisher_stance_preserved",
+      "check": "local_primary_source_review",
+      "evidence": [
+        {
+          "source_url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+          "stance": "clarifies",
+          "quote_ref": "great-wall-historical.review.vatican_wall.claim",
+          "quote_check": "matched_official_search_content"
+        },
+        {
+          "source_url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+          "stance": "clarifies",
+          "quote_ref": "great-wall-historical.review.vatican_wall.stance",
+          "quote_check": "matched_official_search_content"
+        },
+        {
+          "source_url": "https://www.nasa.gov/image-article/great-wall/",
+          "stance": "refutes",
+          "quote_ref": "great-wall-historical.review.nasa_wall.refutes",
+          "quote_check": "matched"
+        },
+        {
+          "source_url": "https://www.nasa.gov/image-article/great-wall/",
+          "stance": "clarifies",
+          "quote_ref": "great-wall-historical.review.nasa_wall.orbit",
+          "quote_check": "matched"
+        },
+        {
+          "source_url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+          "stance": "refutes",
+          "quote_ref": "great-wall-historical.review.nasa_wall_history.refutes",
+          "quote_check": "matched"
+        },
+        {
+          "source_url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+          "stance": "clarifies",
+          "quote_ref": "great-wall-historical.review.nasa_wall_history.history",
+          "quote_check": "matched"
+        }
+      ]
+    },
+    "dates": [
+      {
+        "kind": "selected_article_published",
+        "value": "2014-11-22",
+        "precision": "day",
+        "source_url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+        "quote_ref": "great-wall-historical.review.vatican_wall.published",
+        "check": "official_search_content_date_reviewed"
+      },
+      {
+        "kind": "historical_attribution_year",
+        "value": "1938",
+        "precision": "year",
+        "source_url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+        "quote_ref": null,
+        "check": "nested_attribution_reviewed_original_book_unchecked"
+      },
+      {
+        "kind": "refuting_article_published",
+        "value": "2009-04-02",
+        "precision": "day",
+        "source_url": "https://www.nasa.gov/image-article/great-wall/",
+        "quote_ref": null,
+        "check": "ordinary_primary_html_date_reviewed"
+      },
+      {
+        "kind": "historical_lower_bound",
+        "value": "1938",
+        "precision": "year",
+        "source_url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+        "quote_ref": "great-wall-historical.review.nasa_wall_history.history",
+        "check": "ordinary_primary_pdf_excerpt_matched"
+      }
+    ],
+    "earliest_source_status": "unresolved",
+    "primary_source_status": "not_established",
+    "local_review": {
+      "checked_at": "2026-11-09T09:23:20.540Z",
+      "method": "Local review of saved TinyFish HTML and ordinary public primary-source web/PDF checks",
+      "summary": "The quoted historical Moon claim is refuted, while Higgins’s article examines it skeptically. Nested attribution and earliest historical authorship remain incomplete.",
+      "original_batch_sha256": "39d35b11026dd93c4420681f5ecf263d8d0a43b211e60a0b175723cc6f8d00fc",
+      "limitations": [
+        "Original TinyFish selected-page retrieval failed. Its wording/stance were reviewed only in ordinary official search-returned content; no replacement TinyFish receipt is invented.",
+        "The exact outgoing Snopes href and original Halliburton page remain unchecked, so no consecutive historical-source nodes are fabricated.",
+        "NASA refutations are independently located assessment comparisons, not ancestors linked from the selected article.",
+        "The historical NASA lower bound of at least 1938 does not establish the earliest source; unsupported 1895/1754 claims and unchecked 1932 attribution are not promoted.",
+        "Unaided Moon visibility and low-Earth-orbit photography are distinct claims."
+      ],
+      "provider_requests_started": 0
+    }
+  },
+  "excerpts": [
+    {
+      "ref": "great-wall-historical.review.vatican_wall.claim",
+      "url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+      "quote": "visible to the human eye from the moon"
+    },
+    {
+      "ref": "great-wall-historical.review.vatican_wall.stance",
+      "url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+      "quote": "Nobody knows quite where this idea comes from."
+    },
+    {
+      "ref": "great-wall-historical.review.nasa_wall.refutes",
+      "url": "https://www.nasa.gov/image-article/great-wall/",
+      "quote": "the wall isn't visible from the moon"
+    },
+    {
+      "ref": "great-wall-historical.review.nasa_wall.orbit",
+      "url": "https://www.nasa.gov/image-article/great-wall/",
+      "quote": "difficult or impossible to see from Earth orbit"
+    },
+    {
+      "ref": "great-wall-historical.review.nasa_wall_history.refutes",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+      "quote": "It certainly isn't visible from the Moon."
+    },
+    {
+      "ref": "great-wall-historical.review.nasa_wall_history.history",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+      "quote": "dates back to at least 1938"
+    },
+    {
+      "ref": "great-wall-historical.review.vatican_wall.published",
+      "url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+      "quote": "22 Nov 2014"
+    }
+  ],
+  "local_review": {
+    "checked_at": "2026-11-09T09:23:20.540Z",
+    "method": "Local review of saved TinyFish HTML and ordinary public primary-source web/PDF checks",
+    "summary": "Five saved selections reviewed without a new provider operation. Claim-level support is distinguished from observed attribution links, producer-authored sources and unresolved earliest authorship.",
+    "original_batch_sha256": "39d35b11026dd93c4420681f5ecf263d8d0a43b211e60a0b175723cc6f8d00fc",
+    "limitations": [
+      "This is a local review layered on the original recorded batch, not another TinyFish Research or Fetch result.",
+      "The batch does not establish five complete earliest-origin trails.",
+      "Ordinary web/PDF checks have day precision. Saved TinyFish capture timestamps remain unchanged.",
+      "The full installed-extension journey is not established by this review."
+    ],
+    "provider_requests_started": 0
+  }
+}

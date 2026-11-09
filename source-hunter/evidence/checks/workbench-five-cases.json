@@ -1,0 +1,36 @@
+{
+  "mode": "recorded_only",
+  "cases": [
+    {
+      "id": "who-food-2023",
+      "passed": true,
+      "sourceLinks": 3,
+      "assessment": "rounded"
+    },
+    {
+      "id": "cloudflare-ddos-q1-2024",
+      "passed": true,
+      "sourceLinks": 1,
+      "assessment": "matches"
+    },
+    {
+      "id": "who-air-99",
+      "passed": true,
+      "sourceLinks": 2,
+      "assessment": "matches"
+    },
+    {
+      "id": "nasa-earth-year",
+      "passed": true,
+      "sourceLinks": 1,
+      "assessment": "matches"
+    },
+    {
+      "id": "great-wall-historical",
+      "passed": true,
+      "sourceLinks": 1,
+      "assessment": "contradicted"
+    }
+  ],
+  "provider_requests_started": 0
+}

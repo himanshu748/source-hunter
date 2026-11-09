@@ -1,0 +1,6 @@
+
+> source-hunter@0.1.0 format:check
+> prettier --check "shared/**/*.ts" "providers/**/*.ts" "source-hunter/{src,test,scripts}/**/*.ts" "source-hunter/{web,extension}/**/*.{js,css,html,json}" "source-hunter/evidence/{source-review,reviewed-batch}.json" "**/*.md" package.json tsconfig.json scripts/*.mjs
+
+Checking formatting...
+All matched files use Prettier code style!

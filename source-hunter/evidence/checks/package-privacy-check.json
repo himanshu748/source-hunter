@@ -1,0 +1,7 @@
+{
+  "known_pattern_scan_only": true,
+  "scanned_text_files": 73,
+  "findings": [],
+  "forbidden_private_paths": [],
+  "credentials_or_private_grants_copied": false
+}

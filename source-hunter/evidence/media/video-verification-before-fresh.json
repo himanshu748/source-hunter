@@ -1,0 +1,49 @@
+{
+  "recorded_at": "2026-11-09T11:41:47.083410+00:00",
+  "sha256": "c41193abf3f7661d175ae59ddf93e4e6ee977623a8b2f302296958dd3f640529",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "60/1",
+        "nb_frames": "6600"
+      }
+    ],
+    "format": {
+      "duration": "110.000000",
+      "size": "5642024"
+    }
+  },
+  "render_completed": true,
+  "full_decode_exit_code": 0,
+  "decode_errors": 0,
+  "visually_inspected_seconds": [
+    2,
+    18,
+    30,
+    40,
+    49,
+    59,
+    69,
+    79,
+    89,
+    96,
+    106
+  ],
+  "all_five_saved_cases_shown": true,
+  "narration": false,
+  "burned_in_captions": true,
+  "edited_actual_browser_captures": true,
+  "composited_cursor_and_crossfades": true,
+  "continuous_recording": false,
+  "new_provider_operations": 0,
+  "fresh_live_execution_established": false,
+  "label": "Recorded research / source review 9 Nov 2026",
+  "status": "historical_saved_only_walkthrough",
+  "original_file_name": "source-hunter-saved-demo.mp4",
+  "artifact_distribution": "Superseded clip is not included in this review package; this receipt preserves its historical metadata and hash."
+}

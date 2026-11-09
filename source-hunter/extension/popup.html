@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Source Hunter</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <span class="mark" aria-hidden="true">↗</span>
+      <div>
+        <strong>Source Hunter</strong>
+        <p>Follow the number. Find the source.</p>
+      </div>
+      <span class="label">LOCAL BETA</span>
+    </header>
+    <main>
+      <div class="eyebrow">YOUR SELECTION</div>
+      <blockquote id="selection">
+        Highlight a statistic on a public page, then open Source Hunter.
+      </blockquote>
+      <p id="page" class="muted"></p>
+      <p id="privacy" class="privacy">
+        Saved lookup sends this selection, page title and public URL to your
+        local server. Fresh tracing also sends them to TinyFish Research.
+        Neither action sends cookies or browsing history.
+      </p>
+      <div class="connection" data-state="checking">
+        <span class="connection-dot" aria-hidden="true"></span>
+        <p id="connection" role="status" aria-live="polite">
+          Checking the local server…
+        </p>
+      </div>
+      <details id="connection-setup" hidden>
+        <summary>Connect this extension</summary>
+        <p>
+          Start Source Hunter on <code>127.0.0.1:4388</code> with this extension
+          ID in <code>SOURCE_HUNTER_EXTENSION_ID</code>:
+        </p>
+        <code id="extension-id"></code>
+      </details>
+      <button id="retry-connection" class="quiet" type="button">
+        Recheck local server
+      </button>
+      <div class="actions" aria-label="Choose an investigation">
+        <button id="recorded" type="button" aria-describedby="privacy" disabled>
+          Show matching saved investigation
+        </button>
+        <p class="action-note">An exact match only. No new TinyFish run.</p>
+        <button
+          id="trace"
+          class="secondary"
+          type="button"
+          aria-describedby="privacy fresh-note"
+          disabled
+        >
+          Trace this statistic <span aria-hidden="true">↗</span>
+        </button>
+        <p id="fresh-note" class="action-note">
+          Fresh research is not enabled yet.
+        </p>
+      </div>
+      <details id="recovery">
+        <summary>Recover completed research</summary>
+        <label for="recovery-id">Investigation ID</label>
+        <input
+          id="recovery-id"
+          autocomplete="off"
+          spellcheck="false"
+          maxlength="36"
+        />
+        <p class="action-note">
+          Continue source checks from a completed private receipt. This never
+          starts another Research job. Recovery is available only before any
+          source-page request has started.
+        </p>
+        <button id="resume" class="quiet" type="button" disabled>
+          Resume source checks
+        </button>
+      </details>
+      <p id="state" role="status" aria-live="polite"></p>
+      <section id="results" aria-label="Source chain" hidden>
+        <div id="result-mode" class="eyebrow">THE TRAIL</div>
+        <h1 id="summary" tabindex="-1"></h1>
+        <p id="result-context" class="result-context"></p>
+        <details>
+          <summary>Research provenance</summary>
+          <dl id="provenance" class="metadata"></dl>
+        </details>
+        <section
+          id="assessment"
+          class="assessment"
+          aria-label="Claim assessment"
+          hidden
+        ></section>
+        <section
+          id="local-review"
+          class="review"
+          aria-label="Local source review"
+          hidden
+        ></section>
+        <section id="source-dates" aria-label="Source dates" hidden>
+          <h2>Dates and reference periods</h2>
+          <ul id="dates" class="evidence-list"></ul>
+        </section>
+        <h2>The source trail</h2>
+        <ol id="chain"></ol>
+        <details>
+          <summary>Evidence gaps</summary>
+          <ul id="limitations"></ul>
+        </details>
+        <button id="download" class="secondary" type="button">
+          Download investigation JSON
+        </button>
+      </section>
+      <footer>
+        Fresh research can take several minutes. Keep this popup open while it
+        runs. Closing it does not cancel an accepted provider run; the local
+        server keeps its receipt. A saved investigation is dated evidence, not a
+        new check of the web.
+      </footer>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

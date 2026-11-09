@@ -1,0 +1,680 @@
+{
+  "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+  "provider_jobs": 1,
+  "recorded_at": "2026-11-08T08:46:46.094Z",
+  "termination_reason": "planner_done",
+  "warnings": [],
+  "traces": [
+    {
+      "id": "who-food-2023",
+      "selection": {
+        "text": "In 2023, around 2.33 billion people globally faced moderate or severe food insecurity",
+        "page_url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+        "page_title": "UN food insecurity estimate for 2023"
+      },
+      "context": "Distinguish the 2023 measurement period from the 2024 report/publication. Parallel WHO/FAO press releases are not consecutive attribution hops.",
+      "selection_quote_check": "matched",
+      "chain": {
+        "selection": {
+          "text": "In 2023, around 2.33 billion people globally faced moderate or severe food insecurity",
+          "page_url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+          "page_title": "UN food insecurity estimate for 2023"
+        },
+        "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+        "recorded_at": "2026-11-08T08:46:46.094Z",
+        "verification": "research_candidate",
+        "status": "candidate",
+        "summary": "Candidate origin: 2.1 Food security indicators – latest updates and progress towards ending hunger and ensuring food security",
+        "hops": [
+          {
+            "url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+            "title": "Hunger numbers stubbornly high for three consecutive years as global crises deepen: UN report",
+            "role": "selected_page",
+            "quote": "2.33 billion people globally faced moderate or severe",
+            "relationship_to_next": "Research proposes an attribution to the next source. Its exact outgoing link remains unchecked.",
+            "excerpt_shortened": false,
+            "quote_check": "matched",
+            "link_to_next": "not_found",
+            "checked_at": "2026-11-08T08:46:49.240Z",
+            "fetch_reservation_id": "2100c0f9-5c36-475a-ace1-1e51739cd804"
+          },
+          {
+            "url": "https://www.fao.org/3/cd1254en/online/state-food-security-and-nutrition-2024/ending-hunger-food-security.html",
+            "title": "2.1 Food security indicators – latest updates and progress towards ending hunger and ensuring food security",
+            "role": "primary_candidate",
+            "quote": "2.33 billion people – were moderately or severely",
+            "relationship_to_next": null,
+            "excerpt_shortened": false,
+            "quote_check": "fetch_failed",
+            "link_to_next": "not_applicable",
+            "checked_at": null,
+            "fetch_reservation_id": null
+          }
+        ],
+        "limitations": [
+          "The 2023 figures are model-based estimates (nowcast) for measurement year 2023, not a census; uncertainty bands exist for undernourishment (713–757 million) but are not explicitly published for the FIES-based 2.33 billion figure.",
+          "The WHO press release and FAO newsroom page are parallel releases of the same joint report, not independent corroborating sources.",
+          "New national survey data received after 2021 reduced uncertainty around 2022–2023 estimates, meaning the 2023 value could be revised in future editions.",
+          "Citations identify research sources; quotations and link relationships need source-page corroboration before treating this as proven provenance."
+        ]
+      },
+      "assessment": {
+        "label": "matches",
+        "proposed_label": "matches",
+        "target": "selected_assertion",
+        "reason": "The selected wording is present on its cited official page. This does not establish every proposed attribution hop or an earliest source.",
+        "research_explanation": "The selected text 'In 2023, around 2.33 billion people globally faced moderate or severe food insecurity' appears verbatim on the WHO selected page and is corroborated word-for-word by the FAO SOFI 2024 chapter. The measurement period is 2023; the report was published 24 July 2024. No rounding, substitution, or misquotation",
+        "scope": "selected_source_wording",
+        "check": "cited_exact_excerpts_corroborated",
+        "evidence": [
+          {
+            "source_url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+            "stance": "supports",
+            "quote_ref": "who-food-2023.chain.hops.0.quote",
+            "quote_check": "matched"
+          },
+          {
+            "source_url": "https://www.fao.org/3/cd1254en/online/state-food-security-and-nutrition-2024/ending-hunger-food-security.html",
+            "stance": "supports",
+            "quote_ref": "who-food-2023.chain.hops.1.quote",
+            "quote_check": "fetch_failed"
+          },
+          {
+            "source_url": "https://www.fao.org/newsroom/detail/hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report/en",
+            "stance": "supports",
+            "quote_ref": null,
+            "quote_check": "uncited"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "published",
+          "value": "2024-07-24",
+          "precision": "day",
+          "source_url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+          "quote_ref": "who-food-2023.dates.0",
+          "check": "research_only"
+        },
+        {
+          "kind": "claim_reference_period",
+          "value": "2023",
+          "precision": "year",
+          "source_url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+          "quote_ref": null,
+          "check": "research_only"
+        },
+        {
+          "kind": "published",
+          "value": "2024-07-24",
+          "precision": "day",
+          "source_url": "https://www.fao.org/newsroom/detail/hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report/en",
+          "quote_ref": null,
+          "check": "research_only"
+        }
+      ],
+      "earliest_source_status": "unresolved"
+    },
+    {
+      "id": "cloudflare-ddos-q1-2024",
+      "selection": {
+        "text": "automated defenses have mitigated 4.5 million DDoS attacks",
+        "page_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+        "page_title": "Cloudflare DDoS threat report for Q1 2024"
+      },
+      "context": "This is Cloudflare's own network/mitigation count for Q1 2024, not all attacks worldwide.",
+      "selection_quote_check": "matched",
+      "chain": {
+        "selection": {
+          "text": "automated defenses have mitigated 4.5 million DDoS attacks",
+          "page_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+          "page_title": "Cloudflare DDoS threat report for Q1 2024"
+        },
+        "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+        "recorded_at": "2026-11-08T08:46:46.094Z",
+        "verification": "research_candidate",
+        "status": "candidate",
+        "summary": "Candidate origin: DDoS Attack Trends for 2024 Q1 | Cloudflare Radar",
+        "hops": [
+          {
+            "url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+            "title": "DDoS threat report for 2024 Q1",
+            "role": "selected_page",
+            "quote": "automated defenses have mitigated 4.5 million DDoS attacks",
+            "relationship_to_next": "Research proposes an attribution to the next source. Its exact outgoing link remains unchecked.",
+            "excerpt_shortened": false,
+            "quote_check": "matched",
+            "link_to_next": "not_found",
+            "checked_at": "2026-11-08T08:47:05.679Z",
+            "fetch_reservation_id": "be1b986d-04d6-43ad-b915-c21efd5085ed"
+          },
+          {
+            "url": "https://radar.cloudflare.com/reports/ddos-2024-q1",
+            "title": "DDoS Attack Trends for 2024 Q1 | Cloudflare Radar",
+            "role": "primary_candidate",
+            "quote": "automated defenses have mitigated 4.5 million DDoS attacks",
+            "relationship_to_next": null,
+            "excerpt_shortened": false,
+            "quote_check": "not_found",
+            "link_to_next": "not_applicable",
+            "checked_at": "2026-11-08T08:47:21.085Z",
+            "fetch_reservation_id": "16e03943-b5c6-4c40-926b-de7e473633a1"
+          }
+        ],
+        "limitations": [
+          "The 4.5 million figure covers only attacks detected and mitigated on Cloudflare's own global network; it is not a count of all DDoS attacks worldwide.",
+          "The blog body uses 'our automated defenses have mitigated' while the key-insights section uses 'automatically mitigated'; both refer to the same 4.5 million count.",
+          "The selected text omits the qualifying phrase 'an amount equivalent to 32% of all the DDoS attacks we mitigated in 2023' and the '50% year-over-year increase' context present in the source.",
+          "Citations identify research sources; quotations and link relationships need source-page corroboration before treating this as proven provenance."
+        ]
+      },
+      "assessment": {
+        "label": "matches",
+        "proposed_label": "matches",
+        "target": "selected_assertion",
+        "reason": "The selected wording is present on its cited official page. This does not establish every proposed attribution hop or an earliest source.",
+        "research_explanation": "The phrase 'automated defenses have mitigated 4.5 million DDoS attacks' appears verbatim in the Cloudflare blog body text. The Radar page reproduces the same wording. The figure and attribution are accurate for Cloudflare's own network in Q1 2024.",
+        "scope": "selected_source_wording",
+        "check": "cited_exact_excerpts_corroborated",
+        "evidence": [
+          {
+            "source_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+            "stance": "supports",
+            "quote_ref": "cloudflare-ddos-q1-2024.chain.hops.0.quote",
+            "quote_check": "matched"
+          },
+          {
+            "source_url": "https://radar.cloudflare.com/reports/ddos-2024-q1",
+            "stance": "supports",
+            "quote_ref": "cloudflare-ddos-q1-2024.chain.hops.1.quote",
+            "quote_check": "not_found"
+          },
+          {
+            "source_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1",
+            "stance": "supports",
+            "quote_ref": null,
+            "quote_check": "uncited"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "claim_reference_period",
+          "value": "2024-Q1",
+          "precision": "period",
+          "source_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+          "quote_ref": "cloudflare-ddos-q1-2024.dates.1",
+          "check": "research_only"
+        },
+        {
+          "kind": "published",
+          "value": "2024",
+          "precision": "year",
+          "source_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+          "quote_ref": "cloudflare-ddos-q1-2024.dates.2",
+          "check": "exact_excerpt_matched"
+        }
+      ],
+      "earliest_source_status": "unresolved"
+    },
+    {
+      "id": "who-air-99",
+      "selection": {
+        "text": "Almost the entire global population (99%) breathes air",
+        "page_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data/",
+        "page_title": "WHO air quality data, 4 April 2022"
+      },
+      "context": "The surrounding sentence concerns air exceeding WHO air-quality limits. Preserve the denominator, thresholds and time basis.",
+      "selection_quote_check": "matched",
+      "chain": {
+        "selection": {
+          "text": "Almost the entire global population (99%) breathes air",
+          "page_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data/",
+          "page_title": "WHO air quality data, 4 April 2022"
+        },
+        "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+        "recorded_at": "2026-11-08T08:46:46.094Z",
+        "verification": "research_candidate",
+        "status": "unresolved",
+        "summary": "The research returned an incomplete citation trail.",
+        "hops": [
+          {
+            "url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data",
+            "title": "Billions of people still breathe unhealthy air: new WHO data",
+            "role": "selected_page",
+            "quote": "Almost the entire global population (99%) breathes air",
+            "relationship_to_next": null,
+            "excerpt_shortened": false,
+            "quote_check": "not_checked",
+            "link_to_next": "not_applicable",
+            "checked_at": null,
+            "fetch_reservation_id": null
+          }
+        ],
+        "limitations": [
+          "The selected text truncates the source sentence: the full sentence reads 'breathes air that exceeds WHO air quality limits, and threatens their health.' The omitted clause specifies the threshold and health consequence.",
+          "The 99% figure is based on the 2022 WHO air quality database covering PM2.5, PM10, and NO2; it is not a continuous time-series estimate.",
+          "The denominator is the entire global population; the thresholds are the 2021 WHO Air Quality Guidelines (PM2.5 annual average 5 µg/m³; PM10 annual average 15 µg/m³; NO2 annual average 10 µg/m³).",
+          "No single reference year for the underlying air quality measurements is stated in the press release; the database aggregates measurements from over 6,000 cities across 117 countries.",
+          "The ordered cited chain is incomplete or inconsistent.",
+          "Citations identify research sources; quotations and link relationships need source-page corroboration before treating this as proven provenance."
+        ]
+      },
+      "assessment": {
+        "label": "unresolved",
+        "proposed_label": "misquoted",
+        "target": "selected_assertion",
+        "reason": "The final assessment remains unresolved: quoted support, attribution, or the proposed numerical and temporal basis was not fully established.",
+        "research_explanation": "The selected text reads 'Almost the entire global population (99%) breathes air' but truncates the sentence before the essential qualifying clause 'that exceeds WHO air quality limits, and threatens their health.' Without this clause the claim is incomplete and misleading: the source statement is specifically about air exceeding WHO thresholds,",
+        "scope": "cited_source_comparison",
+        "check": "unresolved",
+        "evidence": [
+          {
+            "source_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data",
+            "stance": "supports",
+            "quote_ref": "who-air-99.chain.hops.0.quote",
+            "quote_check": "not_checked"
+          },
+          {
+            "source_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data",
+            "stance": "clarifies",
+            "quote_ref": "who-air-99.evidence.3",
+            "quote_check": "not_checked"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "published",
+          "value": "2022-04-04",
+          "precision": "day",
+          "source_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data",
+          "quote_ref": "who-air-99.dates.4",
+          "check": "research_only"
+        },
+        {
+          "kind": "claim_reference_period",
+          "value": "2022",
+          "precision": "year",
+          "source_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data",
+          "quote_ref": "who-air-99.dates.5",
+          "check": "research_only"
+        }
+      ],
+      "earliest_source_status": "unresolved"
+    },
+    {
+      "id": "nasa-earth-year",
+      "selection": {
+        "text": "It takes 365.25 days to complete one trip around the Sun",
+        "page_url": "https://science.nasa.gov/earth/facts/",
+        "page_title": "NASA Earth facts"
+      },
+      "context": "Keep the stated precision and distinction between an approximate orbital year and calendar leap-year conventions.",
+      "selection_quote_check": "matched",
+      "chain": {
+        "selection": {
+          "text": "It takes 365.25 days to complete one trip around the Sun",
+          "page_url": "https://science.nasa.gov/earth/facts/",
+          "page_title": "NASA Earth facts"
+        },
+        "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+        "recorded_at": "2026-11-08T08:46:46.094Z",
+        "verification": "research_candidate",
+        "status": "candidate",
+        "summary": "Candidate origin: Earth Fact Sheet",
+        "hops": [
+          {
+            "url": "https://science.nasa.gov/earth/facts/",
+            "title": "Facts About Earth",
+            "role": "selected_page",
+            "quote": "365.25 days to complete one trip around the",
+            "relationship_to_next": "Research proposes an attribution to the next source. Its exact outgoing link remains unchecked.",
+            "excerpt_shortened": false,
+            "quote_check": "matched",
+            "link_to_next": "not_found",
+            "checked_at": "2026-11-08T08:47:26.223Z",
+            "fetch_reservation_id": "78c8fd37-05ff-4a7f-8e02-9086ba0b4505"
+          },
+          {
+            "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+            "title": "Earth Fact Sheet",
+            "role": "primary_candidate",
+            "quote": "Sidereal orbit period (days) 365.256",
+            "relationship_to_next": null,
+            "excerpt_shortened": false,
+            "quote_check": "matched",
+            "link_to_next": "not_applicable",
+            "checked_at": "2026-11-08T08:47:28.126Z",
+            "fetch_reservation_id": "9872ed66-c0f0-416f-8373-83e86d887467"
+          }
+        ],
+        "limitations": [
+          "The 365.25-day figure on science.nasa.gov is a rounded approximation used to explain the leap-year convention, not a precise orbital measurement.",
+          "The GSFC Earth Fact Sheet gives the sidereal orbital period as 365.256 days and the tropical (solar) year as 365.242 days; both differ from 365.25.",
+          "The science.nasa.gov page does not distinguish sidereal from tropical year; it uses 365.25 in the context of explaining calendar leap years.",
+          "The Gregorian calendar averages 365.2425 days/year (adding a leap day every 4 years except centuries not divisible by 400), which is a further refinement not mentioned on the selected page.",
+          "Citations identify research sources; quotations and link relationships need source-page corroboration before treating this as proven provenance."
+        ]
+      },
+      "assessment": {
+        "label": "matches",
+        "proposed_label": "matches",
+        "target": "selected_assertion",
+        "reason": "The selected wording is present on its cited official page. This does not establish every proposed attribution hop or an earliest source.",
+        "research_explanation": "The text 'It takes 365.25 days to complete one trip around the Sun' appears verbatim on the NASA Earth facts page. The figure is a deliberate approximation used by NASA to explain the leap-year convention, explicitly stated on the same page. The GSFC fact sheet gives more precise values (365.256",
+        "scope": "selected_source_wording",
+        "check": "cited_exact_excerpts_corroborated",
+        "evidence": [
+          {
+            "source_url": "https://science.nasa.gov/earth/facts/",
+            "stance": "supports",
+            "quote_ref": "nasa-earth-year.chain.hops.0.quote",
+            "quote_check": "matched"
+          },
+          {
+            "source_url": "https://science.nasa.gov/earth/facts/",
+            "stance": "clarifies",
+            "quote_ref": "nasa-earth-year.evidence.6",
+            "quote_check": "matched"
+          },
+          {
+            "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+            "stance": "clarifies",
+            "quote_ref": "nasa-earth-year.chain.hops.1.quote",
+            "quote_check": "matched"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "published",
+          "value": "unknown",
+          "precision": "unknown",
+          "source_url": "https://science.nasa.gov/earth/facts/",
+          "quote_ref": null,
+          "check": "research_only"
+        }
+      ],
+      "earliest_source_status": "unresolved"
+    },
+    {
+      "id": "great-wall-historical",
+      "selection": {
+        "text": "visible to the human eye from the moon",
+        "page_url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+        "page_title": "On seeing the Great Wall of China from the Moon"
+      },
+      "context": "This article examines a historical misconception quoted from Halliburton's 1938 book. Assess the quoted historical claim, not the article as if it currently endorses it. NASA's https://www.nasa.gov/image-article/great-wall/ discusses the Moon claim; do not conflate unaided Moon visibility with low-Earth-orbit photography. 1938 is not automatically the earliest source.",
+      "selection_quote_check": "fetch_failed",
+      "chain": {
+        "selection": {
+          "text": "visible to the human eye from the moon",
+          "page_url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+          "page_title": "On seeing the Great Wall of China from the Moon"
+        },
+        "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+        "recorded_at": "2026-11-08T08:46:46.094Z",
+        "verification": "research_candidate",
+        "status": "unresolved",
+        "summary": "The research returned an incomplete citation trail.",
+        "hops": [
+          {
+            "url": "https://www.nasa.gov/image-article/great-wall/",
+            "title": "Great Wall - NASA",
+            "role": "primary_candidate",
+            "quote": "the wall isn't visible from the moon",
+            "relationship_to_next": "Research proposes an attribution to the next source. Its exact outgoing link remains unchecked.",
+            "excerpt_shortened": false,
+            "quote_check": "matched",
+            "link_to_next": "not_found",
+            "checked_at": "2026-11-08T09:30:43.443Z",
+            "fetch_reservation_id": "a19f27d5-5bfa-42a7-a484-eb6ca3404e82"
+          },
+          {
+            "url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+            "title": "Great Wall Less Great from Space (NASA PDF)",
+            "role": "primary_candidate",
+            "quote": "certainly isn't visible from the Moon",
+            "relationship_to_next": null,
+            "excerpt_shortened": false,
+            "quote_check": "not_checked",
+            "link_to_next": "not_applicable",
+            "checked_at": null,
+            "fetch_reservation_id": null
+          }
+        ],
+        "limitations": [
+          "The Vatican Observatory article itself is not directly accessible from the evidence provided; its content is described in the input context as attributing the claim to Halliburton's 1938 book, but this characterisation comes from untrusted input.",
+          "The claim that 1938 is the earliest source is contradicted by evidence of a 1932 Ripley's cartoon and an 1895 Henry Norman book; a 1754 Stukeley reference appears only in a low-quality forum source.",
+          "The NASA PDF states the theory 'dates back to at least 1938,' which is consistent with Halliburton but does not preclude earlier sources.",
+          "The Scientific American article cites the 1932 Ripley's claim as the earliest commonly cited source, but does not mention Halliburton.",
+          "Moon visibility and low-Earth-orbit visibility are distinct: the wall is photographically documented from the ISS (low Earth orbit, ~400 km) with a 180mm lens, but is not visible from the Moon (~384,400 km).",
+          "An uncited hop was withheld: https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+          "The ordered cited chain is incomplete or inconsistent.",
+          "Citations identify research sources; quotations and link relationships need source-page corroboration before treating this as proven provenance."
+        ]
+      },
+      "assessment": {
+        "label": "contradicted",
+        "proposed_label": "contradicted",
+        "target": "historical_quoted_claim",
+        "reason": "The quoted historical Moon-visibility claim conflicts with a cited refuting excerpt. The selected article examines that misconception; this is not a finding against its current author.",
+        "research_explanation": "The historical claim 'visible to the human eye from the moon' (attributed in the Vatican Observatory article to Halliburton's 1938 book, which the article examines critically rather than endorses) is scientifically false. NASA explicitly states the wall is not visible from the Moon, and Apollo astronauts confirm no man-made object",
+        "scope": "historical_quoted_assertion",
+        "check": "cited_exact_excerpts_corroborated",
+        "evidence": [
+          {
+            "source_url": "https://www.nasa.gov/image-article/great-wall/",
+            "stance": "refutes",
+            "quote_ref": "great-wall-historical.chain.hops.0.quote",
+            "quote_check": "matched"
+          },
+          {
+            "source_url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+            "stance": "refutes",
+            "quote_ref": "great-wall-historical.chain.hops.1.quote",
+            "quote_check": "not_checked"
+          },
+          {
+            "source_url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+            "stance": "clarifies",
+            "quote_ref": "great-wall-historical.evidence.7",
+            "quote_check": "not_checked"
+          },
+          {
+            "source_url": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/",
+            "stance": "clarifies",
+            "quote_ref": null,
+            "quote_check": "uncited"
+          },
+          {
+            "source_url": "https://www.snopes.com/fact-check/great-wall-from-moon/",
+            "stance": "refutes",
+            "quote_ref": null,
+            "quote_check": "uncited"
+          },
+          {
+            "source_url": "https://www.nasa.gov/image-article/great-wall/",
+            "stance": "clarifies",
+            "quote_ref": "great-wall-historical.evidence.8",
+            "quote_check": "matched"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "historical_claim_date",
+          "value": "1938",
+          "precision": "year",
+          "source_url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+          "quote_ref": "great-wall-historical.evidence.7",
+          "check": "research_only"
+        },
+        {
+          "kind": "historical_claim_date",
+          "value": "1932",
+          "precision": "year",
+          "source_url": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/",
+          "quote_ref": null,
+          "check": "research_only"
+        },
+        {
+          "kind": "historical_claim_date",
+          "value": "1895",
+          "precision": "year",
+          "source_url": "https://boards.straightdope.com/t/great-wall-myth-originated-with-ripleys/565263",
+          "quote_ref": null,
+          "check": "research_only"
+        }
+      ],
+      "earliest_source_status": "unresolved"
+    }
+  ],
+  "excerpts": [
+    {
+      "ref": "who-food-2023.dates.0",
+      "url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+      "quote": "SOFI report published today"
+    },
+    {
+      "ref": "cloudflare-ddos-q1-2024.dates.1",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+      "quote": "mitigated 4.5 million DDoS attacks during the first"
+    },
+    {
+      "ref": "cloudflare-ddos-q1-2024.dates.2",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+      "quote": "2024"
+    },
+    {
+      "ref": "who-air-99.evidence.3",
+      "url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data",
+      "quote": "exceeds WHO air quality limits, and threatens their"
+    },
+    {
+      "ref": "who-air-99.dates.4",
+      "url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data",
+      "quote": "04-04-2022-billions-of-people-still-breathe-unhealthy-air"
+    },
+    {
+      "ref": "who-air-99.dates.5",
+      "url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data",
+      "quote": "the 2022 update of the World Health Organization's"
+    },
+    {
+      "ref": "nasa-earth-year.evidence.6",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "quote": "every four years we add one"
+    },
+    {
+      "ref": "great-wall-historical.evidence.7",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+      "quote": "dates back to at least 1938"
+    },
+    {
+      "ref": "great-wall-historical.evidence.8",
+      "url": "https://www.nasa.gov/image-article/great-wall/",
+      "quote": "difficult or impossible to see from Earth orbit"
+    }
+  ],
+  "page_checks": 9,
+  "page_receipts": [
+    {
+      "url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+      "final_url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+      "checked_at": "2026-11-08T08:46:49.240Z",
+      "fetch_reservation_id": "2100c0f9-5c36-475a-ace1-1e51739cd804",
+      "html_sha256": "b665c2ebe98b82b23f8a36f3a024252e80c20eb8ebb43aae1e795cb55cceab21"
+    },
+    {
+      "url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+      "final_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+      "checked_at": "2026-11-08T08:47:05.679Z",
+      "fetch_reservation_id": "be1b986d-04d6-43ad-b915-c21efd5085ed",
+      "html_sha256": "b17fd26dccd14f9fc352db24e3d2001aec4e31213dcba786f74969d97b13de4a"
+    },
+    {
+      "url": "https://radar.cloudflare.com/reports/ddos-2024-q1",
+      "final_url": "https://radar.cloudflare.com/reports/ddos-2024-q1",
+      "checked_at": "2026-11-08T08:47:21.085Z",
+      "fetch_reservation_id": "16e03943-b5c6-4c40-926b-de7e473633a1",
+      "html_sha256": "8a702acb9f57a4576d5b7bc773ac43a0dbaca6b051c85de1b79479814bf9e829"
+    },
+    {
+      "url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data/",
+      "final_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data/",
+      "checked_at": "2026-11-08T08:47:23.825Z",
+      "fetch_reservation_id": "48414d2f-8f0d-4ec9-a07f-6dd99bdcab02",
+      "html_sha256": "7af03b8e819ef1a101d041c6b58b7f48b45c1282f3acd3d71dd331c6d11f137b"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/facts/",
+      "final_url": "https://science.nasa.gov/earth/facts/",
+      "checked_at": "2026-11-08T08:47:26.223Z",
+      "fetch_reservation_id": "78c8fd37-05ff-4a7f-8e02-9086ba0b4505",
+      "html_sha256": "186da19562d28154b614aa18d5956db3f43983dd08e796e8703f37ea724821bd"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "final_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "checked_at": "2026-11-08T08:47:28.126Z",
+      "fetch_reservation_id": "9872ed66-c0f0-416f-8373-83e86d887467",
+      "html_sha256": "cd57256140ff90cdd2e6cb0296124c4af72f6e7356c232f41fc85c54663de665"
+    },
+    {
+      "url": "https://www.nasa.gov/image-article/great-wall/",
+      "final_url": "https://www.nasa.gov/image-article/great-wall/",
+      "checked_at": "2026-11-08T09:30:43.443Z",
+      "fetch_reservation_id": "a19f27d5-5bfa-42a7-a484-eb6ca3404e82",
+      "html_sha256": "01354cdd21d2e59317c00d0a85d9818476b5e49b834de7d1b38354e1ab39f1c9"
+    }
+  ],
+  "maximum_page_checks": 25,
+  "page_failures": [
+    {
+      "url": "https://www.fao.org/3/cd1254en/online/state-food-security-and-nutrition-2024/ending-hunger-food-security.html",
+      "code": "REDIRECT_REJECTED"
+    },
+    {
+      "url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+      "code": "SOURCE_FAILURE"
+    }
+  ],
+  "limitations": [
+    "Matching quotes and links does not prove an earliest source or sound methodology.",
+    "Historical quotations are assessed in their original context; an article examining a false claim is not accused of endorsing it."
+  ],
+  "provider_status": "COMPLETED",
+  "reserved_microusd": 2000000,
+  "evidence_mode": "recorded_live_reconciled",
+  "reconciled_at": "2026-11-08T09:30:43.710Z",
+  "raw_research_receipt_sha256": "ddcac425562d146b886142764dd6e901a50fc03bb48accf875c51290d4640dd7",
+  "replayed_page_checks": 11,
+  "unattempted_pages": [
+    {
+      "url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data",
+      "code": "NOT_CAPTURED_NO_RETRY"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+      "code": "NOT_CAPTURED_NO_RETRY"
+    }
+  ],
+  "reconciliation": {
+    "original_provider_jobs": 1,
+    "additional_paid_jobs": 0,
+    "reused_original_fetch_operations": 8,
+    "new_zero_price_fetch_operations": 1,
+    "comparison_url": "https://www.nasa.gov/image-article/great-wall/",
+    "comparison_error": null,
+    "raw_receipt_unchanged": true,
+    "failed_sources_retried": false,
+    "notes": [
+      "The actual bounded six-entry evidence and explanatory value strings are preserved.",
+      "Selected-source wording consistency is distinct from proving the proposed attribution chain.",
+      "Date checks require the date to remain inside the final displayed excerpt."
+    ]
+  },
+  "execution_note": "One actual Deep batch and nine or fewer actual exact-URL Fetch checks. Reconciliation reused original page receipts and made only the explicitly approved previously unfetched NASA comparison. No failed source or model run was repeated."
+}

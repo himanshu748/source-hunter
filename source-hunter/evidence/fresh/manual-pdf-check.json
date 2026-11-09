@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-11-09T14:04:06.853Z",
+  "mode": "explicitly_authorized_manual_pdf_check",
+  "provider_research_run_id": "01a1c024-d22d-7ea0-bdf2-7d99467c669a",
+  "url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/briefings/20250110.pdf",
+  "html_selectors_sent": false,
+  "automatic_retry": false,
+  "new_research_jobs_started": 0,
+  "before_fetch_requests": 9,
+  "after_fetch_requests": 10,
+  "total_research_jobs": 1,
+  "reserved_microusd": 2000000,
+  "active_operations": 0,
+  "halted": false,
+  "original_10_dollar_ledger_unchanged": true,
+  "outcome": {
+    "status": "captured",
+    "observed_at": "2026-11-09T14:04:06.840Z",
+    "source_url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/briefings/20250110.pdf",
+    "final_url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/briefings/20250110.pdf",
+    "reservation_id": "1a31cd0b-af86-4b35-9eb0-932fd575f0d6",
+    "html_sha256": "ce11989d84b9d036121731097500e282bf4f82d102a48339079376990c84e21f",
+    "captured_characters": 3441
+  },
+  "boundary": "This is one separately authorized manual repetition of the failed PDF URL. It does not change the original nine-check export or establish an observed link from the form-only report page.",
+  "authorization_scope": "One separately approved manual PDF repetition using the tenth and final source check, within the already approved $2 supplement. No further provider operation is authorized.",
+  "preflight": {
+    "active_account_tier_observed": "Hobby",
+    "daily_fetch_requests_before_request": 9,
+    "meter": "TinyFish Fetch (Hobby)",
+    "unit": "url",
+    "price_usd": "0",
+    "fresh_quote_required": true,
+    "billing_or_tier_changes": false,
+    "private_account_captures_withheld": true
+  },
+  "original_packet": "noaa-original-export.json",
+  "original_packet_sha256": "6e5e67d1f39a822beebd1a32e4b4142c431ace6a8be43d19051c6b73c448069a",
+  "review": "manual-pdf-review.json",
+  "capture_privacy": "Full captured source HTML and authenticated account captures are private; this receipt includes public URL, bounded facts and hashes only."
+}

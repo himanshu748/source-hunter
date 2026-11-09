@@ -1,0 +1,28 @@
+{
+  "name": "source-hunter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "tsx source-hunter/src/server.ts",
+    "test": "node scripts/run-tests.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "review:check": "tsx source-hunter/scripts/review-recorded.ts --check",
+    "format:check": "prettier --check \"shared/**/*.ts\" \"providers/**/*.ts\" \"source-hunter/{src,test,scripts}/**/*.ts\" \"source-hunter/{web,extension}/**/*.{js,css,html,json}\" \"source-hunter/evidence/{source-review,reviewed-batch}.json\" \"**/*.md\" package.json tsconfig.json scripts/*.mjs"
+  },
+  "dependencies": {
+    "cheerio": "1.2.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
+  "description": "Inspect the evidence behind a highlighted claim."
+}

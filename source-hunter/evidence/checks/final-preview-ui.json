@@ -1,0 +1,12 @@
+{
+  "finalUi": {
+    "badge": "SAVED INVESTIGATION",
+    "liveDisabled": true,
+    "picker": "who-food-2023"
+  },
+  "extensionNote": "This is an unpacked development extension. Saved lookup reads the recorded investigations. Fresh research needs a separately authorized allowance.",
+  "nativeCasesPassed": 5,
+  "noMatchVerified": true,
+  "mobileViewportOverrideApplied": false,
+  "provider_requests_started": 0
+}

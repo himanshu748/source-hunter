@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f4f2eb" />
+    <title>Source Hunter — Get to the original</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%23ef5836%27/%3E%3Cpath d=%27M9 22 23 8M9 8h14v14%27 fill=%27none%27 stroke=%27white%27 stroke-width=%273%27/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="preload"
+      href="/assets/manrope.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#trace">Skip to the workbench</a>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Source Hunter home"
+        ><span class="brand-symbol" aria-hidden="true"
+          ><i></i><i></i><i></i></span
+        >Source Hunter<span class="brand-dot" aria-hidden="true">✳</span></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#method">The method</a><a href="#trace">Workbench</a
+        ><button class="nav-extension" type="button" data-open-extension>
+          Get the extension <span aria-hidden="true">↗</span>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="small-cross" aria-hidden="true">✳</span> A LITTLE MORE
+            PROOF. A LOT LESS GUESSWORK.
+          </p>
+          <h1 id="hero-title">
+            Don’t just<br />quote it.<br /><span>Trace it.</span
+            ><svg
+              class="headline-arrow"
+              viewBox="0 0 100 100"
+              aria-hidden="true"
+            >
+              <path d="M15 75 77 13M25 13h52v52" />
+            </svg>
+          </h1>
+          <p class="intro">
+            That stat has been places.<br />Follow the trail back to where it
+            began.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#trace"
+              >Find the original <span aria-hidden="true">↗</span></a
+            ><button class="text-action" id="hero-recorded" type="button">
+              Explore a real trace <span aria-hidden="true">→</span>
+            </button>
+          </div>
+          <div class="hero-footnote">
+            <span class="tiny-dot" aria-hidden="true"></span> Built for curious
+            people. Powered by TinyFish.
+          </div>
+        </div>
+        <div
+          class="hero-art"
+          aria-label="Explore the recorded food-security source trail"
+        >
+          <div class="artifact-caption">
+            <span>FIELD NOTES / 001</span><span>RECORDED RESEARCH ↘</span>
+          </div>
+          <div class="source-stage">
+            <svg
+              class="trail-lines"
+              viewBox="0 0 520 510"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path d="M180 125C380 110 450 190 365 270" />
+              <circle cx="180" cy="125" r="5" />
+              <circle cx="365" cy="270" r="5" />
+              <circle cx="205" cy="420" r="5" /></svg
+            ><span class="orbit-stamp" aria-hidden="true">↗</span>
+            <button
+              type="button"
+              class="source-slip slip-one is-active"
+              data-source-step="0"
+              aria-pressed="true"
+            >
+              <span class="slip-meta"
+                ><span>01 / THE CLAIM</span><span>WHO ↗</span></span
+              ><strong>2.33<span>billion</span></strong
+              ><span class="slip-line"></span
+              ><span class="slip-description"
+                >People facing food insecurity.<br />But where did the figure
+                come from?</span
+              ><span class="slip-status"><i></i> Excerpt matched</span>
+            </button>
+            <button
+              type="button"
+              class="source-slip slip-two"
+              data-source-step="1"
+              aria-pressed="false"
+            >
+              <span class="slip-meta"
+                ><span>02 / THE CITATION</span><span>WHO ↗</span></span
+              ><strong class="slip-title"
+                >A report.<br />A real reference.</strong
+              ><span class="slip-description"
+                >WHO links the joint report.<br />Its DOI retrieval still has a
+                gap.</span
+              ><span class="slip-status"><i></i> Citation checked</span>
+            </button>
+            <button
+              type="button"
+              class="source-slip slip-three"
+              data-source-step="2"
+              aria-pressed="false"
+            >
+              <span class="slip-meta"
+                ><span>03 / INDEPENDENT CHECK</span><span>PDF ↗</span></span
+              ><strong class="slip-title"
+                >2,325.5 million.<br />Rounded, yes.</strong
+              ><span class="slip-status"><i></i> Official report checked</span>
+            </button>
+          </div>
+          <div class="artifact-detail" role="status" aria-live="polite">
+            <span class="detail-index" id="hero-step-index">01—03</span>
+            <p id="hero-step-detail">
+              WHO’s release links to the joint report landing page. The exact
+              selection and its context are preserved.
+            </p>
+            <button
+              type="button"
+              id="hero-next"
+              aria-label="Inspect the next source"
+            >
+              →
+            </button>
+          </div>
+        </div>
+      </section>
+      <div class="principle-strip" aria-label="Product principles">
+        <span>A LINK FOR EVERY STEP</span><span aria-hidden="true">✳</span
+        ><span>CONTEXT COMES ALONG</span><span aria-hidden="true">✳</span
+        ><span>GAPS STAY VISIBLE</span><span aria-hidden="true">✳</span
+        ><span>CURIOUS BY DESIGN</span>
+      </div>
+      <section class="method" id="method">
+        <div class="section-kicker">
+          <span>THE METHOD</span><span>01—03</span>
+        </div>
+        <div class="method-heading">
+          <h2>Less passing it on.<br /><span>More following it back.</span></h2>
+          <p>
+            From a highlighted line to a trail you can inspect. Every source has
+            a place. Every missing link gets a name.
+          </p>
+        </div>
+        <div class="method-grid">
+          <article>
+            <span class="step-number">01</span>
+            <div class="method-icon icon-select" aria-hidden="true">
+              <span>“a claim”</span><i>↖</i>
+            </div>
+            <h3>Pick the part<br />that made you pause.</h3>
+            <p>
+              A number, a quote, a sweeping claim. Start with its exact wording
+              and the page it appeared on.
+            </p>
+          </article>
+          <article>
+            <span class="step-number">02</span>
+            <div class="method-icon icon-trail" aria-hidden="true">
+              <i></i><b></b><i></i><b></b><i></i>
+            </div>
+            <h3>Pull on<br />the reference thread.</h3>
+            <p>
+              TinyResearch follows citations. Open each source, compare the
+              wording and see how far the trail goes.
+            </p>
+          </article>
+          <article>
+            <span class="step-number">03</span>
+            <div class="method-icon icon-proof" aria-hidden="true">
+              <span>↗</span><i>?</i>
+            </div>
+            <h3>Know what<br />you can stand behind.</h3>
+            <p>
+              A candidate source, a changed claim, or a dead end. The result
+              keeps uncertainty in plain sight.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section
+        class="workbench-section"
+        id="trace"
+        aria-labelledby="workbench-title"
+      >
+        <div class="workbench-heading">
+          <div>
+            <p class="eyebrow">YOUR NEXT GOOD QUESTION</p>
+            <h2 id="workbench-title">
+              Let’s follow<br /><span>that thread.</span>
+            </h2>
+          </div>
+          <p>Bring a claim.<br />Leave with a paper trail.</p>
+        </div>
+        <div class="workspace">
+          <div class="workspace-bar">
+            <span><i class="tiny-dot"></i> SOURCE HUNTER / WORKBENCH</span
+            ><span>PUBLIC SOURCES ONLY</span>
+          </div>
+          <div class="workspace-columns">
+            <div class="input-panel">
+              <div class="panel-heading">
+                <span class="panel-index">01</span>
+                <h3 id="starting-point-title">The starting point</h3>
+              </div>
+              <form id="form" aria-labelledby="starting-point-title">
+                <label for="text">What’s the claim?</label
+                ><textarea
+                  id="text"
+                  minlength="10"
+                  maxlength="1000"
+                  required
+                  rows="4"
+                  placeholder="Paste the exact line that caught your eye…"
+                ></textarea
+                ><label for="url">Where did you find it?</label
+                ><input
+                  id="url"
+                  type="url"
+                  required
+                  placeholder="https://the-page-you-were-reading.com"
+                />
+                <details class="context-details">
+                  <summary>Add a page title <span>+</span></summary>
+                  <label class="sr-only" for="title">Page title</label
+                  ><input
+                    id="title"
+                    maxlength="250"
+                    placeholder="Optional page title"
+                  />
+                </details>
+                <div class="sample-row">
+                  <span>NEED A STARTING POINT?</span
+                  ><button type="button" id="example">
+                    Try the WHO claim <span>↗</span>
+                  </button>
+                </div>
+                <button
+                  type="submit"
+                  class="button primary trace-submit"
+                  id="submit"
+                  disabled
+                >
+                  Trace this claim <span>↗</span>
+                </button>
+                <p class="privacy">
+                  Only this selection, its public URL and title are sent to
+                  TinyFish when you trace. Keep private details out.
+                </p>
+              </form>
+              <details id="recovery" class="title-details">
+                <summary>Recover completed research</summary>
+                <label for="recovery-id">Investigation ID</label>
+                <input
+                  id="recovery-id"
+                  autocomplete="off"
+                  spellcheck="false"
+                  maxlength="36"
+                />
+                <p class="privacy">
+                  Resume source checks from a completed private receipt, before
+                  any source-page request has started. No new Research job.
+                </p>
+                <button
+                  id="resume"
+                  class="button secondary"
+                  type="button"
+                  disabled
+                >
+                  Resume source checks
+                </button>
+              </details>
+              <p
+                id="state"
+                class="status-message"
+                role="status"
+                aria-live="polite"
+              >
+                Or open the recorded trace to explore the evidence.
+              </p>
+            </div>
+            <div class="result-panel">
+              <div class="panel-heading">
+                <span class="panel-index">02</span>
+                <h3>The paper trail</h3>
+                <span id="badge">READY WHEN YOU ARE</span>
+              </div>
+              <div id="empty">
+                <div class="empty-mark" aria-hidden="true">
+                  <span>“</span
+                  ><svg viewBox="0 0 180 100">
+                    <path d="M20 75h48V25h70M117 5l22 20-22 20" />
+                  </svg>
+                </div>
+                <h3>Every claim<br />starts somewhere.</h3>
+                <p>
+                  Your sources will appear here.<br />Including the parts we
+                  couldn’t establish.
+                </p>
+                <span class="empty-label">NO SHORTCUTS TO THE ORIGINAL.</span>
+              </div>
+              <div id="result" hidden>
+                <h3 id="summary"></h3>
+                <ol id="chain"></ol>
+                <details class="evidence-gaps">
+                  <summary>What still needs checking <span>+</span></summary>
+                  <ul id="limitations"></ul>
+                </details>
+                <button id="download" class="export-button" type="button">
+                  Download this trail <span>↓</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="extension-band">
+        <div>
+          <p class="eyebrow">KEEP YOUR READING FLOW.</p>
+          <h2>A little curiosity.<br /><span>One click away.</span></h2>
+        </div>
+        <div class="extension-copy">
+          <p>
+            The Source Hunter extension brings the workbench to the page you’re
+            reading. Highlight a claim, review the selection, then start your
+            trace.
+          </p>
+          <button type="button" class="button light" data-open-extension>
+            Explore the extension <span>↗</span></button
+          ><span>Chromium extension · Local server required</span>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-top">
+        <a class="brand" href="/"
+          >Source Hunter<span class="brand-dot" aria-hidden="true">✳</span></a
+        >
+        <p>Follow the number.<br />Keep the context.</p>
+        <a href="#trace">Explore the recorded investigations ↗</a>
+      </div>
+      <div class="footer-wordmark" aria-hidden="true">
+        Go deeper<span>↗</span>
+      </div>
+      <div class="footer-bottom">
+        <span>LOCAL DEVELOPMENT EDITION</span>
+        <button type="button" id="motion-toggle" aria-pressed="false">
+          Motion: on
+        </button>
+        <span>RESEARCH CANDIDATES REQUIRE SOURCE REVIEW</span>
+        <a href="#hero-title">BACK TO TOP ↑</a>
+      </div>
+    </footer>
+    <dialog id="extension-dialog" aria-labelledby="extension-title">
+      <form method="dialog">
+        <button class="dialog-close" aria-label="Close extension details">
+          ×
+        </button>
+      </form>
+      <p class="eyebrow">SOURCE HUNTER / IN YOUR BROWSER</p>
+      <h2 id="extension-title">Stay on the page.<br />Follow the thread.</h2>
+      <p>
+        Highlight a claim on a public page, then open the extension. Saved
+        lookup checks for that exact selection in the reviewed investigations.
+        Fresh research is a separate action and is paused in this edition.
+      </p>
+      <ol>
+        <li>Download and unpack the extension.</li>
+        <li>
+          Load the unpacked folder in your Chromium browser’s extension
+          developer screen.
+        </li>
+        <li>
+          Start the local server with its displayed ID as
+          <code>SOURCE_HUNTER_EXTENSION_ID</code>. The README has the command.
+        </li>
+      </ol>
+      <a
+        class="button primary"
+        href="/downloads/source-hunter-extension.zip"
+        download
+        >Download the extension <span>↓</span></a
+      >
+      <p class="dialog-note">
+        This is an unpacked development extension. Saved lookup reads the
+        recorded investigations. Fresh research needs a separately authorized
+        allowance.
+      </p>
+    </dialog>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

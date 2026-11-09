@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "rootDir": ".",
+    "outDir": "dist",
+    "declaration": true
+  },
+  "include": [
+    "shared/**/*.ts",
+    "providers/**/*.ts",
+    "source-hunter/src/**/*.ts",
+    "source-hunter/test/**/*.ts",
+    "source-hunter/scripts/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,5 @@
+Node: v22.14.0
+npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+
+added 32 packages in 2s
+Clean package quickstart passed.

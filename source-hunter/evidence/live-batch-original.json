@@ -1,0 +1,465 @@
+{
+  "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+  "provider_jobs": 1,
+  "recorded_at": "2026-11-08T08:46:46.094Z",
+  "termination_reason": "planner_done",
+  "warnings": [],
+  "traces": [
+    {
+      "id": "who-food-2023",
+      "selection": {
+        "text": "In 2023, around 2.33 billion people globally faced moderate or severe food insecurity",
+        "page_url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+        "page_title": "UN food insecurity estimate for 2023"
+      },
+      "context": "Distinguish the 2023 measurement period from the 2024 report/publication. Parallel WHO/FAO press releases are not consecutive attribution hops.",
+      "selection_quote_check": "matched",
+      "chain": {
+        "selection": {
+          "text": "In 2023, around 2.33 billion people globally faced moderate or severe food insecurity",
+          "page_url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+          "page_title": "UN food insecurity estimate for 2023"
+        },
+        "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+        "recorded_at": "2026-11-08T08:46:46.094Z",
+        "verification": "research_candidate",
+        "status": "candidate",
+        "summary": "Candidate origin: 2.1 Food security indicators – latest updates and progress towards ending hunger and ensuring food security",
+        "hops": [
+          {
+            "url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+            "title": "Hunger numbers stubbornly high for three consecutive years as global crises deepen: UN report",
+            "role": "selected_page",
+            "quote": "2.33 billion people globally faced moderate or severe",
+            "relationship_to_next": "Research proposes an attribution to the next source. Its exact outgoing link remains unchecked.",
+            "excerpt_shortened": false,
+            "quote_check": "matched",
+            "link_to_next": "not_found",
+            "checked_at": "2026-11-08T08:46:49.240Z",
+            "fetch_reservation_id": "2100c0f9-5c36-475a-ace1-1e51739cd804"
+          },
+          {
+            "url": "https://www.fao.org/3/cd1254en/online/state-food-security-and-nutrition-2024/ending-hunger-food-security.html",
+            "title": "2.1 Food security indicators – latest updates and progress towards ending hunger and ensuring food security",
+            "role": "primary_candidate",
+            "quote": "2.33 billion people – were moderately or severely",
+            "relationship_to_next": null,
+            "excerpt_shortened": false,
+            "quote_check": "fetch_failed",
+            "link_to_next": "not_applicable",
+            "checked_at": null,
+            "fetch_reservation_id": null
+          }
+        ],
+        "limitations": [
+          "The 2023 figures are model-based estimates (nowcast) for measurement year 2023, not a census; uncertainty bands exist for undernourishment (713–757 million) but are not explicitly published for the FIES-based 2.33 billion figure.",
+          "The WHO press release and FAO newsroom page are parallel releases of the same joint report, not independent corroborating sources.",
+          "New national survey data received after 2021 reduced uncertainty around 2022–2023 estimates, meaning the 2023 value could be revised in future editions.",
+          "Citations identify research sources; quotations and link relationships need source-page corroboration before treating this as proven provenance."
+        ]
+      },
+      "assessment": {
+        "label": "unresolved",
+        "proposed_label": "matches",
+        "target": "selected_assertion",
+        "reason": "The selected text 'In 2023, around 2.33 billion people globally faced moderate or severe food insecurity' appears verbatim on the WHO selected page and is corroborated word-for-word by the FAO SOFI 2024 chapter. The measurement period is 2023; the report was published 24 July 2024. No rounding, substitution, or misquotation",
+        "check": "unresolved",
+        "evidence": [
+          {
+            "source_url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+            "stance": "supports",
+            "quote_ref": "who-food-2023.chain.hops.0.quote",
+            "quote_check": "matched"
+          },
+          {
+            "source_url": "https://www.fao.org/3/cd1254en/online/state-food-security-and-nutrition-2024/ending-hunger-food-security.html",
+            "stance": "supports",
+            "quote_ref": "who-food-2023.chain.hops.1.quote",
+            "quote_check": "fetch_failed"
+          },
+          {
+            "source_url": "https://www.fao.org/newsroom/detail/hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report/en",
+            "stance": "supports",
+            "quote_ref": null,
+            "quote_check": "uncited"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "published",
+          "value": "2024-07-24",
+          "precision": "day",
+          "source_url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+          "quote_ref": "who-food-2023.dates.0",
+          "check": "research_only"
+        },
+        {
+          "kind": "claim_reference_period",
+          "value": "2023",
+          "precision": "year",
+          "source_url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+          "quote_ref": null,
+          "check": "research_only"
+        },
+        {
+          "kind": "published",
+          "value": "2024-07-24",
+          "precision": "day",
+          "source_url": "https://www.fao.org/newsroom/detail/hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report/en",
+          "quote_ref": null,
+          "check": "research_only"
+        }
+      ],
+      "earliest_source_status": "unresolved"
+    },
+    {
+      "id": "cloudflare-ddos-q1-2024",
+      "selection": {
+        "text": "automated defenses have mitigated 4.5 million DDoS attacks",
+        "page_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+        "page_title": "Cloudflare DDoS threat report for Q1 2024"
+      },
+      "context": "This is Cloudflare's own network/mitigation count for Q1 2024, not all attacks worldwide.",
+      "selection_quote_check": "matched",
+      "chain": {
+        "selection": {
+          "text": "automated defenses have mitigated 4.5 million DDoS attacks",
+          "page_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+          "page_title": "Cloudflare DDoS threat report for Q1 2024"
+        },
+        "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+        "recorded_at": "2026-11-08T08:46:46.094Z",
+        "verification": "research_candidate",
+        "status": "candidate",
+        "summary": "Candidate origin: DDoS Attack Trends for 2024 Q1 | Cloudflare Radar",
+        "hops": [
+          {
+            "url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+            "title": "DDoS threat report for 2024 Q1",
+            "role": "selected_page",
+            "quote": "automated defenses have mitigated 4.5 million DDoS attacks",
+            "relationship_to_next": "Research proposes an attribution to the next source. Its exact outgoing link remains unchecked.",
+            "excerpt_shortened": false,
+            "quote_check": "matched",
+            "link_to_next": "not_found",
+            "checked_at": "2026-11-08T08:47:05.679Z",
+            "fetch_reservation_id": "be1b986d-04d6-43ad-b915-c21efd5085ed"
+          },
+          {
+            "url": "https://radar.cloudflare.com/reports/ddos-2024-q1",
+            "title": "DDoS Attack Trends for 2024 Q1 | Cloudflare Radar",
+            "role": "primary_candidate",
+            "quote": "automated defenses have mitigated 4.5 million DDoS attacks",
+            "relationship_to_next": null,
+            "excerpt_shortened": false,
+            "quote_check": "not_found",
+            "link_to_next": "not_applicable",
+            "checked_at": "2026-11-08T08:47:21.085Z",
+            "fetch_reservation_id": "16e03943-b5c6-4c40-926b-de7e473633a1"
+          }
+        ],
+        "limitations": [
+          "The 4.5 million figure covers only attacks detected and mitigated on Cloudflare's own global network; it is not a count of all DDoS attacks worldwide.",
+          "The blog body uses 'our automated defenses have mitigated' while the key-insights section uses 'automatically mitigated'; both refer to the same 4.5 million count.",
+          "The selected text omits the qualifying phrase 'an amount equivalent to 32% of all the DDoS attacks we mitigated in 2023' and the '50% year-over-year increase' context present in the source.",
+          "Citations identify research sources; quotations and link relationships need source-page corroboration before treating this as proven provenance."
+        ]
+      },
+      "assessment": {
+        "label": "unresolved",
+        "proposed_label": "matches",
+        "target": "selected_assertion",
+        "reason": "The phrase 'automated defenses have mitigated 4.5 million DDoS attacks' appears verbatim in the Cloudflare blog body text. The Radar page reproduces the same wording. The figure and attribution are accurate for Cloudflare's own network in Q1 2024.",
+        "check": "unresolved",
+        "evidence": [
+          {
+            "source_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+            "stance": "supports",
+            "quote_ref": "cloudflare-ddos-q1-2024.chain.hops.0.quote",
+            "quote_check": "matched"
+          },
+          {
+            "source_url": "https://radar.cloudflare.com/reports/ddos-2024-q1",
+            "stance": "supports",
+            "quote_ref": "cloudflare-ddos-q1-2024.chain.hops.1.quote",
+            "quote_check": "not_found"
+          },
+          {
+            "source_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1",
+            "stance": "supports",
+            "quote_ref": null,
+            "quote_check": "uncited"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "claim_reference_period",
+          "value": "2024-Q1",
+          "precision": "period",
+          "source_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+          "quote_ref": "cloudflare-ddos-q1-2024.dates.1",
+          "check": "research_only"
+        },
+        {
+          "kind": "published",
+          "value": "2024",
+          "precision": "year",
+          "source_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+          "quote_ref": "cloudflare-ddos-q1-2024.dates.2",
+          "check": "exact_excerpt_matched"
+        }
+      ],
+      "earliest_source_status": "unresolved"
+    },
+    {
+      "id": "who-air-99",
+      "selection": {
+        "text": "Almost the entire global population (99%) breathes air",
+        "page_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data/",
+        "page_title": "WHO air quality data, 4 April 2022"
+      },
+      "context": "The surrounding sentence concerns air exceeding WHO air-quality limits. Preserve the denominator, thresholds and time basis.",
+      "selection_quote_check": "matched",
+      "chain": {
+        "selection": {
+          "text": "Almost the entire global population (99%) breathes air",
+          "page_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data/",
+          "page_title": "WHO air quality data, 4 April 2022"
+        },
+        "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+        "recorded_at": "2026-11-08T08:46:46.094Z",
+        "verification": "research_candidate",
+        "status": "unresolved",
+        "summary": "Research did not produce a completed source chain.",
+        "hops": [],
+        "limitations": []
+      },
+      "assessment": {
+        "label": "unresolved",
+        "proposed_label": "unresolved",
+        "target": "selected_assertion",
+        "reason": "No validated batch assessment was supplied.",
+        "check": "unresolved",
+        "evidence": []
+      },
+      "dates": [],
+      "earliest_source_status": "unresolved"
+    },
+    {
+      "id": "nasa-earth-year",
+      "selection": {
+        "text": "It takes 365.25 days to complete one trip around the Sun",
+        "page_url": "https://science.nasa.gov/earth/facts/",
+        "page_title": "NASA Earth facts"
+      },
+      "context": "Keep the stated precision and distinction between an approximate orbital year and calendar leap-year conventions.",
+      "selection_quote_check": "matched",
+      "chain": {
+        "selection": {
+          "text": "It takes 365.25 days to complete one trip around the Sun",
+          "page_url": "https://science.nasa.gov/earth/facts/",
+          "page_title": "NASA Earth facts"
+        },
+        "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+        "recorded_at": "2026-11-08T08:46:46.094Z",
+        "verification": "research_candidate",
+        "status": "candidate",
+        "summary": "Candidate origin: Earth Fact Sheet",
+        "hops": [
+          {
+            "url": "https://science.nasa.gov/earth/facts/",
+            "title": "Facts About Earth",
+            "role": "selected_page",
+            "quote": "365.25 days to complete one trip around the",
+            "relationship_to_next": "Research proposes an attribution to the next source. Its exact outgoing link remains unchecked.",
+            "excerpt_shortened": false,
+            "quote_check": "matched",
+            "link_to_next": "not_found",
+            "checked_at": "2026-11-08T08:47:26.223Z",
+            "fetch_reservation_id": "78c8fd37-05ff-4a7f-8e02-9086ba0b4505"
+          },
+          {
+            "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+            "title": "Earth Fact Sheet",
+            "role": "primary_candidate",
+            "quote": "Sidereal orbit period (days) 365.256",
+            "relationship_to_next": null,
+            "excerpt_shortened": false,
+            "quote_check": "matched",
+            "link_to_next": "not_applicable",
+            "checked_at": "2026-11-08T08:47:28.126Z",
+            "fetch_reservation_id": "9872ed66-c0f0-416f-8373-83e86d887467"
+          }
+        ],
+        "limitations": [
+          "The 365.25-day figure on science.nasa.gov is a rounded approximation used to explain the leap-year convention, not a precise orbital measurement.",
+          "The GSFC Earth Fact Sheet gives the sidereal orbital period as 365.256 days and the tropical (solar) year as 365.242 days; both differ from 365.25.",
+          "The science.nasa.gov page does not distinguish sidereal from tropical year; it uses 365.25 in the context of explaining calendar leap years.",
+          "The Gregorian calendar averages 365.2425 days/year (adding a leap day every 4 years except centuries not divisible by 400), which is a further refinement not mentioned on the selected page.",
+          "Citations identify research sources; quotations and link relationships need source-page corroboration before treating this as proven provenance."
+        ]
+      },
+      "assessment": {
+        "label": "matches",
+        "proposed_label": "matches",
+        "target": "selected_assertion",
+        "reason": "The text 'It takes 365.25 days to complete one trip around the Sun' appears verbatim on the NASA Earth facts page. The figure is a deliberate approximation used by NASA to explain the leap-year convention, explicitly stated on the same page. The GSFC fact sheet gives more precise values (365.256",
+        "check": "cited_exact_excerpts_corroborated",
+        "evidence": [
+          {
+            "source_url": "https://science.nasa.gov/earth/facts/",
+            "stance": "supports",
+            "quote_ref": "nasa-earth-year.chain.hops.0.quote",
+            "quote_check": "matched"
+          },
+          {
+            "source_url": "https://science.nasa.gov/earth/facts/",
+            "stance": "clarifies",
+            "quote_ref": "nasa-earth-year.evidence.3",
+            "quote_check": "matched"
+          },
+          {
+            "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+            "stance": "clarifies",
+            "quote_ref": "nasa-earth-year.chain.hops.1.quote",
+            "quote_check": "matched"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "published",
+          "value": "unknown",
+          "precision": "unknown",
+          "source_url": "https://science.nasa.gov/earth/facts/",
+          "quote_ref": null,
+          "check": "research_only"
+        }
+      ],
+      "earliest_source_status": "unresolved"
+    },
+    {
+      "id": "great-wall-historical",
+      "selection": {
+        "text": "visible to the human eye from the moon",
+        "page_url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+        "page_title": "On seeing the Great Wall of China from the Moon"
+      },
+      "context": "This article examines a historical misconception quoted from Halliburton's 1938 book. Assess the quoted historical claim, not the article as if it currently endorses it. NASA's https://www.nasa.gov/image-article/great-wall/ discusses the Moon claim; do not conflate unaided Moon visibility with low-Earth-orbit photography. 1938 is not automatically the earliest source.",
+      "selection_quote_check": "fetch_failed",
+      "chain": {
+        "selection": {
+          "text": "visible to the human eye from the moon",
+          "page_url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+          "page_title": "On seeing the Great Wall of China from the Moon"
+        },
+        "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+        "recorded_at": "2026-11-08T08:46:46.094Z",
+        "verification": "research_candidate",
+        "status": "unresolved",
+        "summary": "Research did not produce a completed source chain.",
+        "hops": [],
+        "limitations": []
+      },
+      "assessment": {
+        "label": "unresolved",
+        "proposed_label": "unresolved",
+        "target": "historical_quoted_claim",
+        "reason": "This concerns a historical quotation examined by the selected article. The current source checks do not establish a final assessment; the article is not treated as endorsing the quotation.",
+        "check": "unresolved",
+        "evidence": []
+      },
+      "dates": [],
+      "earliest_source_status": "unresolved"
+    }
+  ],
+  "excerpts": [
+    {
+      "ref": "who-food-2023.dates.0",
+      "url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+      "quote": "SOFI report published today"
+    },
+    {
+      "ref": "cloudflare-ddos-q1-2024.dates.1",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+      "quote": "mitigated 4.5 million DDoS attacks during the first"
+    },
+    {
+      "ref": "cloudflare-ddos-q1-2024.dates.2",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+      "quote": "2024"
+    },
+    {
+      "ref": "nasa-earth-year.evidence.3",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "quote": "every four years we add one"
+    }
+  ],
+  "page_checks": 8,
+  "page_receipts": [
+    {
+      "url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+      "final_url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+      "checked_at": "2026-11-08T08:46:49.240Z",
+      "fetch_reservation_id": "2100c0f9-5c36-475a-ace1-1e51739cd804",
+      "html_sha256": "b665c2ebe98b82b23f8a36f3a024252e80c20eb8ebb43aae1e795cb55cceab21"
+    },
+    {
+      "url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+      "final_url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+      "checked_at": "2026-11-08T08:47:05.679Z",
+      "fetch_reservation_id": "be1b986d-04d6-43ad-b915-c21efd5085ed",
+      "html_sha256": "b17fd26dccd14f9fc352db24e3d2001aec4e31213dcba786f74969d97b13de4a"
+    },
+    {
+      "url": "https://radar.cloudflare.com/reports/ddos-2024-q1",
+      "final_url": "https://radar.cloudflare.com/reports/ddos-2024-q1",
+      "checked_at": "2026-11-08T08:47:21.085Z",
+      "fetch_reservation_id": "16e03943-b5c6-4c40-926b-de7e473633a1",
+      "html_sha256": "8a702acb9f57a4576d5b7bc773ac43a0dbaca6b051c85de1b79479814bf9e829"
+    },
+    {
+      "url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data/",
+      "final_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data/",
+      "checked_at": "2026-11-08T08:47:23.825Z",
+      "fetch_reservation_id": "48414d2f-8f0d-4ec9-a07f-6dd99bdcab02",
+      "html_sha256": "7af03b8e819ef1a101d041c6b58b7f48b45c1282f3acd3d71dd331c6d11f137b"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/facts/",
+      "final_url": "https://science.nasa.gov/earth/facts/",
+      "checked_at": "2026-11-08T08:47:26.223Z",
+      "fetch_reservation_id": "78c8fd37-05ff-4a7f-8e02-9086ba0b4505",
+      "html_sha256": "186da19562d28154b614aa18d5956db3f43983dd08e796e8703f37ea724821bd"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "final_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "checked_at": "2026-11-08T08:47:28.126Z",
+      "fetch_reservation_id": "9872ed66-c0f0-416f-8373-83e86d887467",
+      "html_sha256": "cd57256140ff90cdd2e6cb0296124c4af72f6e7356c232f41fc85c54663de665"
+    }
+  ],
+  "maximum_page_checks": 25,
+  "page_failures": [
+    {
+      "url": "https://www.fao.org/3/cd1254en/online/state-food-security-and-nutrition-2024/ending-hunger-food-security.html",
+      "code": "REDIRECT_REJECTED"
+    },
+    {
+      "url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+      "code": "SOURCE_FAILURE"
+    }
+  ],
+  "limitations": [
+    "Matching quotes and links does not prove an earliest source or sound methodology.",
+    "Historical quotations are assessed in their original context; an article examining a false claim is not accused of endorsing it."
+  ],
+  "provider_status": "COMPLETED",
+  "reserved_microusd": 2000000,
+  "raw_research_receipt_sha256": "ddcac425562d146b886142764dd6e901a50fc03bb48accf875c51290d4640dd7",
+  "evidence_mode": "recorded_live",
+  "execution_note": "One actual Deep Research batch. Exact-page Fetch checks are bounded to25, deduplicated and never retried. Matched quotes are not an earliest-source guarantee."
+}

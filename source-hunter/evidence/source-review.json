@@ -1,0 +1,972 @@
+{
+  "version": 1,
+  "review_id": "source-hunter-recorded-source-review-2026-11-09",
+  "local_review": {
+    "checked_at": "2026-11-09T09:23:20.540Z",
+    "method": "Local review of saved TinyFish HTML and ordinary public primary-source web/PDF checks",
+    "summary": "Five saved selections reviewed without a new provider operation. Claim-level support is distinguished from observed attribution links, producer-authored sources and unresolved earliest authorship.",
+    "original_batch_sha256": "39d35b11026dd93c4420681f5ecf263d8d0a43b211e60a0b175723cc6f8d00fc",
+    "limitations": [
+      "This is a local review layered on the original recorded batch, not another TinyFish Research or Fetch result.",
+      "The batch does not establish five complete earliest-origin trails.",
+      "Ordinary web/PDF checks have day precision. Saved TinyFish capture timestamps remain unchanged.",
+      "The full installed-extension journey is not established by this review."
+    ],
+    "provider_requests_started": 0
+  },
+  "original_batch": {
+    "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+    "provider_jobs": 1,
+    "recorded_at": "2026-11-08T08:46:46.094Z",
+    "sha256": "39d35b11026dd93c4420681f5ecf263d8d0a43b211e60a0b175723cc6f8d00fc"
+  },
+  "sources": {
+    "who_food": {
+      "url": "https://www.who.int/news/item/24-07-2024-hunger-numbers-stubbornly-high-for-three-consecutive-years-as-global-crises-deepen--un-report",
+      "title": "Hunger numbers stubbornly high for three consecutive years as global crises deepen: UN report",
+      "kind": "joint_official_news_release",
+      "page_status": "content_reviewed",
+      "checked_at": "2026-11-08T08:46:49.240Z",
+      "check_method": "saved_tinyfish_fetch_html_local_review",
+      "excerpts": {
+        "claim": {
+          "quote": "In 2023, around 2.33 billion people globally faced moderate or severe food insecurity",
+          "check": "matched"
+        },
+        "published": {
+          "quote": "24 July 2024",
+          "check": "matched"
+        }
+      },
+      "notes": [],
+      "publication_date": "2024-07-24",
+      "html_sha256": "b665c2ebe98b82b23f8a36f3a024252e80c20eb8ebb43aae1e795cb55cceab21",
+      "fetch_reservation_id": "2100c0f9-5c36-475a-ace1-1e51739cd804"
+    },
+    "who_sofi_landing": {
+      "url": "https://www.who.int/publications/m/item/the-state-of-food-security-and-nutrition-in-the-world-2024",
+      "title": "The state of food security and nutrition in the world 2024",
+      "kind": "official_report_landing",
+      "page_status": "content_reviewed",
+      "checked_at": "2026-11-09",
+      "check_method": "ordinary_primary_web_review",
+      "excerpts": {
+        "published": {
+          "quote": "24 July 2024",
+          "check": "matched"
+        }
+      },
+      "notes": [],
+      "publication_date": "2024-07-24"
+    },
+    "sofi_doi": {
+      "url": "https://doi.org/10.4060/cd1254en",
+      "title": "SOFI 2024 report identifier (DOI 10.4060/cd1254en)",
+      "kind": "report_identifier",
+      "page_status": "retrieval_failed",
+      "checked_at": null,
+      "check_method": "ordinary_primary_web_review",
+      "excerpts": {},
+      "notes": [
+        "The WHO landing links this exact DOI. The target returned HTTP 403 during ordinary web retrieval; no redirect to the proposed FAO chapter was established."
+      ]
+    },
+    "sofi_pdf": {
+      "url": "https://data.unicef.org/wp-content/uploads/2024/07/SOFI2024_Report_EN_web.pdf",
+      "title": "The State of Food Security and Nutrition in the World 2024",
+      "kind": "coauthor_hosted_primary_report",
+      "page_status": "content_reviewed",
+      "checked_at": "2026-11-09",
+      "check_method": "ordinary_primary_pdf_text_review",
+      "excerpts": {
+        "estimate": {
+          "quote": "2.33 billion people",
+          "check": "matched"
+        },
+        "table_value": {
+          "quote": "2 325.5",
+          "check": "matched"
+        }
+      },
+      "notes": [
+        "The required joint-author citation identifies DOI 10.4060/cd1254en.",
+        "Table 4, printed page 15 (PDF page 47), reports the WORLD moderate-or-severe count for 2023 as 2325.5 million and names FAOSTAT.",
+        "This independently located official copy is not a demonstrated redirect destination of the WHO DOI link.",
+        "Direct HTTPS download returned 403; ordinary web PDF text was readable."
+      ]
+    },
+    "fao_chapter": {
+      "url": "https://www.fao.org/3/cd1254en/online/state-food-security-and-nutrition-2024/ending-hunger-food-security.html",
+      "title": "Proposed SOFI 2024 food-security chapter",
+      "kind": "proposed_unretrieved_report_chapter",
+      "page_status": "retrieval_failed",
+      "checked_at": null,
+      "check_method": "ordinary_primary_web_review",
+      "excerpts": {},
+      "notes": [
+        "Original TinyFish check rejected the redirect. The current canonical target and chapter content remain unchecked; no quote match is asserted."
+      ],
+      "original_provider_failure": "REDIRECT_REJECTED"
+    },
+    "cf_blog": {
+      "url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q1/",
+      "title": "DDoS threat report for 2024 Q1",
+      "kind": "producer_authored_network_report",
+      "page_status": "content_reviewed",
+      "checked_at": "2026-11-08T08:47:05.679Z",
+      "check_method": "saved_tinyfish_fetch_html_local_review",
+      "excerpts": {
+        "claim": {
+          "quote": "automated defenses have mitigated 4.5 million DDoS attacks",
+          "check": "matched"
+        },
+        "published": {
+          "quote": "April 16, 2024",
+          "check": "matched"
+        }
+      },
+      "notes": [
+        "The producer reports its own network mitigation count. Raw telemetry and absolute first public dissemination were not independently established."
+      ],
+      "publication_date": "2024-04-16",
+      "html_sha256": "b17fd26dccd14f9fc352db24e3d2001aec4e31213dcba786f74969d97b13de4a",
+      "fetch_reservation_id": "be1b986d-04d6-43ad-b915-c21efd5085ed"
+    },
+    "cf_radar": {
+      "url": "https://radar.cloudflare.com/reports/ddos-2024-q1",
+      "title": "Proposed Radar Q1 2024 report",
+      "kind": "same_producer_candidate",
+      "page_status": "application_error",
+      "checked_at": "2026-11-08T08:47:21.085Z",
+      "check_method": "saved_tinyfish_fetch_html_local_review",
+      "excerpts": {},
+      "notes": [
+        "The saved document is a dynamic-module loading error, not report content. A missing phrase in that error document cannot establish quote absence."
+      ],
+      "html_sha256": "8a702acb9f57a4576d5b7bc773ac43a0dbaca6b051c85de1b79479814bf9e829",
+      "fetch_reservation_id": "16e03943-b5c6-4c40-926b-de7e473633a1"
+    },
+    "cf_method": {
+      "url": "https://developers.cloudflare.com/radar/reference/quarterly-ddos-reports/",
+      "title": "Quarterly DDoS threat reports: methodologies",
+      "kind": "producer_methodology",
+      "page_status": "content_reviewed",
+      "checked_at": "2026-11-09",
+      "check_method": "ordinary_primary_web_review",
+      "excerpts": {
+        "count_unit": {
+          "quote": "we count unique fingerprints that resulted in mitigation",
+          "check": "matched"
+        }
+      },
+      "notes": [
+        "Exact outgoing methodology href is present in the saved blog.",
+        "Current methodology is mutable and was updated in 2026; it is contextual evidence, not a preserved 2024 method snapshot."
+      ]
+    },
+    "who_air": {
+      "url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data/",
+      "title": "Billions of people still breathe unhealthy air: new WHO data",
+      "kind": "official_news_release",
+      "page_status": "content_reviewed",
+      "checked_at": "2026-11-08T08:47:23.825Z",
+      "check_method": "saved_tinyfish_fetch_html_local_review",
+      "excerpts": {
+        "claim": {
+          "quote": "Almost the entire global population (99%) breathes air",
+          "check": "matched"
+        },
+        "qualifier": {
+          "quote": "that exceeds WHO air quality limits, and threatens their health.",
+          "check": "matched"
+        },
+        "published": {
+          "quote": "4 April 2022",
+          "check": "matched"
+        }
+      },
+      "notes": [],
+      "publication_date": "2022-04-04",
+      "html_sha256": "7af03b8e819ef1a101d041c6b58b7f48b45c1282f3acd3d71dd331c6d11f137b",
+      "fetch_reservation_id": "48414d2f-8f0d-4ec9-a07f-6dd99bdcab02"
+    },
+    "who_air_db": {
+      "url": "https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database",
+      "title": "WHO ambient air quality database",
+      "kind": "official_database_landing",
+      "page_status": "linked_resource_not_claim_verified",
+      "checked_at": "2026-11-09",
+      "check_method": "ordinary_primary_web_review",
+      "excerpts": {},
+      "notes": [
+        "The saved release source note links this exact database landing.",
+        "Current landing includes later versions. The exact 2022 snapshot and calculation of the global 99% estimate were not independently reconstructed."
+      ]
+    },
+    "who_air_fact": {
+      "url": "https://www.who.int/En/News-Room/Fact-Sheets/Detail/Ambient-%28Outdoor%29-Air-Quality-and-Health",
+      "title": "Ambient (outdoor) air pollution",
+      "kind": "official_contextual_fact_sheet",
+      "page_status": "content_reviewed",
+      "checked_at": "2026-11-09",
+      "check_method": "ordinary_primary_web_review",
+      "excerpts": {
+        "period": {
+          "quote": "In 2019, 99% of the world’s population was living in places where the WHO air quality guidelines levels were not met.",
+          "check": "matched"
+        }
+      },
+      "notes": [
+        "This separately located official source supplies the 2019 context. It is not an observed outgoing attribution edge from the 2022 release."
+      ],
+      "publication_date": "2024-10-24"
+    },
+    "nasa_facts": {
+      "url": "https://science.nasa.gov/earth/facts/",
+      "title": "Facts About Earth",
+      "kind": "official_educational_compilation",
+      "page_status": "content_reviewed",
+      "checked_at": "2026-11-08T08:47:26.223Z",
+      "check_method": "saved_tinyfish_fetch_html_local_review",
+      "excerpts": {
+        "claim": {
+          "quote": "It takes 365.25 days to complete one trip around the Sun",
+          "check": "matched"
+        },
+        "calendar": {
+          "quote": "every four years we add one day",
+          "check": "matched"
+        },
+        "updated": {
+          "quote": "Dec 05, 2025",
+          "check": "matched"
+        }
+      },
+      "notes": [
+        "Current ordinary HTML metadata reports publication 2023-05-30 and modification 2025-12-05; the visible footer also shows 2025-12-05.",
+        "These are page dates, not original astronomical authorship or a measurement epoch."
+      ],
+      "publication_date": "2023-05-30 (CMS metadata)",
+      "ordinary_html_sha256": "2dc0054d7e34a30be4c8be87e401174d2920dc2c4f6dbe0cfa791abe259d0397",
+      "html_sha256": "186da19562d28154b614aa18d5956db3f43983dd08e796e8703f37ea724821bd",
+      "fetch_reservation_id": "78c8fd37-05ff-4a7f-8e02-9086ba0b4505"
+    },
+    "nasa_factsheet": {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "title": "Earth Fact Sheet",
+      "kind": "official_compiled_fact_sheet",
+      "page_status": "content_reviewed",
+      "checked_at": "2026-11-08T08:47:28.126Z",
+      "check_method": "saved_tinyfish_fetch_html_local_review",
+      "excerpts": {
+        "sidereal": {
+          "quote": "Sidereal orbit period (days) 365.256",
+          "check": "matched"
+        },
+        "tropical": {
+          "quote": "Tropical orbit period (days) 365.242",
+          "check": "matched"
+        },
+        "updated": {
+          "quote": "Last Updated: 15 November 2024, DRW",
+          "check": "matched"
+        }
+      },
+      "notes": [
+        "An independently located comparison. No factsheet href occurs in the saved or current selected-page HTML."
+      ],
+      "html_sha256": "cd57256140ff90cdd2e6cb0296124c4af72f6e7356c232f41fc85c54663de665",
+      "fetch_reservation_id": "9872ed66-c0f0-416f-8373-83e86d887467"
+    },
+    "vatican_wall": {
+      "url": "https://www.vaticanobservatory.org/sacred-space-astronomy/on-seeing-the-great-wall-of-china-from-the-moon/",
+      "title": "On Seeing the Great Wall of China from the Moon",
+      "kind": "publisher_article_examining_historical_myth",
+      "page_status": "official_search_content_only",
+      "checked_at": "2026-11-09",
+      "check_method": "ordinary_official_search_content_review",
+      "excerpts": {
+        "claim": {
+          "quote": "visible to the human eye from the moon",
+          "check": "matched_official_search_content"
+        },
+        "stance": {
+          "quote": "Nobody knows quite where this idea comes from.",
+          "check": "matched_official_search_content"
+        },
+        "published": {
+          "quote": "22 Nov 2014",
+          "check": "matched_official_search_content"
+        }
+      },
+      "notes": [
+        "The original TinyFish retrieval failed. Official publisher content was readable in ordinary web search; direct HTML failed and later page opens timed out.",
+        "Bill Higgins quotes a Snopes passage attributing the Moon wording to Halliburton. The exact outgoing Snopes href and original book page were not captured.",
+        "Earlier Mars/telescope variants discussed in the article are not proof of earlier exact Moon/unaided wording."
+      ],
+      "publication_date": "2014-11-22",
+      "original_provider_failure": "SOURCE_FAILURE"
+    },
+    "nasa_wall": {
+      "url": "https://www.nasa.gov/image-article/great-wall/",
+      "title": "Great Wall",
+      "kind": "official_refuting_comparison",
+      "page_status": "content_reviewed",
+      "checked_at": "2026-11-08T09:30:43.443Z",
+      "check_method": "saved_tinyfish_fetch_html_local_review",
+      "excerpts": {
+        "refutes": {
+          "quote": "the wall isn't visible from the moon",
+          "check": "matched"
+        },
+        "orbit": {
+          "quote": "difficult or impossible to see from Earth orbit",
+          "check": "matched"
+        }
+      },
+      "notes": [
+        "Refutes the historical assertion; no outgoing attribution edge from the selected article was established."
+      ],
+      "publication_date": "2009-04-02",
+      "html_sha256": "01354cdd21d2e59317c00d0a85d9818476b5e49b834de7d1b38354e1ab39f1c9",
+      "fetch_reservation_id": "a19f27d5-5bfa-42a7-a484-eb6ca3404e82",
+      "ordinary_html_sha256": "a2a1843f5908165775a105c888b3e4b42789873e0536a7fb926343b63a191e3b"
+    },
+    "nasa_wall_history": {
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+      "title": "China's Wall Less Great in View from Space",
+      "kind": "official_historical_refuting_comparison",
+      "page_status": "content_reviewed",
+      "checked_at": "2026-11-09",
+      "check_method": "ordinary_primary_pdf_text_and_visual_review",
+      "excerpts": {
+        "refutes": {
+          "quote": "It certainly isn't visible from the Moon.",
+          "check": "matched"
+        },
+        "history": {
+          "quote": "dates back to at least 1938",
+          "check": "matched"
+        }
+      },
+      "notes": [
+        "The PDF shows article date 05.09.05 and a 2007-11-30 revision; the 7/2/2019 print header is not its publication date.",
+        "The historical lower bound does not establish earliest authorship. No NASA-image-page to PDF attribution edge was established."
+      ],
+      "document_sha256": "d66d9ed9d2e524564c4f278a15bd678cda5ffa293bfcb6512aefaabd77d2ebe7"
+    },
+    "unicef_sofi_landing": {
+      "url": "https://data.unicef.org/resources/sofi-2024/",
+      "title": "The State of Food Security and Nutrition in the World 2024",
+      "kind": "coauthor_official_report_landing",
+      "page_status": "content_and_report_href_reviewed",
+      "checked_at": "2026-11-09",
+      "check_method": "ordinary_primary_web_review",
+      "excerpts": {},
+      "notes": [
+        "The Full report link leads to the UNICEF-hosted report PDF. This is an independently located coauthor landing, not an observed DOI redirect destination."
+      ]
+    },
+    "cf_report_index": {
+      "url": "https://radar.cloudflare.com/reports?q=DDoS",
+      "title": "Cloudflare Radar report index",
+      "kind": "same_producer_report_index",
+      "page_status": "linked_index_reviewed",
+      "checked_at": "2026-11-09",
+      "check_method": "ordinary_primary_web_review",
+      "excerpts": {},
+      "notes": [
+        "Exact href is present in the saved Cloudflare blog. The ordinary index lists Q1 2024, but this review does not preserve a verified index-to-report href or the proposed report content."
+      ]
+    },
+    "who_air_aqg": {
+      "url": "https://www.who.int/publications/i/item/9789240034228",
+      "title": "WHO global air quality guidelines (2021)",
+      "kind": "official_guidelines_link",
+      "page_status": "target_not_checked",
+      "checked_at": null,
+      "check_method": "saved_release_outgoing_href_only",
+      "excerpts": {},
+      "notes": [
+        "Exact outgoing href was observed in the saved WHO release. The full guideline report was not examined by this review."
+      ]
+    },
+    "unog_briefing": {
+      "url": "https://www.unognewsroom.org/teleprompter/en/2274/fao-press-conference-food-security-and-nutrition-in-the-world-report-sofi-22-july-2024/6824",
+      "title": "FAO SOFI press conference, event label 22 July 2024",
+      "kind": "official_press_conference_record",
+      "page_status": "official_search_excerpt_only",
+      "checked_at": "2026-11-09",
+      "check_method": "ordinary_official_search_excerpt_review",
+      "excerpts": {},
+      "notes": [
+        "The official search-returned record labels an event on 22 July 2024 and includes the 2.33 billion value. Event date is not demonstrated public-release or earliest-availability time; no earlier-publication conclusion is made."
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "id": "who-food-2023",
+      "selection_sha256": "467eb8efa3dfdb6ae3e71b39dd4d303f366f0674efaeb897db3f5f3fb9edf5b1",
+      "selection_quote_check": "matched",
+      "context": "The 2023 measurement period, 2024 report publication and 2026 evidence checks are distinct. Parallel agency releases are not consecutive hops.",
+      "chain": {
+        "status": "unresolved",
+        "summary": "Joint SOFI report identified; observed WHO report links stop at an unretrieved DOI target. Absolute earliest dissemination remains unresolved.",
+        "hops": [
+          {
+            "source_id": "who_food",
+            "role": "selected_page",
+            "excerpt_key": "claim",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "who_sofi_landing",
+            "role": "intermediary",
+            "excerpt_key": "published",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "sofi_doi",
+            "role": "primary_candidate",
+            "excerpt_key": null,
+            "unchecked_check": "retrieval_failed_not_checked"
+          }
+        ],
+        "edges": [
+          {
+            "from_source_id": "who_food",
+            "to_source_id": "who_sofi_landing",
+            "kind": "attribution",
+            "check": "matched",
+            "note": "Exact report-link href observed in the saved WHO release HTML."
+          },
+          {
+            "from_source_id": "who_sofi_landing",
+            "to_source_id": "sofi_doi",
+            "kind": "attribution",
+            "check": "matched",
+            "note": "Exact Full report href observed on the official WHO landing during ordinary web review."
+          }
+        ],
+        "limitations": [
+          "The original FAO chapter redirect remains rejected/unchecked. No DOI-to-chapter or DOI-to-UNICEF redirect was established.",
+          "The UNICEF-hosted joint report is an independently located official copy, shown as assessment evidence rather than a fabricated next hop.",
+          "Table 4 reports 2325.5 million for 2023, summarized as 2.33 billion. This is the FIES-based SDG 2.1.2 metric, not the separate undernourishment nowcast.",
+          "The report is a primary publication; the earliest public release and historical dataset vintage were not established."
+        ]
+      },
+      "assessment": {
+        "label": "rounded",
+        "target": "selected_assertion",
+        "reason": "The selected wording matches the WHO release. The joint report supports the estimate: Table 4 gives 2325.5 million for 2023, rounded to 2.33 billion. This does not prove an earliest origin.",
+        "scope": "wording_and_rounded_primary_report_estimate",
+        "check": "local_primary_source_review",
+        "evidence": [
+          {
+            "source_id": "who_food",
+            "stance": "supports",
+            "excerpt_key": "claim",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "sofi_pdf",
+            "stance": "supports",
+            "excerpt_key": "estimate",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "sofi_pdf",
+            "stance": "clarifies",
+            "excerpt_key": "table_value",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "fao_chapter",
+            "stance": "clarifies",
+            "excerpt_key": null,
+            "unchecked_check": "redirect_rejected_not_checked"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "published",
+          "value": "2024-07-24",
+          "precision": "day",
+          "source_id": "who_food",
+          "excerpt_key": "published",
+          "check": "saved_html_date_matched"
+        },
+        {
+          "kind": "claim_reference_period",
+          "value": "2023",
+          "precision": "year",
+          "source_id": "who_food",
+          "excerpt_key": "claim",
+          "check": "saved_selected_sentence_matched"
+        },
+        {
+          "kind": "report_published",
+          "value": "2024-07-24",
+          "precision": "day",
+          "source_id": "who_sofi_landing",
+          "excerpt_key": "published",
+          "check": "ordinary_official_page_date_matched"
+        }
+      ],
+      "earliest_source_status": "unresolved",
+      "review_summary": "Joint SOFI report identified; observed WHO report links stop at an unretrieved DOI target. Absolute earliest dissemination remains unresolved.",
+      "primary_source_status": "primary_publication_identified"
+    },
+    {
+      "id": "cloudflare-ddos-q1-2024",
+      "selection_sha256": "d92bddb21929518be85bb8208668b26ee4755093c4df3e4a24de50520a62ace5",
+      "selection_quote_check": "matched",
+      "context": "This is Cloudflare’s Q1 2024 mitigation count on its own network, not all DDoS attacks worldwide. Its first-party report is distinct from independent raw-data verification.",
+      "chain": {
+        "status": "candidate",
+        "summary": "The selected blog is a producer-authored primary report of Cloudflare mitigation activity; absolute earliest public dissemination is unproved.",
+        "hops": [
+          {
+            "source_id": "cf_blog",
+            "role": "selected_page",
+            "excerpt_key": "claim",
+            "unchecked_check": "not_checked"
+          }
+        ],
+        "edges": [],
+        "limitations": [
+          "The saved Radar candidate is an application error, so its missing quotation is not a valid quote-absence finding.",
+          "The blog links a Radar report index and methodology; it does not contain the proposed direct Radar report href.",
+          "Current methodology is independently reviewed contextual evidence, not an attribution ancestor or an immutable 2024 method snapshot.",
+          "Raw telemetry, exact unrounded count and absolute first publication remain unverified."
+        ]
+      },
+      "assessment": {
+        "label": "matches",
+        "target": "selected_assertion",
+        "reason": "The phrase appears on Cloudflare’s own report, published 16 April 2024, for its first-quarter mitigation activity. The Radar error document cannot corroborate or contradict that quotation.",
+        "scope": "producer_report_wording_and_scope",
+        "check": "local_primary_source_review",
+        "evidence": [
+          {
+            "source_id": "cf_blog",
+            "stance": "supports",
+            "excerpt_key": "claim",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "cf_method",
+            "stance": "clarifies",
+            "excerpt_key": "count_unit",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "cf_radar",
+            "stance": "clarifies",
+            "excerpt_key": null,
+            "unchecked_check": "application_error_not_claim_checked"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "published",
+          "value": "2024-04-16",
+          "precision": "day",
+          "source_id": "cf_blog",
+          "excerpt_key": "published",
+          "check": "saved_html_time_element_matched"
+        },
+        {
+          "kind": "claim_reference_period",
+          "value": "2024-Q1",
+          "precision": "period",
+          "source_id": "cf_blog",
+          "excerpt_key": null,
+          "check": "saved_report_context_reviewed"
+        }
+      ],
+      "earliest_source_status": "unresolved",
+      "review_summary": "The selected blog is a producer-authored primary report of Cloudflare mitigation activity; absolute earliest public dissemination is unproved.",
+      "primary_source_status": "producer_report_reached"
+    },
+    {
+      "id": "who-air-99",
+      "selection_sha256": "ded062ff31dbdbabddff570afd4db73d0b8de6353c42cbdf15b27f6016fbd235",
+      "selection_quote_check": "matched",
+      "context": "The selected fragment omits the qualifying clause about exceeding WHO limits. 2022 is the release/database-update year. A separately checked official fact sheet associates the global estimate with 2019.",
+      "chain": {
+        "status": "unresolved",
+        "summary": "WHO’s statement, publication date and database link are checked; the original calculation and earliest estimate publication remain unresolved.",
+        "hops": [
+          {
+            "source_id": "who_air",
+            "role": "selected_page",
+            "excerpt_key": "claim",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "who_air_db",
+            "role": "primary_candidate",
+            "excerpt_key": null,
+            "unchecked_check": "not_checked_for_selected_statistic"
+          }
+        ],
+        "edges": [
+          {
+            "from_source_id": "who_air",
+            "to_source_id": "who_air_db",
+            "kind": "attribution",
+            "check": "matched",
+            "note": "Exact WHO air quality database source-note href observed in the saved release HTML; this identifies a linked resource, not the exact 99% calculation."
+          }
+        ],
+        "limitations": [
+          "The selected release does not explicitly state a measurement year for the 99% estimate.",
+          "The separate 2019 clarification is not a demonstrated outgoing citation from the 2022 release.",
+          "The current database landing includes later versions; the original dataset snapshot, denominator calculation and earliest publication are not established.",
+          "The selected page’s non-slash URL was separately read through ordinary web review on 2026-11-09 with the same title, publication date and complete sentence. This alias is specific to these two observed URLs."
+        ]
+      },
+      "assessment": {
+        "label": "matches",
+        "target": "selected_assertion",
+        "reason": "The saved selected-page HTML contains the fragment and its health-relevant qualifying clause. The global population denominator must not be substituted with monitored cities. 2022 is publication/update context; 2019 is separately sourced context, not a date stated in that selected sentence.",
+        "scope": "official_wording_with_threshold_and_period_context",
+        "check": "local_primary_source_review",
+        "evidence": [
+          {
+            "source_id": "who_air",
+            "stance": "supports",
+            "excerpt_key": "claim",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "who_air",
+            "stance": "clarifies",
+            "excerpt_key": "qualifier",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "who_air_fact",
+            "stance": "clarifies",
+            "excerpt_key": "period",
+            "unchecked_check": "not_checked"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "published",
+          "value": "2022-04-04",
+          "precision": "day",
+          "source_id": "who_air",
+          "excerpt_key": "published",
+          "check": "saved_html_date_matched"
+        },
+        {
+          "kind": "database_update_year",
+          "value": "2022",
+          "precision": "year",
+          "source_id": "who_air",
+          "excerpt_key": null,
+          "check": "saved_release_context_reviewed"
+        },
+        {
+          "kind": "claim_reference_period",
+          "value": null,
+          "precision": "unknown",
+          "source_id": "who_air",
+          "excerpt_key": null,
+          "check": "not_stated_in_selected_release"
+        },
+        {
+          "kind": "contextual_reference_period",
+          "value": "2019",
+          "precision": "year",
+          "source_id": "who_air_fact",
+          "excerpt_key": "period",
+          "check": "separate_official_fact_sheet_matched"
+        }
+      ],
+      "earliest_source_status": "unresolved",
+      "review_summary": "WHO’s statement, publication date and database link are checked; the original calculation and earliest estimate publication remain unresolved.",
+      "selection_url_aliases": [
+        "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data"
+      ],
+      "selection_alias_reason": "The exact non-slash URL was separately read through ordinary web review on 2026-11-09; title, publication date and complete selected sentence match the saved slash page. No general slash or query equivalence is applied.",
+      "primary_source_status": "authoritative_statement_only"
+    },
+    {
+      "id": "nasa-earth-year",
+      "selection_sha256": "118cce378c953f72b392b2a346f67968b2822c19ecb114bcba71dc8c7922c09d",
+      "selection_quote_check": "matched",
+      "context": "Preserve NASA’s wording and leap-day context. Sidereal and tropical years are different definitions; 365.25 is not ordinary nearest-two-decimal rounding of 365.256.",
+      "chain": {
+        "status": "unresolved",
+        "summary": "NASA’s educational statement is corroborated as an approximation; the independently located fact sheet is a comparison, not a traced antecedent.",
+        "hops": [
+          {
+            "source_id": "nasa_facts",
+            "role": "selected_page",
+            "excerpt_key": "claim",
+            "unchecked_check": "not_checked"
+          }
+        ],
+        "edges": [],
+        "limitations": [
+          "No outgoing fact-sheet href occurs in the saved or current selected-page HTML.",
+          "The fact sheet gives sidereal 365.256 and tropical 365.242 days; it is independent contextual evidence.",
+          "NASA page publication/revision metadata does not identify the original astronomical observation, calculation or historical author.",
+          "The selected page’s simplified calendar explanation does not establish a precise orbital measurement."
+        ]
+      },
+      "assessment": {
+        "label": "matches",
+        "target": "selected_assertion",
+        "reason": "The sentence matches NASA’s educational page and uses a simplified approximation in calendar context. The fact sheet distinguishes year definitions; normal rounding of 365.256 to two decimals would be 365.26. No citation edge to that fact sheet is established.",
+        "scope": "wording_with_explicit_approximation_context",
+        "check": "local_primary_source_review",
+        "evidence": [
+          {
+            "source_id": "nasa_facts",
+            "stance": "supports",
+            "excerpt_key": "claim",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "nasa_facts",
+            "stance": "clarifies",
+            "excerpt_key": "calendar",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "nasa_factsheet",
+            "stance": "clarifies",
+            "excerpt_key": "sidereal",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "nasa_factsheet",
+            "stance": "clarifies",
+            "excerpt_key": "tropical",
+            "unchecked_check": "not_checked"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "cms_published",
+          "value": "2023-05-30",
+          "precision": "day",
+          "source_id": "nasa_facts",
+          "excerpt_key": null,
+          "check": "ordinary_html_publication_metadata_reviewed"
+        },
+        {
+          "kind": "page_last_updated",
+          "value": "2025-12-05",
+          "precision": "day",
+          "source_id": "nasa_facts",
+          "excerpt_key": "updated",
+          "check": "saved_footer_and_current_metadata_matched"
+        },
+        {
+          "kind": "factsheet_last_updated",
+          "value": "2024-11-15",
+          "precision": "day",
+          "source_id": "nasa_factsheet",
+          "excerpt_key": "updated",
+          "check": "saved_html_revision_date_matched"
+        }
+      ],
+      "earliest_source_status": "unresolved",
+      "review_summary": "NASA’s educational statement is corroborated as an approximation; the independently located fact sheet is a comparison, not a traced antecedent.",
+      "primary_source_status": "authoritative_explanation_only"
+    },
+    {
+      "id": "great-wall-historical",
+      "selection_sha256": "7050b37b7f50409830f359c61c22d4cf27c8b7e4bf16520445aa5e769927f9ba",
+      "selection_quote_check": "matched_official_search_content",
+      "context": "Higgins’s 2014 article quotes Snopes attributing the Moon wording to Halliburton’s 1938 book; it does not endorse the claim. Mars/telescope variants discussed for 1937 and 1919 are not the same exact unaided Moon assertion.",
+      "chain": {
+        "status": "unresolved",
+        "summary": "The quoted historical Moon claim is refuted, while Higgins’s article examines it skeptically. Nested attribution and earliest historical authorship remain incomplete.",
+        "hops": [
+          {
+            "source_id": "vatican_wall",
+            "role": "selected_page",
+            "excerpt_key": "claim",
+            "unchecked_check": "not_checked"
+          }
+        ],
+        "edges": [],
+        "limitations": [
+          "Original TinyFish selected-page retrieval failed. Its wording/stance were reviewed only in ordinary official search-returned content; no replacement TinyFish receipt is invented.",
+          "The exact outgoing Snopes href and original Halliburton page remain unchecked, so no consecutive historical-source nodes are fabricated.",
+          "NASA refutations are independently located assessment comparisons, not ancestors linked from the selected article.",
+          "The historical NASA lower bound of at least 1938 does not establish the earliest source; unsupported 1895/1754 claims and unchecked 1932 attribution are not promoted.",
+          "Unaided Moon visibility and low-Earth-orbit photography are distinct claims."
+        ]
+      },
+      "assessment": {
+        "label": "contradicted",
+        "target": "historical_quoted_claim",
+        "reason": "The historical unaided Moon-visibility assertion conflicts with NASA’s refuting statement. Higgins’s selected article treats the belief as a myth and quotes it through a Snopes passage; the finding does not accuse that article of endorsing it.",
+        "scope": "historical_quoted_assertion_with_publisher_stance_preserved",
+        "check": "local_primary_source_review",
+        "evidence": [
+          {
+            "source_id": "vatican_wall",
+            "stance": "clarifies",
+            "excerpt_key": "claim",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "vatican_wall",
+            "stance": "clarifies",
+            "excerpt_key": "stance",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "nasa_wall",
+            "stance": "refutes",
+            "excerpt_key": "refutes",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "nasa_wall",
+            "stance": "clarifies",
+            "excerpt_key": "orbit",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "nasa_wall_history",
+            "stance": "refutes",
+            "excerpt_key": "refutes",
+            "unchecked_check": "not_checked"
+          },
+          {
+            "source_id": "nasa_wall_history",
+            "stance": "clarifies",
+            "excerpt_key": "history",
+            "unchecked_check": "not_checked"
+          }
+        ]
+      },
+      "dates": [
+        {
+          "kind": "selected_article_published",
+          "value": "2014-11-22",
+          "precision": "day",
+          "source_id": "vatican_wall",
+          "excerpt_key": "published",
+          "check": "official_search_content_date_reviewed"
+        },
+        {
+          "kind": "historical_attribution_year",
+          "value": "1938",
+          "precision": "year",
+          "source_id": "vatican_wall",
+          "excerpt_key": null,
+          "check": "nested_attribution_reviewed_original_book_unchecked"
+        },
+        {
+          "kind": "refuting_article_published",
+          "value": "2009-04-02",
+          "precision": "day",
+          "source_id": "nasa_wall",
+          "excerpt_key": null,
+          "check": "ordinary_primary_html_date_reviewed"
+        },
+        {
+          "kind": "historical_lower_bound",
+          "value": "1938",
+          "precision": "year",
+          "source_id": "nasa_wall_history",
+          "excerpt_key": "history",
+          "check": "ordinary_primary_pdf_excerpt_matched"
+        }
+      ],
+      "earliest_source_status": "unresolved",
+      "review_summary": "The quoted historical Moon claim is refuted, while Higgins’s article examines it skeptically. Nested attribution and earliest historical authorship remain incomplete.",
+      "primary_source_status": "not_established"
+    }
+  ],
+  "explicit_url_aliases": [
+    {
+      "canonical_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data/",
+      "alias_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data",
+      "checked_at": "2026-11-09",
+      "method": "ordinary_exact_url_primary_page_read",
+      "reason": "The exact non-slash URL was separately read through ordinary web review on 2026-11-09; title, publication date and complete selected sentence match the saved slash page. No general slash or query equivalence is applied."
+    }
+  ],
+  "observed_links": [
+    {
+      "from_source_id": "who_food",
+      "to_url": "https://www.who.int/publications/m/item/the-state-of-food-security-and-nutrition-in-the-world-2024",
+      "relationship": "attribution",
+      "check": "matched_href",
+      "check_method": "saved_tinyfish_html_anchor_review",
+      "checked_at": "2026-11-08T08:46:49.240Z",
+      "note": "Relative href resolved against the exact selected WHO URL."
+    },
+    {
+      "from_source_id": "who_sofi_landing",
+      "to_url": "https://doi.org/10.4060/cd1254en",
+      "relationship": "attribution",
+      "check": "matched_href",
+      "check_method": "ordinary_official_page_link_review",
+      "checked_at": "2026-11-09",
+      "note": "Full report href observed; DOI content remains unchecked."
+    },
+    {
+      "from_source_id": "unicef_sofi_landing",
+      "to_url": "https://data.unicef.org/wp-content/uploads/2024/07/SOFI2024_Report_EN_web.pdf",
+      "relationship": "report_download",
+      "check": "matched_href",
+      "check_method": "ordinary_official_page_link_review",
+      "checked_at": "2026-11-09",
+      "note": "Official coauthor Full report href observed."
+    },
+    {
+      "from_source_id": "cf_blog",
+      "to_url": "https://radar.cloudflare.com/reports?q=DDoS",
+      "relationship": "resource_index",
+      "check": "matched_href",
+      "check_method": "saved_tinyfish_html_anchor_review",
+      "checked_at": "2026-11-08T08:47:05.679Z",
+      "note": "Radar link is an index URL, not the proposed direct report URL."
+    },
+    {
+      "from_source_id": "cf_blog",
+      "to_url": "https://developers.cloudflare.com/radar/reference/quarterly-ddos-reports/",
+      "relationship": "methodology",
+      "check": "matched_href",
+      "check_method": "saved_tinyfish_html_anchor_review",
+      "checked_at": "2026-11-08T08:47:05.679Z",
+      "note": "Methodologies href observed; not an attribution ancestor."
+    },
+    {
+      "from_source_id": "who_air",
+      "to_url": "https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database",
+      "relationship": "source_note",
+      "check": "matched_href",
+      "check_method": "saved_tinyfish_html_anchor_review",
+      "checked_at": "2026-11-08T08:47:23.825Z",
+      "note": "Release source-note link; exact statistical calculation is not established."
+    },
+    {
+      "from_source_id": "who_air",
+      "to_url": "https://www.who.int/publications/i/item/9789240034228",
+      "relationship": "guidelines",
+      "check": "matched_href",
+      "check_method": "saved_tinyfish_html_anchor_review",
+      "checked_at": "2026-11-08T08:47:23.825Z",
+      "note": "Guideline href observed; full report content not reviewed."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+  "provider_jobs": 1,
+  "source_fetch_operations": 9,
+  "comparison_completed": true,
+  "comparison_error": null,
+  "checked_at": "2026-11-08T09:30:43.737Z",
+  "affected_tests_passed": 10,
+  "scoped_typecheck_passed": true,
+  "pool": {
+    "operations": 63,
+    "reserved_microusd": 10000000,
+    "remaining_microusd": 0,
+    "active_operations": 0,
+    "halted": false,
+    "by_policy": {
+      "research-deep": {
+        "operations": 3,
+        "max_operations": 3,
+        "active_operations": 0,
+        "max_active_operations": 2,
+        "reserved_microusd": 6000000
+      },
+      "tinyset-small": {
+        "operations": 4,
+        "max_operations": 4,
+        "active_operations": 0,
+        "max_active_operations": 2,
+        "reserved_microusd": 4000000
+      },
+      "fetch-public": {
+        "operations": 56,
+        "max_operations": 1000,
+        "active_operations": 0,
+        "max_active_operations": 2,
+        "reserved_microusd": 0
+      }
+    }
+  },
+  "raw_receipt_sha256": "ddcac425562d146b886142764dd6e901a50fc03bb48accf875c51290d4640dd7"
+}

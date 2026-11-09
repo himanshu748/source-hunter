@@ -1,0 +1,340 @@
+{
+  "mode": "fresh_research",
+  "research_jobs_started": 1,
+  "source_page_checks": 9,
+  "provider_run_id": "01a1c024-d22d-7ea0-bdf2-7d99467c669a",
+  "recorded_at": "2026-11-09T11:51:48.271Z",
+  "trace": {
+    "id": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9",
+    "selection": {
+      "text": "2024 was the planet’s warmest year on record",
+      "page_url": "https://www.noaa.gov/news/2024-was-worlds-warmest-year-on-record",
+      "page_title": "2024 was the world’s warmest year on record | National Oceanic and Atmospheric Administration"
+    },
+    "context": "The selected text's surrounding attribution and stance remain unassessed; it may be a quotation, question or assertion.",
+    "selection_quote_check": "matched",
+    "chain": {
+      "selection": {
+        "text": "2024 was the planet’s warmest year on record",
+        "page_url": "https://www.noaa.gov/news/2024-was-worlds-warmest-year-on-record",
+        "page_title": "2024 was the world’s warmest year on record | National Oceanic and Atmospheric Administration"
+      },
+      "provider_run_id": "01a1c024-d22d-7ea0-bdf2-7d99467c669a",
+      "recorded_at": "2026-11-09T11:51:48.271Z",
+      "verification": "research_candidate",
+      "status": "candidate",
+      "summary": "Candidate origin: NESDIS Strategic Communications — Annual Global Analysis for 2024 (NOAA/NASA)",
+      "hops": [
+        {
+          "url": "https://www.noaa.gov/news/2024-was-worlds-warmest-year-on-record",
+          "title": "2024 was the world's warmest year on record | National Oceanic and Atmospheric Administration",
+          "role": "selected_page",
+          "quote": "It's official: 2024 was the planet's warmest year",
+          "relationship_to_next": "Research proposes an attribution to the next source. Its exact outgoing link remains unchecked.",
+          "excerpt_shortened": true,
+          "quote_check": "not_checked",
+          "link_to_next": "matched",
+          "checked_at": "2026-11-09T12:24:02.361Z",
+          "fetch_reservation_id": "45967192-3ebc-484f-b46f-632316d5ae0a"
+        },
+        {
+          "url": "https://www.ncei.noaa.gov/news/global-climate-202413",
+          "title": "Assessing the Global Climate in 2024",
+          "role": "intermediary",
+          "quote": "NOAA ranks 2024 as the warmest year in",
+          "relationship_to_next": "Research proposes an attribution to the next source. Its exact outgoing link remains unchecked.",
+          "excerpt_shortened": true,
+          "quote_check": "not_checked",
+          "link_to_next": "matched",
+          "checked_at": "2026-11-09T12:24:05.648Z",
+          "fetch_reservation_id": "ae59a8b4-ee99-49da-8ba5-08d66a509c88"
+        },
+        {
+          "url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202413",
+          "title": "Monthly Climate Reports | National Centers for Environmental Information (NCEI)",
+          "role": "intermediary",
+          "quote": "Use the form below to select from a",
+          "relationship_to_next": "Research proposes an attribution to the next source. Its exact outgoing link remains unchecked.",
+          "excerpt_shortened": true,
+          "quote_check": "not_checked",
+          "link_to_next": "not_found",
+          "checked_at": "2026-11-09T12:24:09.069Z",
+          "fetch_reservation_id": "f5e027c4-99fd-43a4-9323-66ef5140d388"
+        },
+        {
+          "url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/briefings/20250110.pdf",
+          "title": "NESDIS Strategic Communications — Annual Global Analysis for 2024 (NOAA/NASA)",
+          "role": "primary_candidate",
+          "quote": "NOAA: 2024 Ranked Warmest 1.29oC (2.32oF) above 1901-2000",
+          "relationship_to_next": null,
+          "excerpt_shortened": true,
+          "quote_check": "fetch_failed",
+          "link_to_next": "not_applicable",
+          "checked_at": null,
+          "fetch_reservation_id": null
+        }
+      ],
+      "limitations": [
+        "The NCEI monthly-report portal page (202413) rendered only navigation/introductory text in the retrieved copy; the full report data tables were not visible in the fetched content, so the underlying dataset name (NOAAGlobalTempv6) is inferred from cross-source references rather than directly read from that page.",
+        "The selected text uses 'planet's warmest year on record' while the NOAA page title uses 'world's warmest year on record'; both phrases appear on the same page, so this is a minor wording variation within the same source document.",
+        "The joint NOAA/NASA briefing PDF is a primary candidate for the original measurement report, but it is a communications slide deck, not the peer-reviewed dataset publication; it is treated as a proposal for primary authorship, not proof.",
+        "Citations identify research sources; quotations and link relationships need source-page corroboration before treating this as proven provenance."
+      ]
+    },
+    "assessment": {
+      "label": "unresolved",
+      "proposed_label": "matches",
+      "target": "selected_quoted_text",
+      "reason": "The final assessment remains unresolved: checked excerpts do not establish comparable quantities, units, denominators, reference periods or contextual stance.",
+      "research_explanation": "The selected text ('2024 was the planet's warmest year on record') is a close and accurate representation of the NOAA page's own assertion ('It's official: 2024 was the planet's warmest year on record'), which appears as an official statement attributed to NOAA NCEI scientists. The word 'planet's' appears in the",
+      "scope": "cited_source_comparison",
+      "check": "unresolved",
+      "evidence": [
+        {
+          "source_url": "https://www.noaa.gov/news/2024-was-worlds-warmest-year-on-record",
+          "stance": "supports",
+          "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.chain.hops.0.quote",
+          "quote_check": "not_checked"
+        },
+        {
+          "source_url": "https://www.ncei.noaa.gov/news/global-climate-202413",
+          "stance": "supports",
+          "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.chain.hops.1.quote",
+          "quote_check": "not_checked"
+        },
+        {
+          "source_url": "https://www.nasa.gov/news-release/temperatures-rising-nasa-confirms-2024-warmest-year-on-record/",
+          "stance": "supports",
+          "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.evidence.0",
+          "quote_check": "not_checked"
+        },
+        {
+          "source_url": "https://wmo.int/news/media-centre/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level",
+          "stance": "supports",
+          "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.evidence.1",
+          "quote_check": "not_checked"
+        },
+        {
+          "source_url": "https://berkeleyearth.org/global-temperature-report-for-2024/",
+          "stance": "supports",
+          "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.evidence.2",
+          "quote_check": "not_checked"
+        },
+        {
+          "source_url": "https://climate.copernicus.eu/global-climate-highlights-2024",
+          "stance": "supports",
+          "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.evidence.3",
+          "quote_check": "not_checked"
+        },
+        {
+          "source_url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/briefings/20250110.pdf",
+          "stance": "supports",
+          "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.chain.hops.3.quote",
+          "quote_check": "fetch_failed"
+        },
+        {
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/2024-was-the-warmest-year-on-record-153806/",
+          "stance": "supports",
+          "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.evidence.4",
+          "quote_check": "not_checked"
+        }
+      ]
+    },
+    "dates": [
+      {
+        "kind": "published",
+        "value": "2025-01-10",
+        "precision": "day",
+        "source_url": "https://www.noaa.gov/news/2024-was-worlds-warmest-year-on-record",
+        "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.dates.5",
+        "check": "research_only"
+      },
+      {
+        "kind": "published",
+        "value": "2025-01-10",
+        "precision": "day",
+        "source_url": "https://www.ncei.noaa.gov/news/global-climate-202413",
+        "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.dates.6",
+        "check": "exact_excerpt_matched"
+      },
+      {
+        "kind": "claim_reference_period",
+        "value": "2024",
+        "precision": "year",
+        "source_url": "https://www.noaa.gov/news/2024-was-worlds-warmest-year-on-record",
+        "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.dates.7",
+        "check": "research_only"
+      },
+      {
+        "kind": "historical_claim_date",
+        "value": "1850",
+        "precision": "year",
+        "source_url": "https://www.ncei.noaa.gov/news/global-climate-202413",
+        "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.dates.8",
+        "check": "research_only"
+      },
+      {
+        "kind": "published",
+        "value": "2025-01-10",
+        "precision": "day",
+        "source_url": "https://wmo.int/news/media-centre/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level",
+        "quote_ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.dates.9",
+        "check": "research_only"
+      }
+    ],
+    "earliest_source_status": "unresolved",
+    "primary_source_status": "not_established"
+  },
+  "excerpts": [
+    {
+      "ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.evidence.0",
+      "url": "https://www.nasa.gov/news-release/temperatures-rising-nasa-confirms-2024-warmest-year-on-record/",
+      "quote": "Earth's average surface temperature in 2024 was the"
+    },
+    {
+      "ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.evidence.1",
+      "url": "https://wmo.int/news/media-centre/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level",
+      "quote": "WMO has confirmed that 2024 is the warmest"
+    },
+    {
+      "ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.evidence.2",
+      "url": "https://berkeleyearth.org/global-temperature-report-for-2024/",
+      "quote": "2024 was the warmest year on Earth since"
+    },
+    {
+      "ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.evidence.3",
+      "url": "https://climate.copernicus.eu/global-climate-highlights-2024",
+      "quote": "2024 was the warmest year in a multi-dataset"
+    },
+    {
+      "ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.evidence.4",
+      "url": "https://science.nasa.gov/earth/earth-observatory/2024-was-the-warmest-year-on-record-153806/",
+      "quote": "Independent analyses by NOAA, Berkeley Earth, the Hadley"
+    },
+    {
+      "ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.dates.5",
+      "url": "https://www.noaa.gov/news/2024-was-worlds-warmest-year-on-record",
+      "quote": "January 10, 2025 ... Earth's average land and"
+    },
+    {
+      "ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.dates.6",
+      "url": "https://www.ncei.noaa.gov/news/global-climate-202413",
+      "quote": "Published January 10, 2025"
+    },
+    {
+      "ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.dates.7",
+      "url": "https://www.noaa.gov/news/2024-was-worlds-warmest-year-on-record",
+      "quote": "among"
+    },
+    {
+      "ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.dates.8",
+      "url": "https://www.ncei.noaa.gov/news/global-climate-202413",
+      "quote": "ranks as the highest global temperature in the"
+    },
+    {
+      "ref": "fresh-63223e69-9245-41c2-b7eb-7a5e998c64f9.dates.9",
+      "url": "https://wmo.int/news/media-centre/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level",
+      "quote": "10 January 2025 ... The global average surface"
+    }
+  ],
+  "provenance": {
+    "method": "single_research_with_bounded_exact_page_checks",
+    "research_provider": "tinyfish-research",
+    "research_mode": "deep",
+    "research_status": "COMPLETED",
+    "selected_context_status": "unassessed",
+    "earliest_authorship": "not_established",
+    "primary_authorship": "not_established"
+  },
+  "page_checks": 9,
+  "maximum_page_checks": 10,
+  "page_receipts": [
+    {
+      "url": "https://www.noaa.gov/news/2024-was-worlds-warmest-year-on-record",
+      "final_url": "https://www.noaa.gov/news/2024-was-worlds-warmest-year-on-record",
+      "checked_at": "2026-11-09T12:24:02.361Z",
+      "fetch_reservation_id": "45967192-3ebc-484f-b46f-632316d5ae0a",
+      "html_sha256": "0ba7cd6b52e41792be2b3e563c5c9a258ee860b2dff9f478c1f270b76d83c2c9",
+      "document_status": "usable",
+      "failure_code": null
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/news/global-climate-202413",
+      "final_url": "https://www.ncei.noaa.gov/news/global-climate-202413",
+      "checked_at": "2026-11-09T12:24:05.648Z",
+      "fetch_reservation_id": "ae59a8b4-ee99-49da-8ba5-08d66a509c88",
+      "html_sha256": "7f812e0179ba8bcdf113e33ad75097b2213e1b40f41e2c1cdc7d7b71b982adab",
+      "document_status": "usable",
+      "failure_code": null
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202413",
+      "final_url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202413",
+      "checked_at": "2026-11-09T12:24:09.069Z",
+      "fetch_reservation_id": "f5e027c4-99fd-43a4-9323-66ef5140d388",
+      "html_sha256": "dfefd73fc01e652d265a42997993b26c1d85e5f6563336b1687a32fd1f764faa",
+      "document_status": "usable",
+      "failure_code": null
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/temperatures-rising-nasa-confirms-2024-warmest-year-on-record/",
+      "final_url": "https://www.nasa.gov/news-release/temperatures-rising-nasa-confirms-2024-warmest-year-on-record/",
+      "checked_at": "2026-11-09T12:24:12.891Z",
+      "fetch_reservation_id": "4629eb57-1be0-4a12-a451-de95603c944b",
+      "html_sha256": "1267f0bd40c5a4e97738fc4f788f2c155126cb100e34b5c09e1eec7527c6a7a1",
+      "document_status": "usable",
+      "failure_code": null
+    },
+    {
+      "url": "https://wmo.int/news/media-centre/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level",
+      "final_url": "https://wmo.int/news/media-centre/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level",
+      "checked_at": "2026-11-09T12:24:16.093Z",
+      "fetch_reservation_id": "c0fd556a-7014-4626-a784-547ba3f2385a",
+      "html_sha256": "704d215d4ebbf14cb8813b5cdeb3cef4ea00310215136b94fb60dc3b298faa85",
+      "document_status": "usable",
+      "failure_code": null
+    },
+    {
+      "url": "https://berkeleyearth.org/global-temperature-report-for-2024/",
+      "final_url": "https://berkeleyearth.org/global-temperature-report-for-2024/",
+      "checked_at": "2026-11-09T12:24:17.891Z",
+      "fetch_reservation_id": "45ff9f76-5fff-44e1-b4ad-686db7c63281",
+      "html_sha256": "56fcfa020e10afaa85009514531922453d27d5c24b02bfd67d22d8f35896cb2e",
+      "document_status": "usable",
+      "failure_code": null
+    },
+    {
+      "url": "https://climate.copernicus.eu/global-climate-highlights-2024",
+      "final_url": "https://climate.copernicus.eu/global-climate-highlights-2024",
+      "checked_at": "2026-11-09T12:24:20.925Z",
+      "fetch_reservation_id": "d8341519-6656-4659-8a8d-bd4f19d5d3ff",
+      "html_sha256": "b8944fdf443d2524e8fc8148f143c318a3622f0884d1c4c7ccc469e52866b382",
+      "document_status": "usable",
+      "failure_code": null
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/2024-was-the-warmest-year-on-record-153806/",
+      "final_url": "https://science.nasa.gov/earth/earth-observatory/2024-was-the-warmest-year-on-record-153806/",
+      "checked_at": "2026-11-09T12:24:26.659Z",
+      "fetch_reservation_id": "c29b8566-df34-4356-8dd8-b20508b8daa7",
+      "html_sha256": "15e4c98ac5c998ee31570c3aa49a9c48f6dd21a509bcf4693a4e658b7c9303d2",
+      "document_status": "usable",
+      "failure_code": null
+    }
+  ],
+  "page_failures": [
+    {
+      "url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/briefings/20250110.pdf",
+      "code": "SOURCE_FAILURE"
+    }
+  ],
+  "limitations": [
+    "Matching quotes and links does not prove an earliest source or sound methodology.",
+    "Historical quotations are assessed in their original context; an article examining a false claim is not accused of endorsing it.",
+    "Research prose proposes attribution and assessments; matching selected-page wording does not establish its truth, the author's stance or earliest/primary authorship.",
+    "Research job and source-page check counts exclude pricing reads and Research status polls; no page check is retried."
+  ],
+  "investigation_id": "63223e69-9245-41c2-b7eb-7a5e998c64f9",
+  "resumed_research": true,
+  "new_research_jobs_started": 0
+}

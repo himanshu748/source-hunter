@@ -1,0 +1,95 @@
+{
+  "recorded_at": "2026-11-09T15:08:44.755330+00:00",
+  "file": "source-hunter-demo.mp4",
+  "sha256": "790cdafd3e67925a874931db76291fa9fbc86b3a72e37f6ae27fccf3ed12555c",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "60/1",
+        "nb_frames": "7440"
+      }
+    ],
+    "format": {
+      "duration": "124.000000",
+      "size": "3953830"
+    }
+  },
+  "render_completed": true,
+  "full_decode_exit_code": 0,
+  "decode_errors": 0,
+  "visually_inspected_seconds": [
+    2,
+    11,
+    18,
+    30,
+    40,
+    49,
+    59,
+    69,
+    79,
+    89,
+    96,
+    100,
+    103,
+    109,
+    118,
+    123
+  ],
+  "five_saved_cases_shown": true,
+  "additional_unseen_noaa_test_shown": true,
+  "fresh_section_seconds": [
+    101,
+    115
+  ],
+  "narration": false,
+  "burned_in_captions": true,
+  "edited_actual_browser_captures": true,
+  "composited_cursor_and_crossfades": true,
+  "continuous_recording": false,
+  "provider_operations_for_video_edit_or_render": 0,
+  "fresh_section_provider_work": {
+    "research_jobs": 1,
+    "fetch_requests": 10,
+    "manual_same_receipt_recovery": true,
+    "separately_authorized_tenth_pdf_check": true,
+    "second_research_job": false,
+    "original_native_packet_assessment": "unresolved",
+    "producer_briefing_later_captured": true,
+    "earliest_authorship": "unresolved"
+  },
+  "capture_scope": "Saved sections use earlier real five-case browser captures. The fresh section shows the original nine-check NOAA recovery popup; captions separately describe the later explicitly authorized tenth PDF check and local producer-briefing review. The original popup/export is not represented as a ten-check UI packet. First 101 seconds reuse the already inspected clip; final 23 seconds were re-rendered and join/tail samples inspected. Current-source browser regression is evidenced separately.",
+  "verification": "../fresh/fresh-verification.json",
+  "browser_crop": {
+    "source": "WHO real Chrome source capture",
+    "rectangle_pixels": [
+      0,
+      0,
+      1650,
+      1450
+    ],
+    "purpose": "Frame the exact selection, article context and browser URL; leave unrelated media-contact sidebar outside the video."
+  },
+  "later_manual_pdf_check": "../fresh/manual-pdf-check.json",
+  "later_manual_pdf_review": "../fresh/manual-pdf-review.json",
+  "publication_compression": {
+    "source_review_video_sha256": "26d42a04f3f7ee26d631d2bb3860daf1085f4d0cb4db43416fe3004af9411a5f",
+    "source_review_video_preserved_locally": true,
+    "change": "H.264 compression only; same scenes, duration, resolution and frame rate.",
+    "encoder": "libx264 medium CRF 28",
+    "full_decode_exit_code": 0,
+    "sampled_seconds": [
+      2,
+      18,
+      49,
+      89,
+      103,
+      118
+    ],
+    "readability_visually_checked": true
+  }
+}

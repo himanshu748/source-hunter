@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-11-09T14:38:07.749397+00:00",
+  "finished_at": "2026-11-09T14:38:11.789122+00:00",
+  "mode": "isolated_local_package_copy_not_public_clone",
+  "node": "v22.14.0",
+  "install_command": "npm ci --offline --no-audit --no-fund",
+  "install_exit_code": 0,
+  "start_command": "BOUNTY_POOL_LIVE=0 SOURCE_HUNTER_PORT=44381 npm start",
+  "landing_http_status": 200,
+  "health": {
+    "service": "source-hunter",
+    "mode": "recorded_only",
+    "extension_configured": false,
+    "recorded_trace_count": 5,
+    "recorded_available": true,
+    "provider_health_checked": false,
+    "provider_requests_started": 0
+  },
+  "credentials_loaded": false,
+  "provider_operations_started": 0,
+  "scope": "Clean dependency installation and documented local entry point only. Does not establish anonymous public repository access or another browser/provider run."
+}

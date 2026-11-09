@@ -1,0 +1,165 @@
+{
+  "recorded_at": "2026-11-09T11:41:47.083410+00:00",
+  "status": "HISTORICAL_PRE_FRESH_CHECKPOINT",
+  "verification_mode": "Standalone source package plus actual saved-evidence browser journeys; no fresh provider execution",
+  "source_manifest": "checks/verified-source-manifest-before-fresh.json",
+  "source_manifest_sha256": "2a90a3e5e9d7ebfc8df3b34721bb156a133bf256fe23ede014810a127eb98551",
+  "source_files": 45,
+  "source_hash_rule": "Sort relative source/test/tooling paths lexically, concatenate path + TAB + SHA256 + newline, hash UTF-8 bytes. Docs, media, evidence, node_modules and dist are excluded from this code snapshot.",
+  "automated_checks": [
+    {
+      "command": [
+        "npm",
+        "run",
+        "test"
+      ],
+      "node": "v26.12.0",
+      "platform": "Darwin",
+      "started_at": "2026-11-09T11:37:45.537528+00:00",
+      "finished_at": "2026-11-09T11:38:14.731805+00:00",
+      "exit_code": 0,
+      "log": "checks/final-tests.txt",
+      "log_sha256": "4e4fc7ead16aadbbbcc8f7b0aac622fa8d64ce07fd9b42f300f492b68d027f99"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "node": "v26.12.0",
+      "platform": "Darwin",
+      "started_at": "2026-11-09T11:37:45.536173+00:00",
+      "finished_at": "2026-11-09T11:37:56.249719+00:00",
+      "exit_code": 0,
+      "log": "checks/final-typecheck.txt",
+      "log_sha256": "733ce8316a86cab67a625411767d8e017b8603722476caf2d4c7f05932468b8c"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "node": "v26.12.0",
+      "platform": "Darwin",
+      "started_at": "2026-11-09T11:37:45.537850+00:00",
+      "finished_at": "2026-11-09T11:37:57.960969+00:00",
+      "exit_code": 0,
+      "log": "checks/final-build.txt",
+      "log_sha256": "c551b3a333bfb38734ff9231f319968c6411a1b44a72c675c8cd8ce4bf20e29d"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "review:check"
+      ],
+      "node": "v26.12.0",
+      "platform": "Darwin",
+      "started_at": "2026-11-09T11:37:45.538786+00:00",
+      "finished_at": "2026-11-09T11:37:49.631668+00:00",
+      "exit_code": 0,
+      "log": "checks/final-review-check.txt",
+      "log_sha256": "1bf6060cc7873cdd9125fb2a7ab99ca3d6a1095f94d586c255806c097b8a0b46"
+    }
+  ],
+  "test_summary": {
+    "tests": 78,
+    "passed": 78,
+    "failed": 0,
+    "skipped": 0
+  },
+  "format": {
+    "command": "npm run format:check",
+    "exit_code": 0,
+    "log": "checks/final-format-check.txt",
+    "log_sha256": "fe301cab2333b561bb0763e3a765109d5d24d790c59984d9b3dd4a951ecaef17"
+  },
+  "installed_extension": {
+    "browser": "Official Google Chrome",
+    "profile": "Separate signed-out Source Hunter Test profile",
+    "bundle": "checks/extension-package.json",
+    "cases": "checks/native-five-cases.json",
+    "saved_cases_passed": 5,
+    "checks_per_case": [
+      "real public-page highlight capture",
+      "exact matching saved lookup",
+      "date and assessment rendering",
+      "fresh control disabled"
+    ],
+    "full_packet_export_case": "who-food-2023",
+    "export": "native/chrome-final-who-export.json",
+    "no_match": "checks/native-no-match.json",
+    "no_match_selection": "On Seeing the Great Wall of China from the Moon",
+    "substitution": false,
+    "new_provider_operations": 0,
+    "screenshots": [
+      "native/chrome-final-who-popup.png",
+      "native/chrome-cloudflare-popup.png",
+      "native/chrome-who-air-99-popup.png",
+      "native/chrome-nasa-earth-year-popup.png",
+      "native/chrome-great-wall-historical-popup.png",
+      "native/chrome-unmatched-selection.png"
+    ]
+  },
+  "in_app_browser": {
+    "viewport_actual": [
+      1280,
+      720
+    ],
+    "saved_cases_passed": 5,
+    "cases": "checks/workbench-five-cases.json",
+    "full_packet_export_case": "great-wall-historical",
+    "export": "checks/web-great-wall-export.json",
+    "keyboard_dialog_enter_and_escape": "passed",
+    "manual_reduced_motion": "passed",
+    "motion_checks": "checks/keyboard-motion-check.json",
+    "mobile_viewport_requested": [
+      390,
+      844
+    ],
+    "mobile_override_applied": false,
+    "mobile_verified": false,
+    "os_reduced_motion_preference_emulated": false,
+    "final_ui": "checks/final-preview-ui.json",
+    "new_provider_operations": 0
+  },
+  "recorded_provider_evidence": {
+    "research_jobs": 1,
+    "fetch_checks": 9,
+    "provider_run_id": "01a1ba53-aa65-7778-9797-24f469a97901",
+    "recorded_at": "2026-11-08T08:46:46.094Z",
+    "original_batch_sha256": "39d35b11026dd93c4420681f5ecf263d8d0a43b211e60a0b175723cc6f8d00fc",
+    "source_review_date": "2026-11-09",
+    "earliest_origins_proved": 0
+  },
+  "media": "media/video-verification-before-fresh.json",
+  "privacy_check": "checks/package-privacy-check.json",
+  "cost_and_authority": {
+    "new_provider_operations_during_this_verification": 0,
+    "default_live_enabled": false,
+    "existing_shared_pool_allowance_usd": "10.00",
+    "existing_shared_pool_status": "exhausted_halted",
+    "previous_pool_reset": false,
+    "billing_changes": false,
+    "new_paid_run_authorized": false
+  },
+  "remaining_gates": [
+    "Fresh arbitrary-input provider execution and source-depth review",
+    "Current mobile layout and OS-level reduced-motion preference unverified",
+    "Authorized public repository publication and anonymous clean-install readback",
+    "Required LinkedIn/Discord promotion and final destination fields",
+    "Current eligibility and claim readback; owner final submission click"
+  ],
+  "external_state": {
+    "published": false,
+    "hosted": false,
+    "source_license_selected": false,
+    "bounty_ready": false,
+    "bounty_submitted": false,
+    "organizer_approval_claimed": false
+  },
+  "package_links": "checks/final-package-link-check.json",
+  "receipt_maintenance": "Only historical artifact paths were updated after the later fresh test; the earlier source hash and observations retain their original scope."
+}

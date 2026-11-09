@@ -1,0 +1,5 @@
+Node v26.12.0
+
+> source-hunter@0.1.0 typecheck
+> tsc --noEmit
+

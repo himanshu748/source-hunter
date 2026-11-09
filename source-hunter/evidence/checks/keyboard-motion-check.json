@@ -1,0 +1,16 @@
+{
+  "motionCheck": {
+    "animation": "none",
+    "manualReduced": "reduced",
+    "pressed": "true",
+    "systemReduced": false,
+    "transition": "0s"
+  },
+  "dialogCheck": {
+    "active": "Close extension details",
+    "open": true
+  },
+  "dialogClosed": true,
+  "viewportOverrideApplied": false,
+  "mobileVerified": false
+}

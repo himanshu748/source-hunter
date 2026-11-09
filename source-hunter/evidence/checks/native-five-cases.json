@@ -1,0 +1,42 @@
+[
+  {
+    "id": "who-food-2023",
+    "capture": true,
+    "matching_saved_lookup": true,
+    "full_export": true,
+    "fresh_disabled": true,
+    "final_popup_bundle": true
+  },
+  {
+    "id": "cloudflare-ddos-q1-2024",
+    "capture": true,
+    "matching_saved_lookup": true,
+    "dates_and_assessment": true,
+    "fresh_disabled": true,
+    "final_popup_bundle": true
+  },
+  {
+    "id": "who-air-99",
+    "capture": true,
+    "matching_saved_lookup": true,
+    "dates_and_assessment": true,
+    "fresh_disabled": true,
+    "final_popup_bundle": true
+  },
+  {
+    "id": "nasa-earth-year",
+    "capture": true,
+    "matching_saved_lookup": true,
+    "dates_and_assessment": true,
+    "fresh_disabled": true,
+    "final_popup_bundle": true
+  },
+  {
+    "id": "great-wall-historical",
+    "capture": true,
+    "matching_saved_lookup": true,
+    "dates_and_assessment": true,
+    "fresh_disabled": true,
+    "final_popup_bundle": true
+  }
+]

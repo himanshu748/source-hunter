@@ -1,0 +1,62 @@
+{
+  "reviewed_at": "2026-11-09T14:35:39.419569+00:00",
+  "review_mode": "Local semantic review of the separately captured PDF extraction. No network request or provider operation was started for this review.",
+  "capture_receipt": "manual-pdf-check.json",
+  "source_url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/briefings/20250110.pdf",
+  "captured_html_sha256": "ce11989d84b9d036121731097500e282bf4f82d102a48339079376990c84e21f",
+  "document": {
+    "title": "Annual Global Analysis for 2024",
+    "institutional_producers": [
+      "NOAA/NASA"
+    ],
+    "named_presenters": [
+      "Russell S. Vose (NOAA)",
+      "Gavin A. Schmidt (NASA)"
+    ],
+    "date_text": "January 2025",
+    "publication_precision": "month",
+    "exact_publication_day": null,
+    "date_boundary": "The captured text establishes a month. The URL filename does not prove an exact publication day."
+  },
+  "claim_review": {
+    "selected_claim": "2024 was the planet’s warmest year on record",
+    "time_scope": "A ranking for 2024 reported in January 2025; not a claim that 2024 remains the warmest as of the November 2026 capture.",
+    "producer_finding": "The official producer briefing directly supports NOAA ranking 2024 warmest in its record.",
+    "source_role": "primary_producer_briefing",
+    "excerpt_already_in_original_packet": "NOAA: 2024 Ranked Warmest",
+    "wording_check": "The original proposed eight-word PDF snippet matches after NFKC and whitespace normalization. Raw ordinal-symbol rendering differs; no raw byte-identical claim is made.",
+    "baselines": [
+      {
+        "producer": "NOAA",
+        "anomaly_celsius": 1.29,
+        "baseline_years": "1901–2000"
+      },
+      {
+        "producer": "NASA",
+        "anomaly_celsius": 1.28,
+        "baseline_years": "1951–1980"
+      },
+      {
+        "producer": "NOAA, rebased in the briefing",
+        "anomaly_celsius": 1.25,
+        "baseline_years": "1951–1980"
+      }
+    ],
+    "baseline_boundary": "The NOAA 1.29 and NASA 1.28 values use different reference periods and are not a like-for-like direct comparison."
+  },
+  "remaining_limits": [
+    "The report-form page to PDF outgoing link was not observed; the PDF is independently captured producer evidence, not a fabricated sequential edge.",
+    "Underlying raw temperature-series validation and independent method replication were not performed.",
+    "Earliest authorship remains unresolved.",
+    "The original nine-check native export remains unchanged with its original unresolved assessment and failed PDF capture."
+  ],
+  "quote_budget": {
+    "original_pdf_excerpt_words": 8,
+    "additional_title_words": 5,
+    "additional_institution_words": 1,
+    "additional_month_words": 2,
+    "conservative_distinct_source_word_upper_bound": 16,
+    "existing_excerpt_reused": true,
+    "full_source_text_included": false
+  }
+}

@@ -1,0 +1,3 @@
+PASS: isolated no-network popup DOM/Chrome-API harness validates saved and rich fresh identity, dates/assessment/source rendering, separate Research/Fetch counts, complete export, stale/malformed rejection, safe links, offline states and old-result preservation. This does not establish native installed behavior, layout or provider success.
+PASS: recovery uses only the resume route, preserves selection identity, announces no new Research job and rejects invalid IDs without dispatch.
+PASS: mismatched recovery ID, fresh-job flag or new-job count is rejected before replacing evidence.

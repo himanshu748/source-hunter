@@ -1,0 +1,73 @@
+{
+  "recorded_at": "2026-11-09T12:32:13.858128+00:00",
+  "test": "unseen_noaa_selection_from_installed_chrome_extension",
+  "status": "research_completed_initial_fetch_preflight_failure_then_manual_same_receipt_recovery",
+  "provider_run_id": "01a1c024-d22d-7ea0-bdf2-7d99467c669a",
+  "research_recorded_at": "2026-11-09T11:51:48.271Z",
+  "investigation_id": "63223e69-9245-41c2-b7eb-7a5e998c64f9",
+  "selection": {
+    "text": "2024 was the planet\u2019s warmest year on record",
+    "page_url": "https://www.noaa.gov/news/2024-was-worlds-warmest-year-on-record",
+    "page_title": "2024 was the world\u2019s warmest year on record | National Oceanic and Atmospheric Administration"
+  },
+  "research_jobs_started": 1,
+  "fetch_requests_started": 9,
+  "maximum_fetch_requests_authorized": 10,
+  "all_operations_terminal": true,
+  "reserved_microusd": 2000000,
+  "actual_wallet_charge_not_inferred_from_reservation": true,
+  "new_research_jobs_during_resume": 0,
+  "automatic_retry": false,
+  "recovery": "One explicit Resume source checks click. Original Selection metadata migrated once from the actual native capture because the first server snapshot predated recovery support. Original accepted/Research receipt bytes unchanged. Recovery required exact selection, same grant/pool, zero prior Fetch reservations and hash-pinned private files; one-shot consumed marker retained.",
+  "initial_failure": "PRICING_UNAVAILABLE before Fetch reservation: generic TinyFish Fetch wallet meter replaced by Hobby/Builder meters.",
+  "pricing_binding": {
+    "tier_observed": "Hobby",
+    "meter": "TinyFish Fetch (Hobby)",
+    "unit": "url",
+    "price_usd": "0",
+    "today_requests_before_test": 0,
+    "tier_or_billing_changes": false,
+    "account_identity_balance_and_private_captures_withheld": true,
+    "public_reference": "https://docs.tinyfish.ai/fetch-api/reference#billing",
+    "requires_fresh_wallet_preflight_per_request": true,
+    "no_builder_fallback": true
+  },
+  "native_result_rendered": true,
+  "native_export_matches_private_packet": true,
+  "export": "noaa-original-export.json",
+  "export_sha256": "6e5e67d1f39a822beebd1a32e4b4142c431ace6a8be43d19051c6b73c448069a",
+  "selection_quote_check": "matched",
+  "assessment": "unresolved",
+  "primary_source_status": "not_established",
+  "earliest_source_status": "unresolved",
+  "known_review_findings": [
+    "Two outgoing exact URLs observed. Attribution roles remain proposals.",
+    "Annual-report URL yielded short navigation/form content, with no primary report data. Original not_found edge is not absence proof; a later local re-evaluation is separate.",
+    "The proposed primary PDF was not captured in this original nine-check packet. A later separately approved manual check captured it; see later_manual_pdf_check.",
+    "Overlong proposed excerpts and apostrophe differences withheld some exact-quote findings; selected quotation itself matched.",
+    "1850 is record coverage, not proven historical authorship."
+  ],
+  "original_10_dollar_ledger_sha256": "182e5e699cf50e50c96c5d2809dbce5e24faef85fce3588d587d63c7cd54a937",
+  "old_ledger_unchanged": true,
+  "live_disabled_after_test": true,
+  "last_native_pause_ui_check": "Passed after owner unlocked Mac: Trace this statistic and Resume source checks disabled, including with a valid investigation ID.",
+  "further_provider_jobs_authorized": false,
+  "local_re_evaluation": "noaa-local-re-evaluation.json",
+  "current_code_changes_after_native_capture": [
+    "Generic form-only document classifier",
+    "Independent exact short-excerpt references",
+    "Observed-link relationship wording",
+    "Known PDF/CSV URLs omit unsupported HTML selectors; the PDF branch was later exercised by the separately approved tenth check. CSV remains mock-tested only."
+  ],
+  "current_saved_browser_regression": "../current/native-current-five-cases.json",
+  "snapshot_scope": "Historical nine-check native recovery/export; the separately approved tenth PDF check is linked below and does not rewrite the original packet.",
+  "later_manual_pdf_check": {
+    "receipt": "manual-pdf-check.json",
+    "review": "manual-pdf-review.json",
+    "status": "captured_primary_producer_briefing",
+    "total_research_jobs": 1,
+    "total_fetch_requests": 10,
+    "new_research_jobs": 0,
+    "original_export_unchanged": true
+  }
+}

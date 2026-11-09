@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-09T13:49:08.204Z",
+  "pause": {
+    "fresh_disabled": true,
+    "resume_disabled": true
+  },
+  "keyboard_dialog": {
+    "focus": "Close extension details",
+    "open": true
+  },
+  "escape_closed": true,
+  "manual_reduced_motion": {
+    "animation": "none",
+    "manualMode": "reduced",
+    "pressed": "true",
+    "transition": "0s"
+  },
+  "motion_restored": true,
+  "mobile_viewport_override_applied": false,
+  "os_reduced_motion_emulation_verified": false,
+  "provider_requests_started": 0
+}

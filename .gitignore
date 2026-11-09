@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.private/
+.state/
+.env
+.env.*
+*.env
+.DS_Store
+*.log

@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-11-09T13:40:33.598Z",
+  "cases": [
+    {
+      "id": "who-food-2023",
+      "badge": "SAVED INVESTIGATION",
+      "freshDisabled": true,
+      "resumeDisabled": true,
+      "sourceLinks": 3,
+      "summary": "Joint SOFI report identified; observed WHO report links stop at an unretrieved DOI target. Absolute earliest dissemination remains unresolved.",
+      "passed": true
+    },
+    {
+      "id": "cloudflare-ddos-q1-2024",
+      "badge": "SAVED INVESTIGATION",
+      "freshDisabled": true,
+      "resumeDisabled": true,
+      "sourceLinks": 1,
+      "summary": "The selected blog is a producer-authored primary report of Cloudflare mitigation activity; absolute earliest public dissemination is unproved.",
+      "passed": true
+    },
+    {
+      "id": "who-air-99",
+      "badge": "SAVED INVESTIGATION",
+      "freshDisabled": true,
+      "resumeDisabled": true,
+      "sourceLinks": 2,
+      "summary": "WHO’s statement, publication date and database link are checked; the original calculation and earliest estimate publication remain unresolved.",
+      "passed": true
+    },
+    {
+      "id": "nasa-earth-year",
+      "badge": "SAVED INVESTIGATION",
+      "freshDisabled": true,
+      "resumeDisabled": true,
+      "sourceLinks": 1,
+      "summary": "NASA’s educational statement is corroborated as an approximation; the independently located fact sheet is a comparison, not a traced antecedent.",
+      "passed": true
+    },
+    {
+      "id": "great-wall-historical",
+      "badge": "SAVED INVESTIGATION",
+      "freshDisabled": true,
+      "resumeDisabled": true,
+      "sourceLinks": 1,
+      "summary": "The quoted historical Moon claim is refuted, while Higgins’s article examines it skeptically. Nested attribution and earliest historical authorship remain incomplete.",
+      "passed": true
+    }
+  ],
+  "provider_requests_started": 0
+}

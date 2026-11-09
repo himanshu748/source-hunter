@@ -1,0 +1,145 @@
+{
+  "recorded_at": "2026-11-09T14:39:43.484335+00:00",
+  "status": "LOCAL_REVIEW_CANDIDATE_NOT_READY",
+  "verification_mode": "Current-source automated gate and final saved Chrome/workbench regression; actual unseen-input native recovery/export, later explicitly approved tenth PDF check, separate local semantic reviews and isolated local package quickstart.",
+  "source_manifest": "checks/verified-source-manifest.json",
+  "source_manifest_sha256": "3ad523f4ce5bf6a3699e3243c0aeeae424f8af0517e15d6e3ca43ef80bfa9438",
+  "source_files": 48,
+  "source_hash_rule": "Sort relative source/test/tooling paths lexically, concatenate path + TAB + SHA256 + newline, hash UTF-8 bytes. Docs, media, evidence, node_modules and dist are excluded from this code snapshot.",
+  "automated_checks": [
+    {
+      "command": [
+        "npm",
+        "run",
+        "test"
+      ],
+      "node": "v26.12.0",
+      "started_at": "2026-11-09T12:47:11.717761+00:00",
+      "finished_at": "2026-11-09T12:47:17.500385+00:00",
+      "exit_code": 0,
+      "log": "checks/verified-tests.txt",
+      "log_sha256": "c0c3e44eb3990b2b92bffc54e3c6d6562201c0644d64b15285af7d1f7ccebbc7"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "node": "v26.12.0",
+      "started_at": "2026-11-09T12:47:11.717901+00:00",
+      "finished_at": "2026-11-09T12:47:13.717713+00:00",
+      "exit_code": 0,
+      "log": "checks/verified-typecheck.txt",
+      "log_sha256": "733ce8316a86cab67a625411767d8e017b8603722476caf2d4c7f05932468b8c"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "node": "v26.12.0",
+      "started_at": "2026-11-09T12:47:11.717761+00:00",
+      "finished_at": "2026-11-09T12:47:13.974181+00:00",
+      "exit_code": 0,
+      "log": "checks/verified-build.txt",
+      "log_sha256": "c551b3a333bfb38734ff9231f319968c6411a1b44a72c675c8cd8ce4bf20e29d"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "review:check"
+      ],
+      "node": "v26.12.0",
+      "started_at": "2026-11-09T12:47:11.717833+00:00",
+      "finished_at": "2026-11-09T12:47:13.013993+00:00",
+      "exit_code": 0,
+      "log": "checks/verified-review-check.txt",
+      "log_sha256": "1bf6060cc7873cdd9125fb2a7ab99ca3d6a1095f94d586c255806c097b8a0b46"
+    }
+  ],
+  "test_summary": {
+    "tests": 99,
+    "passed": 99,
+    "failed": 0,
+    "skipped": 0
+  },
+  "format": {
+    "command": "npm run format:check",
+    "exit_code": 0,
+    "log": "checks/package-final-format.txt",
+    "log_sha256": "fe301cab2333b561bb0763e3a765109d5d24d790c59984d9b3dd4a951ecaef17"
+  },
+  "historical_saved_ui_checkpoint": "verification-before-fresh-2026-11-09.json",
+  "installed_extension": {
+    "current_bundle": "checks/recovery-extension-package.json",
+    "native_fresh_recovery_and_full_export": "fresh/fresh-verification.json",
+    "historical_five_saved_cases": "checks/native-five-cases.json",
+    "latest_all_five_saved_regression": "current/native-current-five-cases.json",
+    "permissions_changed": false,
+    "paused_recovery": "current/native-current-paused-recovery.json"
+  },
+  "fresh_provider_test": "fresh/fresh-verification.json",
+  "offline_capture_re_evaluation": "fresh/noaa-local-re-evaluation.json",
+  "media": "media/video-verification.json",
+  "budget": {
+    "old_allowance_usd": "10.00",
+    "old_pool_exhausted_halted_unchanged": true,
+    "supplement_authorized_usd": "2.00",
+    "supplement_reserved_usd": "2.00",
+    "combined_ceiling_usd": "12.00",
+    "research_jobs_started_this_test": 1,
+    "fetch_requests_started_this_test": 10,
+    "all_terminal": true,
+    "automatic_retry": false,
+    "new_research_jobs_during_recovery": 0,
+    "billing_or_tier_changes": false,
+    "actual_charge_not_inferred_from_reservation": true,
+    "additional_research_authorized": false,
+    "separately_approved_manual_pdf_repeat": true
+  },
+  "live_disabled_after_test": true,
+  "pause_verified_by": "Local HTTP mode=recorded_only plus final native popup and workbench disabled controls; valid recovery ID remains disabled.",
+  "remaining_gates": [
+    "Current mobile sizing and OS reduced-motion preference remain unverified",
+    "CSV extraction has mock coverage only; the PDF extraction branch passed the separately approved live check",
+    "Authorized public repository, anonymous clean-install readback and required promotion",
+    "Current eligibility/claim/final fields and owner final prize-entry click"
+  ],
+  "external_state": {
+    "published": false,
+    "hosted": false,
+    "source_license_selected": false,
+    "bounty_ready": false,
+    "bounty_submitted": false,
+    "organizer_approval_claimed": false
+  },
+  "before_research_fetch_price_preflight": true,
+  "in_app_browser_current": {
+    "five_saved_cases": "current/workbench-current-five-cases.json",
+    "full_great_wall_export": "current/workbench-current-great-wall-export.json",
+    "keyboard_motion_and_pause": "current/workbench-current-interactions.json",
+    "preview": "current/current-preview-ui.json",
+    "viewport": [
+      1280,
+      720
+    ],
+    "mobile_verified": false,
+    "os_reduced_motion_preference_emulated": false,
+    "provider_requests_started": 0
+  },
+  "privacy_check": "checks/final-package-check.json",
+  "manual_pdf_check": "fresh/manual-pdf-check.json",
+  "manual_pdf_review": "fresh/manual-pdf-review.json",
+  "source_depth": {
+    "producer_briefing_reached": true,
+    "exact_publication_day_proved": false,
+    "underlying_dataset_validated": false,
+    "earliest_authorship_resolved": false,
+    "portal_to_pdf_outgoing_link_observed": false,
+    "original_nine_check_export_unchanged": true
+  },
+  "local_clean_package_quickstart": "checks/clean-package-quickstart.json"
+}

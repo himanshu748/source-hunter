@@ -1,0 +1,14 @@
+{
+  "files": {
+    "manifest.json": "49bac01302056c137309050e0c7add79437a47f5b7c4f60637aa129e834a6591",
+    "popup.css": "91c960c8a8ad862a3077f778fa092102e41f576a6df8ca5c17a519f45ea1a177",
+    "popup.html": "d9b2c7d7e34dddffaa093a939939b05fea76c90370ebd2fad95d55c2cebde5f8",
+    "popup.js": "7a02e0b2024ecc3e7b5b3928c5c44f11cefb11b44971c360cfd4a3b1c4ea3706"
+  },
+  "zip_sha256": "c0b62523c3329a8f56c4024658dd87f337c0de43a68cc6b1f3f771a27c772ed6",
+  "permissions_changed": false,
+  "recovery_controls_added": true,
+  "recovery_acknowledgement_validated": true,
+  "rich_fresh_packet_support": true,
+  "popup_intrinsic_width_css_px": 420
+}

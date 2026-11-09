@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-09T14:39:43.736662+00:00",
+  "relative_file_links_checked": 67,
+  "missing": [],
+  "text_files_known_pattern_scan": 108,
+  "secret_pattern_findings": [],
+  "exact_private_credential_match_findings": [],
+  "private_paths": [],
+  "source_and_runtime_assets_match_manifest": true,
+  "source_files": 48,
+  "original_export_hash_scope_matches": true,
+  "no_em_dashes_in_markdown": true,
+  "scan_limit": "Known patterns, exact existing credential-value check and explicit package exclusions; not a guarantee that arbitrary private data can be detected."
+}

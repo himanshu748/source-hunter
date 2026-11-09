@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Source Hunter",
+  "version": "0.1.0",
+  "description": "Trace a highlighted statistic to its cited source chain on explicit request.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://127.0.0.1:4388/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Trace selected statistic"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  }
+}
