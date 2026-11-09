@@ -1,7 +1,7 @@
 {
-  "recorded_at": "2026-11-09T15:08:44.755330+00:00",
+  "recorded_at": "2026-11-09T15:14:41.726228+00:00",
   "file": "source-hunter-demo.mp4",
-  "sha256": "790cdafd3e67925a874931db76291fa9fbc86b3a72e37f6ae27fccf3ed12555c",
+  "sha256": "fbe492b0665aaa52e6730a9ae7a49913d409ed65d376dc676fbf04459a32b761",
   "probe": {
     "programs": [],
     "stream_groups": [],
@@ -16,7 +16,7 @@
     ],
     "format": {
       "duration": "124.000000",
-      "size": "3953830"
+      "size": "2694273"
     }
   },
   "render_completed": true,
@@ -80,7 +80,7 @@
     "source_review_video_sha256": "26d42a04f3f7ee26d631d2bb3860daf1085f4d0cb4db43416fe3004af9411a5f",
     "source_review_video_preserved_locally": true,
     "change": "H.264 compression only; same scenes, duration, resolution and frame rate.",
-    "encoder": "libx264 medium CRF 28",
+    "encoder": "libx264 medium CRF 34",
     "full_decode_exit_code": 0,
     "sampled_seconds": [
       2,
