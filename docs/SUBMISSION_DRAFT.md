@@ -1,6 +1,6 @@
 # Source Hunter submission packet
 
-Source Hunter is public and **CLAIMED, NOT SUBMITTED** as of 10 November 2026. Technical package, current-browser checks and promotion readbacks passed. Authenticated eligibility and form review passed. The owner's final prize-entry click and portal readback remain open; automatic dispatch is held during this manual handoff.
+Source Hunter is public and **SUBMITTED / IN REVIEW, approval pending**, confirmed on 10 November 2026 after the owner's final click. [Submission confirmation](../source-hunter/evidence/release/submission-confirmation.json). The final-form handoff is closed and the entry is permanently excluded from repeat dispatch.
 
 Source and recorded evidence are public in the [public GitHub repository](https://github.com/himanshu748/source-hunter). The [anonymous-clone verification](../source-hunter/evidence/checks/public-clone-verification.json) passed at commit `c294c2a1d2461be188feb9c4ee25073a992bb0b3` on Node.js 22.14 without provider credentials or grants: clean install, 99 tests, typecheck, build, review reproduction, formatting and recorded-only HTTP checks passed. No provider requests were started. The application runs locally; this is not a hosted deployment.
 
@@ -30,11 +30,11 @@ The recovery path is one-shot and limited to the original zero-Fetch pricing fai
 
 The validated 124-second silent video combines edited real saved-case and NOAA-recovery captures. All saved earliest-source findings and NOAA earliest authorship remain unresolved. Later manual review reached the NOAA producer briefing; dataset validation and exact publication day remain unproved. Firefox, hosted deployment and bounty approval are not claimed. Repository and social publication are verified separately below.
 
-## Current form boundary
+## Submitted form and historical preparation
 
-The current Source Hunter form limits notes to 2,000 characters and media to 25 MB. The uploaded 124-second MP4 is 2,694,273 bytes, below that size limit; this does not establish acceptance by the bounty form. The global rulebook calls X optional, while the current form marks both LinkedIn and X URLs required. The actual posts provide both links; Discord promotion is separately verified.
+The current Source Hunter form limits notes to 2,000 characters and media to 25 MB. The uploaded 124-second MP4 is 2,694,273 bytes, below that size limit; the portal subsequently confirmed the submission and retained the filename. Organizer approval remains pending. The global rulebook calls X optional, while the current form marks both LinkedIn and X URLs required. The actual posts provide both links; Discord promotion is separately verified.
 
-[Pre-submission check](../source-hunter/evidence/release/pre-submission-check-2026-11-10.json) records the current preparation boundary. The authenticated form check passed; the owner retains the final prize-entry click. Portal confirmation is still required. Do not publish account addresses, OAuth URLs or raw account screenshots.
+[Pre-submission check](../source-hunter/evidence/release/pre-submission-check-2026-11-10.json) and [final-form check](../source-hunter/evidence/release/final-form-ui-check.json) are historical snapshots from before the owner's click. Their prepared fields and status remain unchanged. The [submission confirmation](../source-hunter/evidence/release/submission-confirmation.json) supersedes them for current entry status. Account addresses, OAuth URLs and raw account screenshots remain excluded from public documentation.
 
 ## Published promotion
 
@@ -48,6 +48,6 @@ All three posts were published with explicit owner authorization and read back o
 
 The original uploaded file is 1080p at 60 fps. X's observed playback rendition was 1280 by 720; that platform rendition does not change the original upload's metadata.
 
-The bounty is claimed but not submitted. These receipts authorize no further message, provider operation, spending change or final submission. Any future action needs its applicable authorization.
+The bounty is submitted and in review, with approval pending. [submission confirmation](../source-hunter/evidence/release/submission-confirmation.json). These historical preparation and promotion records authorize no resubmission, further message, provider operation or spending change.
 
-Authenticated form check on 10 November: [prepared fields and attachment](../source-hunter/evidence/release/final-form-ui-check.json). The final prize-entry click was not performed by the agent.
+Authenticated form check on 10 November: [prepared fields and attachment](../source-hunter/evidence/release/final-form-ui-check.json). This is a historical pre-submission snapshot. The owner subsequently submitted; the confirmation above records the confirmed submission. Prepared-field and form-check JSON remain unchanged.

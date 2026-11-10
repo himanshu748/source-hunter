@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-10T09:25:22.572Z",
+  "bounty": "Source Hunter",
+  "portal": "https://www.tinybounties.com/crm?view=claims",
+  "actor": "owner",
+  "status": "SUBMITTED_IN_REVIEW_QUEUE",
+  "confirmed": true,
+  "approved": false,
+  "confirmation_title": "Bounty submitted",
+  "confirmation_message": "Your build is now in the TinyFish review queue. You can track its status from your profile.",
+  "india_calendar_date": "2026-11-10",
+  "timezone": "Asia/Kolkata",
+  "daily_slot_used": true,
+  "eligible_for_dispatch": false,
+  "resubmission_allowed": false,
+  "agent_final_submit_clicked": false,
+  "opaque_entry_id_exposed": false,
+  "payload_receipt": "submission-draft.json",
+  "promotion_receipt": "promotion-confirmation.json",
+  "submission_link": "https://github.com/himanshu748/source-hunter",
+  "submitted_links": {
+    "repository": "https://github.com/himanshu748/source-hunter",
+    "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7525837908667404288/",
+    "x": "https://x.com/jhahimanshu653/status/2120073889749635288",
+    "discord": "https://discord.com/channels/1200506685236711554/1569631090870853713"
+  },
+  "notes_characters": 1711,
+  "original_video": {
+    "file": "source-hunter/evidence/media/source-hunter-demo.mp4",
+    "bytes": 2694273,
+    "sha256": "fbe492b0665aaa52e6730a9ae7a49913d409ed65d376dc676fbf04459a32b761"
+  },
+  "provider_operations_started": 0,
+  "billing_grant_or_ledger_changes": false,
+  "card_readback_verified": true,
+  "submitted_date_label": "Nov 10, 2026",
+  "persisted_submission_link": "https://github.com/himanshu748/source-hunter",
+  "persisted_video_url": "https://peaceful-lion-524.convex.cloud/api/storage/ac9bff3c-8112-49db-b22d-ad5a2e137db7",
+  "persisted_video_filename": "source-hunter-demo.mp4",
+  "persisted_notes_match_prepared_packet": true,
+  "card_state": "IN REVIEW"
+}
