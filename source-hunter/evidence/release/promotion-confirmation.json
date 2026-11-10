@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-11-10T08:45:19.036Z",
+  "status": "PUBLISHED_AND_READ_BACK",
+  "india_calendar_date": "2026-11-10",
+  "repository": "https://github.com/himanshu748/source-hunter",
+  "linkedin": {
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525837908667404288/",
+    "actor": "Himanshu Kumar",
+    "tinyfish_company_url": "https://www.linkedin.com/company/tinyfish-ai/",
+    "confirmed_by": "Post successful notification, actual post text, company mention link and Video Player",
+    "paragraph_spacing": "Seven explicit blank paragraphs in the final draft",
+    "video_seconds": 124
+  },
+  "discord": {
+    "url": "https://discord.com/channels/1200506685236711554/1569631090870853713",
+    "server": "TinyFish",
+    "forum_id": "1554420983539048508",
+    "thread_id": "1569631090870853713",
+    "title": "Source Hunter: inspect a claim before quoting it",
+    "actor": "himanshujha6005",
+    "confirmed_by": "New thread, full spaced post text, GitHub link and source-hunter-demo.mp4 attachment",
+    "video_filename": "source-hunter-demo.mp4"
+  },
+  "x": {
+    "url": "https://x.com/jhahimanshu653/status/2120073889749635288",
+    "actor": "@jhahimanshu653",
+    "tinyfish_handle": "@Tiny_Fish",
+    "confirmed_by": "Published post article, TinyFish profile link and playing embedded video",
+    "video_seconds": 124,
+    "observed_playback_dimensions": [
+      1280,
+      720
+    ]
+  },
+  "original_uploaded_video": {
+    "file": "source-hunter/evidence/media/source-hunter-demo.mp4",
+    "sha256": "fbe492b0665aaa52e6730a9ae7a49913d409ed65d376dc676fbf04459a32b761",
+    "bytes": 2694273,
+    "duration_seconds": 124,
+    "public_file_hash_previously_verified": true
+  },
+  "form_rule_conflict": "Global rulebook calls X optional; the current live form marks both LinkedIn and X URLs required. Actual posts now satisfy the stricter form.",
+  "source_hunter_claimed": true,
+  "source_hunter_submitted": false,
+  "new_provider_operations": 0,
+  "billing_or_grant_changes": false,
+  "raw_account_screenshots_included": false
+}

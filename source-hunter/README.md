@@ -4,7 +4,7 @@ Before quoting a number, inspect its trail. Source Hunter pairs a Chrome extensi
 
 Five saved investigations came from one genuine TinyResearch Deep batch and nine TinyFish Fetch checks, followed by a separate 9 November source review. An additional unseen NOAA test used one Deep run and ten Fetch checks in total: nine from the Chrome recovery and one later, explicitly authorized PDF repeat. These are distinct evidence histories.
 
-The package remains available in the public repository, unclaimed, unsubmitted and **not ready for bounty submission**. Technical package checks and current five-case Chrome/workbench regression passed. Required promotion, current eligibility/form checks and the owner's final prize-entry click remain open. [Evidence boundaries](docs/EVIDENCE.md).
+The package is public and the bounty was claimed on 10 November 2026. It is unsubmitted and **awaiting the owner's final submission click** after authenticated form review. Technical package checks and current five-case Chrome/workbench regression passed. Promotion is published and read back. The bounty is claimed, not submitted; the owner's final prize-entry click and portal readback remain open after the authenticated form check. [Evidence boundaries](docs/EVIDENCE.md).
 
 Source and recorded evidence are public in the [public GitHub repository](https://github.com/himanshu748/source-hunter). The [anonymous-clone verification](evidence/checks/public-clone-verification.json) passed at commit `c294c2a1d2461be188feb9c4ee25073a992bb0b3` on Node.js 22.14 without provider credentials or grants: clean install, 99 tests, typecheck, build, review reproduction, formatting and recorded-only HTTP checks passed. No provider requests were started. The application runs locally; this is not a hosted deployment.
 
@@ -89,4 +89,12 @@ After unlock, all five current Chrome saved highlights/lookups/date-assessment d
 
 The edited, silent [124-second walkthrough](evidence/media/source-hunter-demo.mp4) presents saved cases and the actual NOAA recovery. H.264, 1080p/60 fps metadata, full decoding and sampled-frame visual inspection passed. [Media receipt](evidence/media/video-verification.json), [software receipt](evidence/verification-2026-11-09.json).
 
-Source and recorded evidence are in the [public GitHub repository](https://github.com/himanshu748/source-hunter). No hosted service, social post, bounty claim, submission or approval is established. No source license has been selected. Required promotion, current eligibility/form checks and the owner's final prize-entry click remain open. Technical package and current-browser checks passed.
+Source and recorded evidence are in the [public GitHub repository](https://github.com/himanshu748/source-hunter). No hosted service, bounty submission or approval is established. Promotion is published and read back, and the bounty is claimed. No source license has been selected. Promotion is published and read back. The bounty is claimed, not submitted; the owner's final prize-entry click and portal readback remain open after the authenticated form check. Technical package and current-browser checks passed.
+
+## Promotion and entry status
+
+[LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7525837908667404288/), [Discord showcase](https://discord.com/channels/1200506685236711554/1569631090870853713) and [X](https://x.com/jhahimanshu653/status/2120073889749635288) were published and read back on 10 November 2026. LinkedIn includes the actual TinyFish company mention and the 124-second video; X tags `@Tiny_Fish` and includes the video; Discord has a dedicated Source Hunter showcase thread and video. Discord may require server access. [Public-safe confirmation](evidence/release/promotion-confirmation.json).
+
+The bounty is **CLAIMED, NOT SUBMITTED**. Authenticated form review passed with the required URLs, 1,711 note characters and the selected video. The owner's final prize-entry click and portal readback remain open. The global rulebook calls X optional, while the current form marks both LinkedIn and X URLs required; the actual posts satisfy that stricter form. The current form limits notes to 2,000 characters and media to 25 MB. The form is held for the owner; a selected attachment or published post is not portal submission confirmation.
+
+Authenticated form check on 10 November: [prepared fields and attachment](evidence/release/final-form-ui-check.json). The final prize-entry click was not performed by the agent.

@@ -32,4 +32,12 @@ The updated H.264 file passed 1920 by 1080, 60/1 fps and 124.000-second checks w
 
 The [software receipt](../source-hunter/evidence/verification-2026-11-09.json) and [fresh receipt](../source-hunter/evidence/fresh/fresh-verification.json) establish different boundaries. Earlier all-five saved Chrome and desktop passes preceded the latest controls. Final NOAA popup rendering and full native export passed. After unlock, all five current saved Chrome and workbench cases passed again, including Great Wall workbench export, keyboard dialog, manual reduced motion and paused recovery guards. HTTP and native checks confirmed recorded-only mode.
 
-The walkthrough establishes no complete earliest-origin trail, hosted service, publication, promotion, submission or approval. Show the final video and copy to the owner before public posting.
+The walkthrough establishes no complete earliest-origin trail, hosted service, submission or approval. The approved video and write-ups were published on LinkedIn, Discord and X on 10 November and read back separately from the video validation. The bounty is claimed but not submitted; final form review and the owner's final prize-entry click remain open.
+
+## Promotion and entry status
+
+[LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7525837908667404288/), [Discord showcase](https://discord.com/channels/1200506685236711554/1569631090870853713) and [X](https://x.com/jhahimanshu653/status/2120073889749635288) were published and read back on 10 November 2026. LinkedIn includes the actual TinyFish company mention and the 124-second video; X tags `@Tiny_Fish` and includes the video; Discord has a dedicated Source Hunter showcase thread and video. Discord may require server access. [Public-safe confirmation](../source-hunter/evidence/release/promotion-confirmation.json).
+
+The bounty is **CLAIMED, NOT SUBMITTED**. Authenticated form review passed with the required URLs, 1,711 note characters and the selected video. The owner's final prize-entry click and portal readback remain open. The global rulebook calls X optional, while the current form marks both LinkedIn and X URLs required; the actual posts satisfy that stricter form. The current form limits notes to 2,000 characters and media to 25 MB. The form is held for the owner; a selected attachment or published post is not portal submission confirmation.
+
+Authenticated form check on 10 November: [prepared fields and attachment](../source-hunter/evidence/release/final-form-ui-check.json). The final prize-entry click was not performed by the agent.

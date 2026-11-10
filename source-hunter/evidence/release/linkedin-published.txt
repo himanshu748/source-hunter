@@ -1,0 +1,16 @@
+I built Source Hunter for the moment before you quote a number.
+
+Highlight a claim in Chrome, then inspect its wording, dates and citation trail in a local workbench. Broken links and missing originals stay visible.
+
+The demo checks how a WHO estimate rounds 2,325.5 million to 2.33 billion. It also checks the claim that the Great Wall is visible to the naked eye from the Moon against NASA’s explanation.
+
+TinyResearch proposes the trail, and TinyFish Fetch checks the pages.
+
+The repo includes five recorded investigations and a separate fresh NOAA test, with original results and later review labelled separately. Earliest-source findings remain unresolved.
+
+You can try the recorded examples locally without an API key. New research needs your own TinyFish access and configured limits.
+
+Code and setup:
+https://github.com/himanshu748/source-hunter
+
+Built for the Source Hunter bounty from TinyFish.

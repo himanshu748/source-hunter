@@ -1,0 +1,6 @@
+I built Source Hunter to inspect the sources behind a Chrome highlight.
+
+Five recorded claims plus a fresh NOAA test. Wording, dates and missing links stay visible.
+
+Built with @Tiny_Fish TinyResearch + Fetch.
+https://github.com/himanshu748/source-hunter

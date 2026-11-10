@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-11-10T09:13:39.503873+00:00",
+  "status": "FORM_PREPARED_AWAITING_OWNER_SUBMIT",
+  "source_verification": {
+    "public_main_checked": "ca7db3502fbf70e5d7a000a4b54d600daa7c2bd4",
+    "source_manifest_sha256": "3ad523f4ce5bf6a3699e3243c0aeeae424f8af0517e15d6e3ca43ef80bfa9438",
+    "source_files_unchanged": 48,
+    "runtime_assets_match_reviewed_snapshot": true,
+    "prior_anonymous_clone_tests": 99,
+    "new_provider_operations": 0
+  },
+  "promotion_receipt": "promotion-confirmation.json",
+  "source_hunter_claimed": true,
+  "claim_date": "2026-11-10",
+  "submitted": false,
+  "current_rulebook": {
+    "student_membership": "confirmed in authenticated UI on Nov10",
+    "individual_original_build": true,
+    "one_submission_per_bounty": "No existing Source Hunter submission observed before claiming",
+    "cutoff": "2026-11-17 23:59 America/Los_Angeles",
+    "linkedin_and_discord_required": true,
+    "x_optional_in_rulebook": true
+  },
+  "live_form": {
+    "linkedin_post_marked_required": true,
+    "x_post_marked_required": true,
+    "notes_max_characters": 2000,
+    "media_max_files": 5,
+    "media_max_bytes_per_file": 25000000
+  },
+  "current_original_work_review": "Original Source Hunter implementation and reviewed evidence are retained. Other entries are preserved; no copied or recycled build is claimed.",
+  "remaining": [
+    "Owner performs the final prize-entry click",
+    "Read back portal confirmation before recording submission or using the daily slot"
+  ],
+  "known_limits": [
+    "Earliest origin remains unresolved",
+    "NOAA exact publication day, underlying dataset validation and portal-to-PDF edge are unproved",
+    "Mobile sizing and OS reduced-motion emulation unverified; CSV extraction mock-tested only"
+  ],
+  "submitted_entries_preserved": [
+    "Compliance Map, Nov9",
+    "TinyMerch, Oct21"
+  ],
+  "india_calendar_date": "2026-11-10",
+  "daily_slot_used": false,
+  "prize_submission_attempted": false,
+  "provider_operations_started": 0,
+  "billing_grant_or_ledger_changes": false,
+  "authenticated_form_review_passed": true,
+  "form_check": "final-form-ui-check.json",
+  "prepared_fields": "submission-draft.json",
+  "notes_characters": 1711,
+  "video_selected": true,
+  "owner_final_click_required": true,
+  "automatic_dispatch_hold": true
+}

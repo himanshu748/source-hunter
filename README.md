@@ -4,7 +4,7 @@ Check a claim before passing it on. Source Hunter pairs a Chrome extension with 
 
 The saved preview contains five investigations from one genuine TinyResearch batch and nine TinyFish Fetch checks, followed by a separate source review. A later unseen NOAA test used one Deep run and ten Fetch checks in total. The original Chrome packet recorded nine checks after manual recovery; a separately authorized tenth check captured the proposed PDF and local review reached a producer briefing. Earliest origin remains unresolved.
 
-**Public code, not ready for bounty submission.** Saved lookup needs no credentials or provider credits. The current five-case Chrome and workbench regressions, exports and pause controls passed. Required promotion, current eligibility/form checks and the owner's final submission click remain open. Fresh research is paused.
+**Form prepared; awaiting the owner's final Submit click.** Saved lookup needs no credentials or provider credits. The current five-case Chrome and workbench regressions, exports and pause controls passed. Promotion is published and read back, and the bounty was claimed on 10 November 2026. Authenticated form review passed. The owner's final submission click and portal readback remain open. Fresh research is paused.
 
 ![Source Hunter workbench showing the WHO investigation](source-hunter/evidence/media/source-hunter-workbench.png)
 
@@ -53,4 +53,12 @@ Current dialog keyboard controls and manual reduced motion passed. The mobile vi
 
 The old $10 shared ledger remains unchanged and halted. A separate $2 supplement is fully reserved for the NOAA test, bringing the aggregate authorized ceiling across the bounty work to $12. These reservations are not a verified invoice. No further provider job, retry, purchase or billing change is authorized. HTTP and the native popup both confirmed that fresh research is paused. Recovery stayed disabled even with a valid investigation ID.
 
-The package uses TypeScript, Node.js, Chrome Manifest V3, Zod, Cheerio, TinyResearch and TinyFetch. Fonts and scripts are local; font notices are under `ui/assets/`. No source license has been selected. Source and recorded evidence are in the [public GitHub repository](https://github.com/himanshu748/source-hunter). The application runs locally. No hosted service, social post, bounty claim or submission is established. See the [release gates](docs/RELEASE_GATES.md) and [submission draft](docs/SUBMISSION_DRAFT.md).
+The package uses TypeScript, Node.js, Chrome Manifest V3, Zod, Cheerio, TinyResearch and TinyFetch. Fonts and scripts are local; font notices are under `ui/assets/`. No source license has been selected. Source and recorded evidence are in the [public GitHub repository](https://github.com/himanshu748/source-hunter). The application runs locally. No hosted service or bounty submission is established. Promotion is published and read back, and the bounty is claimed. See the [release gates](docs/RELEASE_GATES.md) and [submission draft](docs/SUBMISSION_DRAFT.md).
+
+## Promotion and entry status
+
+[LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7525837908667404288/), [Discord showcase](https://discord.com/channels/1200506685236711554/1569631090870853713) and [X](https://x.com/jhahimanshu653/status/2120073889749635288) were published and read back on 10 November 2026. LinkedIn includes the actual TinyFish company mention and the 124-second video; X tags `@Tiny_Fish` and includes the video; Discord has a dedicated Source Hunter showcase thread and video. Discord may require server access. [Public-safe confirmation](source-hunter/evidence/release/promotion-confirmation.json).
+
+The bounty is **CLAIMED, NOT SUBMITTED**. Authenticated form review passed with the required URLs, 1,711 note characters and the selected video. The owner's final prize-entry click and portal readback remain open. The global rulebook calls X optional, while the current form marks both LinkedIn and X URLs required; the actual posts satisfy that stricter form. The current form limits notes to 2,000 characters and media to 25 MB. The form is held for the owner; a selected attachment or published post is not portal submission confirmation.
+
+Authenticated form check on 10 November: [prepared fields and attachment](source-hunter/evidence/release/final-form-ui-check.json). The final prize-entry click was not performed by the agent.

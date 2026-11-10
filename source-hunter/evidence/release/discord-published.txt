@@ -1,0 +1,10 @@
+Source Hunter is my Chrome extension and local workbench for checking a claim before quoting it.
+
+Highlight text, inspect the source trail, and keep track of exact wording, dates and missing links. TinyResearch proposes the investigation; TinyFish Fetch checks the pages.
+
+The video covers five recorded claims, including WHO’s rounding of a food-security estimate and NASA’s explanation of the Great Wall visibility myth, plus a separate fresh NOAA test. Original results and later review are labelled separately. Earliest-source gaps stay visible.
+
+Try the recorded examples locally without an API key:
+https://github.com/himanshu748/source-hunter
+
+2:04 captioned demo attached.

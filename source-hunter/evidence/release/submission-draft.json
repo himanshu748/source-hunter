@@ -1,0 +1,23 @@
+{
+  "prepared_at": "2026-11-10T08:52:11.487933+00:00",
+  "status": "FORM_PREPARED_AWAITING_OWNER_SUBMIT",
+  "bounty": "Source Hunter",
+  "submission_link": "https://github.com/himanshu748/source-hunter",
+  "linkedin_post": "https://www.linkedin.com/feed/update/urn:li:activity:7525837908667404288/",
+  "x_post": "https://x.com/jhahimanshu653/status/2120073889749635288",
+  "notes": "Source Hunter pairs a Chrome extension with a local workbench. Highlight a public-page claim, inspect its source trail and exact wording, distinguish publication/measurement/capture dates, and export the investigation.\n\nTinyResearch proposes a trail; TinyFish Fetch checks exact pages and observed links. Proposed attribution, independently found comparisons and failed retrievals remain separate. Missing originals stay unresolved.\n\nThe 2:04 video shows five real recorded claims across public health, cybersecurity, astronomy and historical writing. WHO’s food-security estimate has a supported rounding explanation. NASA contradicts the historical unaided Great Wall Moon-visibility assertion; the selected article examines that myth rather than endorsing it.\n\nA separate unseen NOAA selection was tested through the installed Chrome extension. One Deep job and nine checks completed after manual same-receipt recovery; a separately authorized tenth PDF check reached the NOAA/NASA producer briefing. The original export is preserved. Its earliest origin, exact publication day, underlying dataset validation and portal-to-PDF citation edge remain unproved.\n\nPublic repo/setup: https://github.com/himanshu748/source-hunter\nThe recorded preview runs locally without credentials. Fresh research needs the operator’s own TinyFish access, explicit pricing/tier checks and bounded grant; it is paused in the review build. Anonymous clean setup, 99 tests, types/build/review/format, and actual Chrome/workbench checks passed. Mobile sizing and OS reduced-motion emulation remain unverified; CSV extraction is mock-tested only.\n\nDiscord showcase: https://discord.com/channels/1200506685236711554/1569631090870853713",
+  "notes_characters": 1711,
+  "media": [
+    {
+      "file": "source-hunter/evidence/media/source-hunter-demo.mp4",
+      "bytes": 2694273,
+      "sha256": "fbe492b0665aaa52e6730a9ae7a49913d409ed65d376dc676fbf04459a32b761",
+      "selected_in_form": true
+    }
+  ],
+  "final_submit_clicked": false,
+  "user_final_click_required": true,
+  "provider_operations_started": 0,
+  "authenticated_form_verified": true,
+  "form_check": "final-form-ui-check.json"
+}

@@ -1,10 +1,10 @@
-# Source Hunter submission draft
+# Source Hunter submission packet
 
-Prepared copy only. Source Hunter is available in the public repository, unclaimed, unsubmitted and not ready for bounty submission. Technical package and current-browser checks passed. Required promotion, current eligibility/form review and the owner's final prize-entry click remain open.
+Source Hunter is public and **CLAIMED, NOT SUBMITTED** as of 10 November 2026. Technical package, current-browser checks and promotion readbacks passed. Authenticated eligibility and form review passed. The owner's final prize-entry click and portal readback remain open; automatic dispatch is held during this manual handoff.
 
 Source and recorded evidence are public in the [public GitHub repository](https://github.com/himanshu748/source-hunter). The [anonymous-clone verification](../source-hunter/evidence/checks/public-clone-verification.json) passed at commit `c294c2a1d2461be188feb9c4ee25073a992bb0b3` on Node.js 22.14 without provider credentials or grants: clean install, 99 tests, typecheck, build, review reproduction, formatting and recorded-only HTTP checks passed. No provider requests were started. The application runs locally; this is not a hosted deployment.
 
-All social copy below remains an unposted draft. GitHub publication grants no social, claim or submission authority.
+The owner explicitly approved the final write-ups and posting. Published copies and readback links below replace the earlier unposted drafts. Promotion does not establish a submitted bounty entry or approval.
 
 ## Product description
 
@@ -28,36 +28,26 @@ The recovery path is one-shot and limited to the original zero-Fetch pricing fai
 
 99 tests, TypeScript, build, review reproduction and formatting passed on Node.js 26.12. All five saved Chrome highlights/lookups/date-assessment displays and all five desktop workbench cases passed again after the recovery controls. Great Wall workbench export, keyboard dialog, manual reduced motion and paused recovery also passed. Actual NOAA recovery popup rendering and full native export are recorded separately. Mobile sizing and OS reduced-motion preference remain unverified.
 
-The validated 124-second silent video combines edited real saved-case and NOAA-recovery captures. All saved earliest-source findings and NOAA earliest authorship remain unresolved. Later manual review reached the NOAA producer briefing; dataset validation and exact publication day remain unproved. Firefox, hosted deployment, publication and bounty approval are not claimed.
+The validated 124-second silent video combines edited real saved-case and NOAA-recovery captures. All saved earliest-source findings and NOAA earliest authorship remain unresolved. Later manual review reached the NOAA producer briefing; dataset validation and exact publication day remain unproved. Firefox, hosted deployment and bounty approval are not claimed. Repository and social publication are verified separately below.
 
-## LinkedIn draft
+## Current form boundary
 
-I built Source Hunter to inspect the evidence behind a highlighted claim.
+The current Source Hunter form limits notes to 2,000 characters and media to 25 MB. The uploaded 124-second MP4 is 2,694,273 bytes, below that size limit; this does not establish acceptance by the bounty form. The global rulebook calls X optional, while the current form marks both LinkedIn and X URLs required. The actual posts provide both links; Discord promotion is separately verified.
 
-The Chrome extension and local workbench keep wording, dates, observed citation links and missing sources in view. The saved demo covers five real claims, including a historical Great Wall claim that NASA contradicts.
+[Pre-submission check](../source-hunter/evidence/release/pre-submission-check-2026-11-10.json) records the current preparation boundary. The authenticated form check passed; the owner retains the final prize-entry click. Portal confirmation is still required. Do not publish account addresses, OAuth URLs or raw account screenshots.
 
-I also tested an unseen NOAA selection through the installed extension. The original full export followed one TinyResearch run and nine Fetch checks after manual same-receipt recovery. A separately authorized tenth check then captured the proposed PDF. Local review reached NOAA and NASA's producer briefing; exact publication day, dataset validation and earliest authorship remain open.
+## Published promotion
 
-The video separates the saved investigations, original recovery and later PDF capture. Current browser checks passed. The repository is public. Promotion and final entry review remain pending.
+All three posts were published with explicit owner authorization and read back on 10 November 2026. [Public-safe confirmation](../source-hunter/evidence/release/promotion-confirmation.json). The earlier drafts remain historical preparation; the linked published text is the final copy.
 
-Before posting, select the verified TinyFish company mention, attach the reviewed video and add a verified published link. Show the owner the complete post first. No post has been made.
+| Platform | Published post and copy                                                                                                                                                  | Readback                                                                                      |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
+| LinkedIn | [Post](https://www.linkedin.com/feed/update/urn:li:activity:7525837908667404288/), [final text](../source-hunter/evidence/release/linkedin-published.txt)                | Actual TinyFish company mention, spaced paragraphs and 124-second video                       |
+| Discord  | [Dedicated showcase thread](https://discord.com/channels/1200506685236711554/1569631090870853713), [final text](../source-hunter/evidence/release/discord-published.txt) | New Source Hunter thread, full copy, repository link and video; server access may be required |
+| X        | [Post](https://x.com/jhahimanshu653/status/2120073889749635288), [final text](../source-hunter/evidence/release/x-published.txt)                                         | Actual `@Tiny_Fish` tag and playing 124-second video, verified in the published article       |
 
-## Discord showcase draft
+The original uploaded file is 1080p at 60 fps. X's observed playback rendition was 1280 by 720; that platform rendition does not change the original upload's metadata.
 
-Source Hunter is my local Chrome extension and workbench for checking the sources behind a highlighted claim.
+The bounty is claimed but not submitted. These receipts authorize no further message, provider operation, spending change or final submission. Any future action needs its applicable authorization.
 
-The demo includes five saved TinyResearch investigations and an unseen NOAA test. That fresh test used one Deep run and ten Fetch checks in total: nine during manual same-receipt recovery and one later, explicitly authorized PDF repeat. Local review reached the official producer briefing, while dataset validation, exact publication day and earliest origin remain unproved.
-
-The video preserves those gaps. Current package and browser checks passed; promotion and final entry review remain open.
-
-Add a verified repository/demo link and the reviewed video only after publication is authorized and checked. Show the owner the message before sending. The required showcase share remains unposted.
-
-## X draft
-
-Built Source Hunter to inspect sources from a Chrome highlight.
-
-Five saved cases. Fresh NOAA test: one Deep run, ten Fetch checks. Producer briefing reached; earliest origin unresolved.
-
-Local checks passed; release pending.
-
-Confirm the actual account handle and verified links before tagging. Show the final post to the owner. This draft authorizes no public action.
+Authenticated form check on 10 November: [prepared fields and attachment](../source-hunter/evidence/release/final-form-ui-check.json). The final prize-entry click was not performed by the agent.
